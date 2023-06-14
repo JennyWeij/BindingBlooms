@@ -7,7 +7,6 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import App from "./App";
-import "./index.css";
 import BouquetsPage from "./pages/BouquetsPage";
 import CoursesPage from "./pages/CoursesPage";
 import FlowersPage from "./pages/FlowersPage";
@@ -18,10 +17,10 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index element={<StartPage />} />
-      <Route path="/ourflowers" element={<FlowersPage />} />
+      <Route path="/flowers" element={<FlowersPage />} />
       <Route path="/bouquets" element={<BouquetsPage />} />
       <Route path="/courses" element={<CoursesPage />} />
-      <Route path="/ourstores" element={<StoresPage />} />
+      <Route path="/stores" element={<StoresPage />} />
       <Route path="*" element={<h2> 404 page not found</h2>} />
     </Route>
   )
