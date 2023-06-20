@@ -1,4 +1,4 @@
-import { Box } from "@mui/material";
+import { Box } from "@chakra-ui/react";
 import { Outlet } from "react-router-dom";
 import Header from "./components/Header";
 

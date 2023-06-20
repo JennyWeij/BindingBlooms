@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import Header from "../components/Header";
 
 function StartPage() {
   useEffect(() => {
@@ -13,12 +12,17 @@ function StartPage() {
 
   return (
     <>
-      <Header />
-      <div style={{ width: "100%", height: 400 }}>
+      {/* <Header /> */}
+      <div style={{ width: "100%", height: 700 }}>
         <img
-          src="../assets/startsida.jpg"
+          src="/images/ourcourses.jpg"
           alt="Background Image"
-          style={{ width: "100%", height: 400, objectFit: "cover" }}
+          style={{
+            width: "100%",
+            height: 700,
+            objectFit: "cover",
+            marginTop: "110px",
+          }}
         />
       </div>
     </>
