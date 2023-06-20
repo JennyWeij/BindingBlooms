@@ -1,5 +1,5 @@
-import { Box } from "@mui/material";
 import { useEffect } from "react";
+import Header from "../components/Header";
 
 function StartPage() {
   useEffect(() => {
@@ -11,7 +11,18 @@ function StartPage() {
     };
   }, []);
 
-  return <Box>Testar</Box>;
+  return (
+    <>
+      <Header />
+      <div style={{ width: "100%", height: 400 }}>
+        <img
+          src="../assets/startsida.jpg"
+          alt="Background Image"
+          style={{ width: "100%", height: 400, objectFit: "cover" }}
+        />
+      </div>
+    </>
+  );
 }
 
 export default StartPage;
