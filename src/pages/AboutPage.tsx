@@ -15,7 +15,7 @@ function AboutPage() {
       <Box
         position="absolute"
         textAlign="center"
-        mt="250px"
+        // mt="250px"
         fontSize="100px"
         fontWeight="bold"
         fontFamily="Baskerville"
