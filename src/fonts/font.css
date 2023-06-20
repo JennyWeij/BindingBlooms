@@ -2,3 +2,13 @@
   font-family: "Baskerville"; 
   src: url('./fonts/BaskervilleOldFace.ttf') format("truetype")
 }
+
+@font-face {
+  font-family: "SourceSansLight"; 
+  src: url('./fonts/SourceSansLight') format("truetype")
+}
+
+@font-face {
+  font-family: "SourceSansRegular"; 
+  src: url('./fonts/SourceSansRegular.tff') format("truetype")
+}
