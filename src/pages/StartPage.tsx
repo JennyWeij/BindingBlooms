@@ -13,16 +13,11 @@ function StartPage() {
   return (
     <>
       {/* <Header /> */}
-      <div style={{ width: "100%", height: 700 }}>
+      <div style={{ width: "100%", height: "100vh" }}>
         <img
           src="/images/ourcourses.jpg"
           alt="Background Image"
-          style={{
-            width: "100%",
-            height: 700,
-            objectFit: "cover",
-            marginTop: "110px",
-          }}
+          style={{ width: "100%", height: "100vh", objectFit: "cover" }}
         />
       </div>
     </>

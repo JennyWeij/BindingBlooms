@@ -7,6 +7,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import App from "./App";
+import AboutPage from "./pages/AboutPage";
 import CoursesPage from "./pages/CoursesPage";
 import FlowersPage from "./pages/FlowersPage";
 import StartPage from "./pages/StartPage";
@@ -17,6 +18,7 @@ const router = createBrowserRouter(
       <Route index element={<StartPage />} />
       <Route path="/flowers" element={<FlowersPage />} />
       <Route path="/courses" element={<CoursesPage />} />
+      <Route path="/aboutus" element={<AboutPage />} />
       <Route path="*" element={<h2> 404 page not found</h2>} />
     </Route>
   )
