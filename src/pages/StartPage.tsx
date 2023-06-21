@@ -1,5 +1,8 @@
 import { Box, Flex, Text } from "@chakra-ui/react";
 import { useEffect } from "react";
+import AboutPage from "./AboutPage";
+import CoursesPage from "./CoursesPage";
+import FlowersPage from "./FlowersPage";
 
 function StartPage() {
   useEffect(() => {
@@ -43,8 +46,9 @@ function StartPage() {
         </Box>
       </Flex>
 
-      {/* <FlowersPage />
-      <CoursesPage /> */}
+      <FlowersPage />
+      <CoursesPage />
+      <AboutPage />
     </>
   );
 }

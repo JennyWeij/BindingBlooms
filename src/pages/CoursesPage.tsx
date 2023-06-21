@@ -4,6 +4,7 @@ function CoursesPage() {
   return (
     <>
       <Flex
+        bg="linear-gradient(to right, #000E19, #192B36)"
         justifyContent="center"
         alignItems="center"
         style={{ width: "100%", height: "100vh" }}
@@ -11,12 +12,17 @@ function CoursesPage() {
         <img
           src="/images/flowertable.jpg"
           alt="Background Image"
-          style={{ width: "100%", height: "100vh", objectFit: "cover" }}
+          style={{
+            width: "100%",
+            height: "100vh",
+            objectFit: "cover",
+            marginTop: "100px",
+          }}
         />
         <Box
           position="absolute"
           textAlign="center"
-          mt="250px"
+          mt="400px"
           fontSize="100px"
           fontWeight="bold"
           fontFamily="Baskerville"
@@ -27,7 +33,7 @@ function CoursesPage() {
       </Flex>
 
       {/* KURS 1 */}
-      <Flex pl={100} pt={50} bg="linear-gradient(to right, #000E19, #192B36)">
+      <Flex pl={100} pt={100} bg="linear-gradient(to right, #000E19, #192B36)">
         <Box style={{ width: "300px", height: "400px" }}>
           <img
             src="/images/kurs1.jpg"
@@ -85,7 +91,11 @@ function CoursesPage() {
           <img
             src="/images/kurs2.jpg"
             alt="Course 2 Image"
-            style={{ width: "300px", height: "100%", objectFit: "cover" }}
+            style={{
+              width: "300px",
+              height: "100%",
+              objectFit: "cover",
+            }}
           />
         </Box>
         <Flex flexDirection="column" position="relative">
