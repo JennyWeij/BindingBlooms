@@ -20,7 +20,7 @@ function StartPage() {
           style={{ width: "100%", height: "100vh", objectFit: "inherit" }}
         />
       </Box>
-      <Flex pl={90} pt={40} bg="linear-gradient(to right, #000E19, #192B36)">
+      <Flex pl={90} pt={60} bg="linear-gradient(to right, #000E19, #192B36)">
         <Box style={{ width: "300px", height: "500px" }}>
           <img
             src="/images/bukett5.jpg"
