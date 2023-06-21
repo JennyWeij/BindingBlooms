@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Image } from "@chakra-ui/react";
+import { Box, Flex, Image } from "@chakra-ui/react";
 
 function Header() {
   return (
@@ -16,40 +16,64 @@ function Header() {
         <Image src="/images/Logotype.png" alt="Logo" height="90px" ml={10} />
         <Flex>
           {/* <Link to="/flowers"> */}
-          <Button
-            variant="ghost"
-            colorScheme="blackAlpha"
-            mr={40}
+          <Box
+            as="button"
+            height="24px"
+            lineHeight="1.2"
+            transition="all 0.2s cubic-bezier(.08,.52,.52,1)"
+            border="1px"
+            px="8px"
+            borderRadius="2px"
+            fontSize="20px"
+            fontWeight="semibold"
             fontFamily="Baskerville"
+            mr={20}
+            bg="none"
             color="#B28767"
-            fontSize={20}
+            _hover={{ bg: "none" }}
           >
-            Our Flowers
-          </Button>
+            Our flowers
+          </Box>
           {/* </Link> */}
           {/* <Link to="/courses"> */}
-          <Button
-            variant="ghost"
-            colorScheme="blackAlpha"
-            mr={40}
-            fontFamily="Baskerville"
+          <Box
+            as="button"
+            height="24px"
+            lineHeight="1.2"
+            transition="all 0.2s cubic-bezier(.08,.52,.52,1)"
+            border="1px"
+            px="8px"
+            borderRadius="2px"
+            fontSize="20px"
+            mr={20}
+            fontWeight="semibold"
+            bg="none"
             color="#B28767"
-            fontSize={20}
+            fontFamily="Baskerville"
+            _hover={{ bg: "none" }}
           >
-            Our Courses
-          </Button>
+            Our courses
+          </Box>
           {/* </Link> */}
           {/* <Link to="/about"> */}
-          <Button
-            variant="ghost"
-            // colorScheme="yellow"
+          <Box
+            as="button"
+            height="24px"
+            lineHeight="1.2"
+            transition="all 0.2s cubic-bezier(.08,.52,.52,1)"
+            border="1px"
+            px="8px"
+            borderRadius="2px"
+            fontSize="20px"
+            fontWeight="semibold"
+            bg="none"
             mr={80}
-            fontFamily="Baskerville"
             color="#B28767"
-            fontSize={20}
+            fontFamily="Baskerville"
+            _hover={{ bg: "none" }}
           >
-            About Us
-          </Button>
+            About us
+          </Box>
           {/* </Link> */}
         </Flex>
       </Flex>
