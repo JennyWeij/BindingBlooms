@@ -26,11 +26,11 @@ function FlowersPage() {
       </Flex>
 
       <Flex pl={90} pt={60} bg="linear-gradient(to right, #000E19, #192B36)">
-        <Box style={{ width: "300px", height: "500px" }}>
+        <Box style={{ width: "400px", height: "500px" }}>
           <img
             src="/images/fieldsunset.jpg"
             alt="Background Image"
-            style={{ width: "300px", height: "100%", objectFit: "cover" }}
+            style={{ width: "400px", height: "100%", objectFit: "cover" }}
           />
         </Box>
         <Box p={2} flex="1">
@@ -41,9 +41,37 @@ function FlowersPage() {
             fontFamily="SourceSansRegular"
             color="#B28767"
           >
-            {
-              "Binding Blooms, a flourishing company that came to life in 2020, is your ultimate destination for enchanting bouquets, captivating flower decorations, and exquisite flower arrangements. Founded by the visionary Elin Weijland, the company has quickly gained a reputation for its exceptional craftsmanship and unwavering passion for flowers. \n\nElin Weijland, a true connoisseur of nature's wonders, is deeply devoted to the art of floral design. Her boundless passion for flowers serves as the driving force behind Binding Blooms' exceptional creations. With an artist's eye and a deep understanding of the language of flowers, Elin has elevated the act of binding bouquets into a symphony of colors, scents, and textures. \n\nEvery creation by Binding Blooms is a masterpiece that reflects Elin's profound connection to nature. With meticulous attention to detail and an innate sense of balance, she weaves together blooms and foliage to create harmonious arrangements that evoke emotions and tell stories. Binding Blooms specializes in catering to various occasions, be it weddings, corporate events, or intimate gatherings. \n\nElin's ability to capture the essence of each event and translate it into breathtaking floral designs is truly remarkable. Whether it's a lavish centerpiece, a delicate bridal bouquet, or a whimsical floral installation, Binding Blooms' creations leave a lasting impression."
-            }
+            At our binding bouquets company, we take pride in the exceptional
+            quality of our flowers. We meticulously grow and nurture them in our
+            very own flower fields, located in picturesque countryside regions.
+            Our flower fields are carefully chosen to provide the optimal
+            conditions for each flower variety to thrive. We cultivate a diverse
+            range of certified flowers, ensuring that each bloom meets our
+            stringent standards of excellence. From the moment our seeds are
+            sown, our dedicated team of horticulturists and gardeners
+            attentively tend to the flowers, providing them with the ideal
+            environment to grow and flourish. We prioritize sustainable and
+            eco-friendly farming practices, using organic fertilizers and
+            natural pest control methods to minimize any impact on the
+            environment. Harvesting is a meticulous process that requires a keen
+            eye for each flower's peak perfection. Our experienced floral
+            experts carefully handpick each stem at the precise moment when its
+            colors are vibrant and its petals are in full bloom. This ensures
+            that our customers receive only the freshest and most stunning
+            flowers. Once harvested, our flowers are quickly transported to our
+            company's facilities, where they undergo a rigorous quality control
+            process. Our expert florists meticulously inspect each stem,
+            ensuring that only the finest and healthiest flowers make it into
+            our bouquets. To preserve their freshness, our flowers are stored in
+            climate-controlled environments. We employ innovative techniques,
+            such as cold chain management, to maintain optimal temperature and
+            humidity levels during transportation, ensuring that our bouquets
+            arrive at their destination in perfect condition. By nurturing our
+            flowers from seed to bouquet, we guarantee the utmost care and
+            attention to detail in every step of the process. Our certified
+            flowers embody the beauty of nature and serve as a testament to our
+            commitment to delivering exceptional floral arrangements that exceed
+            expectations.
           </Text>
         </Box>
       </Flex>
