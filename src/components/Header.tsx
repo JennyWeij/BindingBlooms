@@ -15,7 +15,6 @@ function Header() {
       <Flex align="center" justify="space-between">
         <Image src="/images/Logotype.png" alt="Logo" height="90px" ml={10} />
         <Flex>
-          {/* <Link to="/flowers"> */}
           <Box
             as="button"
             height="24px"
@@ -34,8 +33,7 @@ function Header() {
           >
             Our flowers
           </Box>
-          {/* </Link> */}
-          {/* <Link to="/courses"> */}
+
           <Box
             as="button"
             height="24px"
@@ -54,8 +52,7 @@ function Header() {
           >
             Our courses
           </Box>
-          {/* </Link> */}
-          {/* <Link to="/about"> */}
+
           <Box
             as="button"
             height="24px"
@@ -74,7 +71,6 @@ function Header() {
           >
             About us
           </Box>
-          {/* </Link> */}
         </Flex>
       </Flex>
     </Box>
