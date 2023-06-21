@@ -16,6 +16,7 @@ function AboutPage() {
           height: "100vh",
           objectFit: "inherit",
           marginTop: "100px",
+          marginBottom: "120px",
         }}
       />
       <Box

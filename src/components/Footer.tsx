@@ -5,7 +5,7 @@ function Footer() {
     <>
       <Box
         bg="linear-gradient(to right, #000E19, #192B36)"
-        h="100px"
+        h="300px"
         bottom="0"
       >
         Footer
