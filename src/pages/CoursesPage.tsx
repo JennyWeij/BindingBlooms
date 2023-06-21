@@ -35,7 +35,7 @@ function CoursesPage() {
             style={{ width: "300px", height: "100%", objectFit: "cover" }}
           />
         </Box>
-        <Flex flexDirection="column">
+        <Flex flexDirection="column" position="relative">
           <Text
             pr={150}
             pl={20}
@@ -66,9 +66,11 @@ function CoursesPage() {
             textures, and the language of flowers.
           </Text>
           <Button
-            // position="absolute"
-            // bottom="10px"
+            position="absolute"
+            bottom="0px"
+            right="10px"
             fontSize={15}
+            mr="150px"
             width="90px"
             colorScheme="teal"
           >
@@ -86,7 +88,7 @@ function CoursesPage() {
             style={{ width: "300px", height: "100%", objectFit: "cover" }}
           />
         </Box>
-        <Flex flexDirection="column">
+        <Flex flexDirection="column" position="relative">
           <Text
             pr={150}
             pl={20}
@@ -116,6 +118,17 @@ function CoursesPage() {
             discover the secrets behind transforming any space into a visual
             masterpiece.
           </Text>
+          <Button
+            position="absolute"
+            bottom="0px"
+            right="10px"
+            fontSize={15}
+            mr="150px"
+            width="90px"
+            colorScheme="teal"
+          >
+            Book
+          </Button>
         </Flex>
       </Flex>
 
@@ -128,7 +141,7 @@ function CoursesPage() {
             style={{ width: "300px", height: "100%", objectFit: "cover" }}
           />
         </Box>
-        <Flex flexDirection="column">
+        <Flex flexDirection="column" position="relative">
           <Text
             pr={150}
             pl={20}
@@ -162,6 +175,17 @@ function CoursesPage() {
             various forms and textures of foliage, and how to incorporate them
             to enhance your arrangements.
           </Text>
+          <Button
+            position="absolute"
+            bottom="0px"
+            right="10px"
+            fontSize={15}
+            mr="150px"
+            width="90px"
+            colorScheme="teal"
+          >
+            Book
+          </Button>
         </Flex>
       </Flex>
     </>

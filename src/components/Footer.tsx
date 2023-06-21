@@ -4,6 +4,7 @@ function Footer() {
   return (
     <Box
       padding={"4"}
+      top="0"
       w="100%"
       fontFamily="Baskerville"
       fontSize={["13px", "16px", "20px"]}
