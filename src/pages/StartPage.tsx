@@ -42,6 +42,9 @@ function StartPage() {
           </Text>
         </Box>
       </Flex>
+
+      {/* <FlowersPage />
+      <CoursesPage /> */}
     </>
   );
 }
