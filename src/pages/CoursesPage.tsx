@@ -1,4 +1,4 @@
-import { Box, Flex, Text } from "@chakra-ui/react";
+import { Box, Button, Flex, Text } from "@chakra-ui/react";
 
 function CoursesPage() {
   return (
@@ -31,7 +31,7 @@ function CoursesPage() {
         <Box style={{ width: "300px", height: "400px" }}>
           <img
             src="/images/kurs1.jpg"
-            alt="Background Image"
+            alt="Course 1 Image"
             style={{ width: "300px", height: "100%", objectFit: "cover" }}
           />
         </Box>
@@ -65,6 +65,15 @@ function CoursesPage() {
             of design concepts and gain a deep understanding of color schemes,
             textures, and the language of flowers.
           </Text>
+          <Button
+            // position="absolute"
+            // bottom="10px"
+            fontSize={15}
+            width="90px"
+            colorScheme="teal"
+          >
+            Book
+          </Button>
         </Flex>
       </Flex>
 
@@ -73,7 +82,7 @@ function CoursesPage() {
         <Box style={{ width: "300px", height: "400px" }}>
           <img
             src="/images/kurs2.jpg"
-            alt="Background Image"
+            alt="Course 2 Image"
             style={{ width: "300px", height: "100%", objectFit: "cover" }}
           />
         </Box>
@@ -115,7 +124,7 @@ function CoursesPage() {
         <Box style={{ width: "300px", height: "400px" }}>
           <img
             src="/images/kurs3.jpg"
-            alt="Background Image"
+            alt="Course 3 Image"
             style={{ width: "300px", height: "100%", objectFit: "cover" }}
           />
         </Box>
