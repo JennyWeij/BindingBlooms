@@ -10,11 +10,16 @@ function Header() {
       top="0"
       width="100vw"
       bg="linear-gradient(to right, #000E19, #192B36)"
-      px={4}
-      py={2}
+      py={12}
     >
       <Flex align="center" justify="space-between">
-        <Image src="/images/Logotype.png" alt="Logo" height="90px" ml={10} />
+        <Image
+          src="/images/Logotype.png"
+          alt="Logo"
+          height="100px"
+          mt={0}
+          ml={50}
+        />
         <Flex>
           <Link
             activeClass="active"
