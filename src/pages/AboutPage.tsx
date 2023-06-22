@@ -48,7 +48,7 @@ function AboutPage() {
               pr={150}
               pl={20}
               pt={45}
-              fontSize="18px"
+              fontSize="15px"
               fontFamily="SourceSansRegular"
               color="#B28767"
             >

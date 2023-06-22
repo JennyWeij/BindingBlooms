@@ -45,7 +45,7 @@ function FlowersPage() {
             <Text
               pr={150}
               pl={20}
-              fontSize="18px"
+              fontSize="15px"
               fontFamily="SourceSansRegular"
               color="#B28767"
             >
