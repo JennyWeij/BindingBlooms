@@ -66,18 +66,20 @@ function CoursesPage() {
               fontFamily="SourceSansRegular"
               color="#B28767"
             >
-              Discover the art of floral design and learn how to create stunning
-              bouquets with our comprehensive course on bouquet binding. This
-              hands-on learning experience is designed for individuals
-              passionate about flowers and eager to acquire the skills needed to
-              craft captivating floral arrangements. In our course, you'll be
-              guided by experienced floral designers who will share their
-              expertise and techniques for selecting the finest blooms,
-              arranging them in harmonious compositions, and binding them into
-              exquisite bouquets. From classic arrangements to modern styles,
-              you'll explore a variety of design concepts and gain a deep
-              understanding of color schemes, textures, and the language of
-              flowers.
+              <span>
+                Discover the art of floral design and learn how to create
+                stunning bouquets with our comprehensive course on bouquet
+                binding. This hands-on learning experience is designed for
+                individuals passionate about flowers and eager to acquire the
+                skills needed to craft captivating floral arrangements. In our
+                course, you'll be guided by experienced floral designers who
+                will share their expertise and techniques for selecting the
+                finest blooms, arranging them in harmonious compositions, and
+                binding them into exquisite bouquets. From classic arrangements
+                to modern styles, you'll explore a variety of design concepts
+                and gain a deep understanding of color schemes, textures, and
+                the language of flowers.
+              </span>
             </Text>
             <Button
               position="absolute"
@@ -132,17 +134,19 @@ function CoursesPage() {
               fontFamily="SourceSansRegular"
               color="#B28767"
             >
-              Embark on a transformative journey into the world of flower
-              decorations with our immersive course, "Flower Decorations
-              Mastery." Led by renowned floral artists and industry experts,
-              this comprehensive program is designed to unleash your creativity
-              and equip you with the skills to craft stunning floral
-              arrangements that captivate and inspire. Throughout the course,
-              you'll explore various techniques and design principles, learning
-              how to harmoniously blend colors, textures, and shapes to create
-              breathtaking compositions. From elegant centerpieces to enchanting
-              floral installations, you'll discover the secrets behind
-              transforming any space into a visual masterpiece.
+              <span>
+                Embark on a transformative journey into the world of flower
+                decorations with our immersive course, "Flower Decorations
+                Mastery." Led by renowned floral artists and industry experts,
+                this comprehensive program is designed to unleash your
+                creativity and equip you with the skills to craft stunning
+                floral arrangements that captivate and inspire. Throughout the
+                course, you'll explore various techniques and design principles,
+                learning how to harmoniously blend colors, textures, and shapes
+                to create breathtaking compositions. From elegant centerpieces
+                to enchanting floral installations, you'll discover the secrets
+                behind transforming any space into a visual masterpiece.
+              </span>
             </Text>
             <Button
               position="absolute"
@@ -193,21 +197,23 @@ function CoursesPage() {
               fontFamily="SourceSansRegular"
               color="#B28767"
             >
-              Step into the enchanting world of flower arrangements with our
-              transformative course. Designed for budding floral enthusiasts and
-              aspiring designers alike, this course will empower you with the
-              skills and knowledge to create stunning floral compositions that
-              reflect your unique style and vision. Led by experienced floral
-              artists, you'll embark on a creative journey where you'll discover
-              the principles of floral design and unlock the secrets behind
-              captivating arrangements. From classic bouquets to modern
-              sculptural designs, you'll explore a wide range of techniques and
-              styles, allowing your creativity to flourish. Through hands-on
-              demonstrations and practical exercises, you'll learn the art of
-              selecting the perfect blooms, understanding their characteristics,
-              and creating harmonious color palettes. Gain insights into the
-              various forms and textures of foliage, and how to incorporate them
-              to enhance your arrangements.
+              <span>
+                Step into the enchanting world of flower arrangements with our
+                transformative course. Designed for budding floral enthusiasts
+                and aspiring designers alike, this course will empower you with
+                the skills and knowledge to create stunning floral compositions
+                that reflect your unique style and vision. Led by experienced
+                floral artists, you'll embark on a creative journey where you'll
+                discover the principles of floral design and unlock the secrets
+                behind captivating arrangements. From classic bouquets to modern
+                sculptural designs, you'll explore a wide range of techniques
+                and styles, allowing your creativity to flourish. Through
+                hands-on demonstrations and practical exercises, you'll learn
+                the art of selecting the perfect blooms, understanding their
+                characteristics, and creating harmonious color palettes. Gain
+                insights into the various forms and textures of foliage, and how
+                to incorporate them to enhance your arrangements.
+              </span>
             </Text>
             <Button
               position="absolute"

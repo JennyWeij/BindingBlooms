@@ -1,3 +1,6 @@
+
+@import url('./font.css');
+
 @font-face {
   font-family: "Baskerville"; 
   src: url('./fonts/BaskervilleOldFace.ttf') format("truetype")
