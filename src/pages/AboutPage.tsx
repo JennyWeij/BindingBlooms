@@ -64,15 +64,18 @@ function AboutPage() {
                 condition each and every stem, and ensure that every flower is
                 cut when it is at its very best for both aesthetic and longevity
                 value. We arrange and present our flowers in a natural style,
-                often in blended colour tones. All arrangements are unique, no
-                two arrangements will ever be the same. We wrap our flowers in
-                brown Kraft paper and raffia twine, all of which can be
-                composted, reused or recycled. We also present our flowers in
-                jam jars of water to ensure they remain hydrated and reach you
-                in perfect condition. Please see our Shop for our products. Your
-                flowers will come with a Care Card, please do try to follow
-                these steps to maintain the life and beauty of your flowers for
-                as long as possible.
+                often in blended colour tones. <br />
+                <br />
+                All arrangements are unique, no two arrangements will ever be
+                the same. We wrap our flowers in brown Kraft paper and raffia
+                twine, all of which can be composted, reused or recycled. We
+                also present our flowers in jam jars of water to ensure they
+                remain hydrated and reach you in perfect condition. <br />
+                <br />
+                Please see our Shop for our products. Your flowers will come
+                with a Care Card, please do try to follow these steps to
+                maintain the life and beauty of your flowers for as long as
+                possible.
               </span>
             </Text>
           </Box>

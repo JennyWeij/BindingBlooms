@@ -62,32 +62,40 @@ function FlowersPage() {
                 chosen to provide the optimal conditions for each flower variety
                 to thrive. We cultivate a diverse range of certified flowers,
                 ensuring that each bloom meets our stringent standards of
-                excellence. From the moment our seeds are sown, our dedicated
-                team of horticulturists and gardeners attentively tend to the
-                flowers, providing them with the ideal environment to grow and
-                flourish. We prioritize sustainable and eco-friendly farming
-                practices, using organic fertilizers and natural pest control
-                methods to minimize any impact on the environment. Harvesting is
-                a meticulous process that requires a keen eye for each flower's
-                peak perfection. Our experienced floral experts carefully
-                handpick each stem at the precise moment when its colors are
-                vibrant and its petals are in full bloom. This ensures that our
-                customers receive only the freshest and most stunning flowers.
-                Once harvested, our flowers are quickly transported to our
-                company's facilities, where they undergo a rigorous quality
-                control process. Our expert florists meticulously inspect each
-                stem, ensuring that only the finest and healthiest flowers make
-                it into our bouquets. To preserve their freshness, our flowers
-                are stored in climate-controlled environments. We employ
-                innovative techniques, such as cold chain management, to
-                maintain optimal temperature and humidity levels during
+                excellence. <br />
+                <br />
+                From the moment our seeds are sown, our dedicated team of
+                horticulturists and gardeners attentively tend to the flowers,
+                providing them with the ideal environment to grow and flourish.
+                We prioritize sustainable and eco-friendly farming practices,
+                using organic fertilizers and natural pest control methods to
+                minimize any impact on the environment. Harvesting is a
+                meticulous process that requires a keen eye for each flower's
+                peak perfection. <br />
+                <br />
+                Our experienced floral experts carefully handpick each stem at
+                the precise moment when its colors are vibrant and its petals
+                are in full bloom. This ensures that our customers receive only
+                the freshest and most stunning flowers. Once harvested, our
+                flowers are quickly transported to our company's facilities,
+                where they undergo a rigorous quality control process. Our
+                expert florists meticulously inspect each stem, ensuring that
+                only the finest and healthiest flowers make it into our
+                bouquets. To preserve their freshness, our flowers are stored in
+                climate-controlled environments.
+                <br />
+                <br />
+                We employ innovative techniques, such as cold chain management,
+                to maintain optimal temperature and humidity levels during
                 transportation, ensuring that our bouquets arrive at their
                 destination in perfect condition. By nurturing our flowers from
                 seed to bouquet, we guarantee the utmost care and attention to
-                detail in every step of the process. Our certified flowers
-                embody the beauty of nature and serve as a testament to our
-                commitment to delivering exceptional floral arrangements that
-                exceed expectations.
+                detail in every step of the process.
+                <br />
+                <br />
+                Our certified flowers embody the beauty of nature and serve as a
+                testament to our commitment to delivering exceptional floral
+                arrangements that exceed expectations.
               </span>
             </Text>
           </Box>

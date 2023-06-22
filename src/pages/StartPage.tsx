@@ -52,20 +52,24 @@ function StartPage() {
               flower decorations, and exquisite flower arrangements. Founded by
               the visionary Elin Weijland, the company has quickly gained a
               reputation for its exceptional craftsmanship and unwavering
-              passion for flowers. \n\nElin Weijland, a true connoisseur of
-              nature's wonders, is deeply devoted to the art of floral design.
-              Her boundless passion for flowers serves as the driving force
-              behind Binding Blooms' exceptional creations. With an artist's eye
-              and a deep understanding of the language of flowers, Elin has
-              elevated the act of binding bouquets into a symphony of colors,
-              scents, and textures. \n\nEvery creation by Binding Blooms is a
-              masterpiece that reflects Elin's profound connection to nature.
-              With meticulous attention to detail and an innate sense of
-              balance, she weaves together blooms and foliage to create
-              harmonious arrangements that evoke emotions and tell stories.
+              passion for flowers. <br />
+              <br />
+              Elin Weijland, a true connoisseur of nature's wonders, is deeply
+              devoted to the art of floral design. Her boundless passion for
+              flowers serves as the driving force behind Binding Blooms'
+              exceptional creations. With an artist's eye and a deep
+              understanding of the language of flowers, Elin has elevated the
+              act of binding bouquets into a symphony of colors, scents, and
+              textures. Every creation by Binding Blooms is a masterpiece that
+              reflects Elin's profound connection to nature. With meticulous
+              attention to detail and an innate sense of balance, she weaves
+              together blooms and foliage to create harmonious arrangements that
+              evoke emotions and tell stories.
+              <br />
+              <br />
               Binding Blooms specializes in catering to various occasions, be it
-              weddings, corporate events, or intimate gatherings. \n\nElin's
-              ability to capture the essence of each event and translate it into
+              weddings, corporate events, or intimate gatherings. Elin's ability
+              to capture the essence of each event and translate it into
               breathtaking floral designs is truly remarkable. Whether it's a
               lavish centerpiece, a delicate bridal bouquet, or a whimsical
               floral installation, Binding Blooms' creations leave a lasting

@@ -198,14 +198,10 @@ function CoursesPage() {
               color="#B28767"
             >
               <span>
-                Step into the enchanting world of flower arrangements with our
-                transformative course. Designed for budding floral enthusiasts
-                and aspiring designers alike, this course will empower you with
-                the skills and knowledge to create stunning floral compositions
-                that reflect your unique style and vision. Led by experienced
-                floral artists, you'll embark on a creative journey where you'll
-                discover the principles of floral design and unlock the secrets
-                behind captivating arrangements. From classic bouquets to modern
+                Designed for budding floral enthusiasts and aspiring designers
+                alike, this course will empower you with the skills and
+                knowledge to create stunning floral compositions that reflect
+                your unique style and vision. From classic bouquets to modern
                 sculptural designs, you'll explore a wide range of techniques
                 and styles, allowing your creativity to flourish. Through
                 hands-on demonstrations and practical exercises, you'll learn
