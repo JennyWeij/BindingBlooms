@@ -33,18 +33,19 @@ function AboutPage() {
         </Box>
       </Flex>
 
-      <Flex pl={90} pt={60} bg="linear-gradient(to right, #000E19, #192B36)">
-        <Box style={{ width: "800px", height: "500px" }}>
+      <Flex pl={90} pt={150} bg="linear-gradient(to right, #000E19, #192B36)">
+        <Box style={{ width: "600px", height: "500px" }}>
           <img
             src="/images/store.jpg"
             alt="Background Image"
-            style={{ width: "800px", height: "100%", objectFit: "cover" }}
+            style={{ width: "600px", height: "100%", objectFit: "contain" }}
           />
         </Box>
         <Box p={2} flex="1">
           <Text
             pr={150}
             pl={20}
+            pt={45}
             fontSize="18px"
             fontFamily="SourceSansRegular"
             color="#B28767"
