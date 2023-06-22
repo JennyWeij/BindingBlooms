@@ -1,4 +1,5 @@
 import { Box } from "@chakra-ui/react";
+import { GrFacebook, GrInstagram, GrTwitter } from "react-icons/gr";
 
 function Footer() {
   return (
@@ -17,9 +18,15 @@ function Footer() {
             style={{ width: "400px", height: "100%", objectFit: "contain" }}
           />
         </Box>
-        {/* <Box>
-          <GrFacebook size={24} color="white" />
-        </Box> */}
+        <Box>
+          <GrFacebook size={24} color="#B28767" />
+        </Box>
+        <Box>
+          <GrInstagram size={24} color="#B28767" />
+        </Box>
+        <Box>
+          <GrTwitter size={24} color="#B28767" />
+        </Box>
       </Box>
     </>
   );
