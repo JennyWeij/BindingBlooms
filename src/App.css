@@ -8,6 +8,10 @@ body {
   font-family: 'Baskerville Old Face', serif;
 }
 
-span {
+span, button {
+  font-family: 'NotoSans', sans-serif;
+}
+
+h3 {
   font-family: 'SourceSansRegular', sans-serif;
 }

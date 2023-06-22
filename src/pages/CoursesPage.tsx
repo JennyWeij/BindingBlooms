@@ -57,7 +57,7 @@ function CoursesPage() {
               color="#B28767"
               fontWeight="bold"
             >
-              BOUQUETS
+              <h3>BOUQUETS</h3>
             </Text>
             <Text
               pr={150}
@@ -125,7 +125,7 @@ function CoursesPage() {
               color="#B28767"
               fontWeight="bold"
             >
-              FLOWER DECORATIONS
+              <h3>FLOWER DECORATIONS</h3>
             </Text>
             <Text
               pr={150}
@@ -188,7 +188,7 @@ function CoursesPage() {
               color="#B28767"
               fontWeight="bold"
             >
-              FLOWER ARRANGEMENT
+              <h3>FLOWER ARRANGEMENT</h3>
             </Text>
             <Text
               pr={150}
