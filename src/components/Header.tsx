@@ -8,7 +8,7 @@ function Header() {
       position="fixed"
       zIndex={10}
       top="0"
-      width="100%"
+      width="100vw"
       bg="linear-gradient(to right, #000E19, #192B36)"
       px={4}
       py={2}

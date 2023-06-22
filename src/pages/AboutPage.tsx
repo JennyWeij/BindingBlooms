@@ -9,13 +9,13 @@ function AboutPage() {
           bg="linear-gradient(to right, #000E19, #192B36)"
           justifyContent="center"
           alignItems="center"
-          style={{ width: "100%", height: "100vh" }}
+          style={{ width: "100vw", height: "100vh" }}
         >
           <img
             src="/images/flowerpicture.jpg"
             alt="Flowers on table image"
             style={{
-              width: "100%",
+              width: "100vw",
               height: "100vh",
               objectFit: "inherit",
               marginTop: "250px",
@@ -35,7 +35,12 @@ function AboutPage() {
           </Box>
         </Flex>
 
-        <Flex pl={90} pt={150} bg="linear-gradient(to right, #000E19, #192B36)">
+        <Flex
+          width="100vw"
+          pl={90}
+          pt={150}
+          bg="linear-gradient(to right, #000E19, #192B36)"
+        >
           <Box style={{ width: "600px", height: "500px" }}>
             <img
               src="/images/store.jpg"
