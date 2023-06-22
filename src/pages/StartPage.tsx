@@ -1,5 +1,6 @@
 import { Box, Flex, Text } from "@chakra-ui/react";
 import { useEffect } from "react";
+import Header from "../components/Header";
 import AboutPage from "./AboutPage";
 import CoursesPage from "./CoursesPage";
 import FlowersPage from "./FlowersPage";
@@ -16,6 +17,7 @@ function StartPage() {
 
   return (
     <>
+      <Header />
       <Box style={{ width: "100%", height: "100vh" }}>
         <img
           src="/images/ourcourses.jpg"

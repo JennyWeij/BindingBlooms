@@ -5,6 +5,7 @@ function Header() {
     <Box
       h={["47px", "50px", "80px"]}
       position="fixed"
+      zIndex={10}
       top="0"
       width="100%"
       bg="linear-gradient(to right, #000E19, #192B36)"
