@@ -80,6 +80,7 @@ function CoursesPage() {
             width="90px"
             bg="#B28767"
             color="#192B36"
+            _hover={{ bg: "#192B36", color: "#B28767" }}
           >
             Book
           </Button>
@@ -138,6 +139,7 @@ function CoursesPage() {
             width="90px"
             bg="#B28767"
             color="#192B36"
+            _hover={{ bg: "#192B36", color: "#B28767" }}
           >
             Book
           </Button>
@@ -196,6 +198,7 @@ function CoursesPage() {
             width="90px"
             bg="#B28767"
             color="#192B36"
+            _hover={{ bg: "#192B36", color: "#B28767" }}
           >
             Book
           </Button>
