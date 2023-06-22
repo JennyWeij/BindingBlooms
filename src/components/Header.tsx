@@ -4,13 +4,12 @@ function Header() {
   return (
     <Box
       h={["47px", "50px", "80px"]}
-      position="sticky"
+      position="fixed"
       top="0"
       width="100%"
       bg="linear-gradient(to right, #000E19, #192B36)"
       px={4}
       py={2}
-      zIndex="sticky"
     >
       <Flex align="center" justify="space-between">
         <Image src="/images/Logotype.png" alt="Logo" height="90px" ml={10} />
