@@ -28,6 +28,7 @@ function Header() {
             mr={20}
             bg="none"
             color="#B28767"
+            cursor="pointer"
             _hover={{ bg: "none" }}
           >
             Our flowers
@@ -47,6 +48,7 @@ function Header() {
             bg="none"
             color="#B28767"
             fontFamily="Baskerville"
+            cursor="pointer"
             _hover={{ bg: "none" }}
           >
             Our courses
@@ -66,6 +68,7 @@ function Header() {
             mr={80}
             color="#B28767"
             fontFamily="Baskerville"
+            cursor="pointer"
             _hover={{ bg: "none" }}
           >
             About us

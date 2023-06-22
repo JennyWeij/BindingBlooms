@@ -196,6 +196,7 @@ function CoursesPage() {
             fontSize={15}
             mr="150px"
             width="90px"
+            cursor="pointer"
             bg="#B28767"
             color="#192B36"
             _hover={{ bg: "#192B36", color: "#B28767" }}
