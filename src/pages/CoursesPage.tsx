@@ -78,7 +78,8 @@ function CoursesPage() {
             fontSize={15}
             mr="150px"
             width="90px"
-            colorScheme="teal"
+            bg="#B28767"
+            color="#192B36"
           >
             Book
           </Button>
@@ -135,7 +136,8 @@ function CoursesPage() {
             fontSize={15}
             mr="150px"
             width="90px"
-            colorScheme="teal"
+            bg="#B28767"
+            color="#192B36"
           >
             Book
           </Button>
@@ -192,7 +194,8 @@ function CoursesPage() {
             fontSize={15}
             mr="150px"
             width="90px"
-            colorScheme="teal"
+            bg="#B28767"
+            color="#192B36"
           >
             Book
           </Button>

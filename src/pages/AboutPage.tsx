@@ -11,12 +11,12 @@ function AboutPage() {
       >
         <img
           src="/images/flowerpicture.jpg"
-          alt="Background Image"
+          alt="Flowers on table image"
           style={{
             width: "100%",
             height: "100vh",
             objectFit: "inherit",
-            marginTop: "100px",
+            marginTop: "250px",
             marginBottom: "120px",
           }}
         />
