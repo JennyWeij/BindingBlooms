@@ -32,7 +32,7 @@ function Header() {
               border="1px"
               px="8px"
               borderRadius="2px"
-              fontSize="20px"
+              fontSize="25px"
               fontWeight="semibold"
               fontFamily="Baskerville"
               mr={20}
@@ -61,7 +61,7 @@ function Header() {
               border="1px"
               px="8px"
               borderRadius="2px"
-              fontSize="20px"
+              fontSize="25px"
               mr={20}
               fontWeight="semibold"
               bg="none"
@@ -90,7 +90,7 @@ function Header() {
               border="1px"
               px="8px"
               borderRadius="2px"
-              fontSize="20px"
+              fontSize="25px"
               fontWeight="semibold"
               bg="none"
               mr={80}
