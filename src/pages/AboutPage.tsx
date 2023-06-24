@@ -12,7 +12,7 @@ function AboutPage() {
           style={{ width: "100vw", height: "100vh" }}
         >
           <img
-            src="/images/flowerpicture.jpg"
+            src="/images/aboutus.jpg"
             alt="Flowers on table image"
             style={{
               width: "100vw",
