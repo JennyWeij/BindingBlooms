@@ -1,5 +1,11 @@
-import { Box, Grid, Image, Text } from "@chakra-ui/react";
-import { GrFacebook, GrInstagram, GrTwitter } from "react-icons/gr";
+import { Box, Grid, Text } from "@chakra-ui/react";
+import {
+  GrFacebook,
+  GrInstagram,
+  GrPinterest,
+  GrTwitter,
+  GrYoutube,
+} from "react-icons/gr";
 
 function Footer() {
   return (
@@ -12,7 +18,7 @@ function Footer() {
     >
       <Grid
         templateColumns="1fr 1fr 1fr"
-        gap={0}
+        gap={200}
         maxW="1000px"
         mx="auto"
         alignItems="center"
@@ -20,9 +26,9 @@ function Footer() {
         <Box gridColumn="1">
           <Text color="#B28767" fontSize="24px">
             Binding Blooms <br />
-            Street: 12 Willow Lane <br />
-            City: London <br />
-            Zipcode: SW1A 1AA
+            12 Willow Lane <br />
+            London <br />
+            SW1A 1AA
           </Text>
         </Box>
         <Box gridColumn="2">
@@ -34,6 +40,12 @@ function Footer() {
             <Box marginLeft={20}>
               <GrTwitter size={24} color="#B28767" />
             </Box>
+            <Box marginLeft={20}>
+              <GrYoutube size={24} color="#B28767" />
+            </Box>
+            <Box marginLeft={20}>
+              <GrPinterest size={24} color="#B28767" />
+            </Box>
           </Box>
         </Box>
         <Box gridColumn="3" alignItems="self-end">
@@ -41,13 +53,6 @@ function Footer() {
             src="/images/blommor.jpg"
             alt="Flowers in wooden basket"
             style={{ width: "150px", height: "100%", objectFit: "contain" }}
-          />
-          <Image
-            src="/images/Logotype.png"
-            alt="Logo"
-            height="70px"
-            mt={0}
-            ml={50}
           />
         </Box>
       </Grid>
