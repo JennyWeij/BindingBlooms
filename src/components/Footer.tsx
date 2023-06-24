@@ -11,7 +11,7 @@ function Footer() {
   return (
     <Box
       bg="linear-gradient(to right, #000E19, #192B36)"
-      h="300px"
+      h="150px"
       bottom="0"
       pt="50px"
       width="100vw"
@@ -49,11 +49,11 @@ function Footer() {
           </Box>
         </Box>
         <Box gridColumn="3" alignItems="self-end">
-          <img
-            src="/images/blommor.jpg"
-            alt="Flowers in wooden basket"
-            style={{ width: "150px", height: "100%", objectFit: "contain" }}
-          />
+          <Text color="#B28767" fontSize="24px">
+            Call us
+            <br />
+            +44 20 1234 5678
+          </Text>
         </Box>
       </Grid>
     </Box>
