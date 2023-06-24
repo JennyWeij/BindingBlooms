@@ -18,8 +18,11 @@ function Footer() {
         alignItems="center"
       >
         <Box gridColumn="1">
-          <Text color="#B28767" fontSize="24px" fontWeight="bold">
-            Binding Blooms
+          <Text color="#B28767" fontSize="24px">
+            Binding Blooms <br />
+            Street: 12 Willow Lane <br />
+            City: London <br />
+            Zipcode: SW1A 1AA
           </Text>
         </Box>
         <Box gridColumn="2">
