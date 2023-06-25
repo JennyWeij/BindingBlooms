@@ -43,7 +43,11 @@ function FlowersPage() {
             <img
               src="/images/fieldsunset.jpg"
               alt="Background Image"
-              style={{ width: "400px", height: "100%", objectFit: "cover" }}
+              style={{
+                maxWidth: "100%",
+                height: "100vh",
+                objectFit: "contain",
+              }}
             />
           </Box>
           <Box p={2} flex="1">

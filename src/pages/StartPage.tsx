@@ -22,7 +22,7 @@ function StartPage() {
         <img
           src="/images/startsida1.jpg"
           alt="Background Image"
-          style={{ width: "100vw", height: "100vh", objectFit: "cover" }}
+          style={{ maxWidth: "100%", height: "100vh", objectFit: "contain" }}
         />
       </Box>
       <Box style={{ width: "100vw", height: "100vh" }}>

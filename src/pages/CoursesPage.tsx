@@ -15,9 +15,9 @@ function CoursesPage() {
             src="/images/flowertable.jpg"
             alt="Background Image"
             style={{
-              width: "100%",
+              maxWidth: "100%",
               height: "100vh",
-              objectFit: "cover",
+              objectFit: "contain",
               marginTop: "100px",
             }}
           />
