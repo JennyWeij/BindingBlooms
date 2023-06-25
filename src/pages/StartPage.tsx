@@ -1,6 +1,6 @@
 import { Box, Flex, Text } from "@chakra-ui/react";
 import { useEffect } from "react";
-import Header from "../components/Header";
+import HeaderBurgerMenu from "../components/HeaderBurgerMenu";
 import AboutPage from "./AboutPage";
 import CoursesPage from "./CoursesPage";
 import FlowersPage from "./FlowersPage";
@@ -17,10 +17,10 @@ function StartPage() {
 
   return (
     <>
-      <Header />
+      <HeaderBurgerMenu />
       <Box style={{ width: "100vw", height: "100vh" }}>
         <img
-          src="/images/startsida.jpg"
+          src="/images/startsida1.jpg"
           alt="Background Image"
           style={{ width: "100vw", height: "100vh", objectFit: "cover" }}
         />
