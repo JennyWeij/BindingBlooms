@@ -40,7 +40,11 @@ function CoursesPage() {
             <img
               src="/images/kurs1.jpg"
               alt="Course 1 Image"
-              style={{ width: "300px", height: "100%", objectFit: "cover" }}
+              style={{
+                maxWidth: "300px",
+                height: "100vh",
+                objectFit: "contain",
+              }}
             />
           </Box>
           <Flex flexDirection="column" position="relative">
@@ -105,9 +109,9 @@ function CoursesPage() {
               src="/images/kurs2.jpg"
               alt="Course 2 Image"
               style={{
-                width: "300px",
-                height: "100%",
-                objectFit: "cover",
+                maxWidth: "300px",
+                height: "100vh",
+                objectFit: "contain",
               }}
             />
           </Box>
@@ -171,7 +175,11 @@ function CoursesPage() {
             <img
               src="/images/kurs3.jpg"
               alt="Course 3 Image"
-              style={{ width: "300px", height: "100%", objectFit: "cover" }}
+              style={{
+                maxWidth: "300px",
+                height: "100vh",
+                objectFit: "contain",
+              }}
             />
           </Box>
           <Flex flexDirection="column" position="relative">

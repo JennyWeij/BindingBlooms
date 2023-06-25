@@ -15,7 +15,7 @@ function AboutPage() {
             src="/images/aboutus.jpg"
             alt="Flowers on table image"
             style={{
-              maxWidth: "100%",
+              maxWidth: "500px",
               height: "100vh",
               objectFit: "contain",
               marginTop: "250px",
