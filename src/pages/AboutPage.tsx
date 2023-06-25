@@ -17,7 +17,7 @@ function AboutPage() {
             style={{
               width: "100vw",
               height: "100vh",
-              objectFit: "inherit",
+              objectFit: "cover",
               marginTop: "250px",
               marginBottom: "120px",
             }}
@@ -37,8 +37,8 @@ function AboutPage() {
 
         <Flex
           width="100vw"
-          pl={90}
-          pt={150}
+          // pl={90}
+          // pt={150}
           bg="linear-gradient(to right, #000E19, #192B36)"
         >
           <Box style={{ width: "600px", height: "500px" }}>
@@ -48,10 +48,10 @@ function AboutPage() {
               style={{ width: "600px", height: "100%", objectFit: "contain" }}
             />
           </Box>
-          <Box p={2} flex="1">
+          <Box flex="1">
             <Text
-              pr={150}
-              pl={20}
+              // pr={150}
+              // pl={20}
               pt={45}
               fontSize="15px"
               fontFamily="SourceSans3 Light"

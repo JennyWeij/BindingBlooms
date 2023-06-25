@@ -6,9 +6,10 @@ function Header() {
     <Box
       h={["47px", "50px", "80px"]}
       position="fixed"
+      overflowY="hidden"
       zIndex={10}
       top="0"
-      width="100vw"
+      width="100%"
       bg="linear-gradient(to right, #000E19, #192B36)"
       py={12}
     >
@@ -67,7 +68,7 @@ function Header() {
               px="8px"
               borderRadius="2px"
               fontSize="25px"
-              mr={20}
+              // mr={20}
               fontWeight="semibold"
               bg="none"
               color="#B28767"

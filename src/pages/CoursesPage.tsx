@@ -9,13 +9,13 @@ function CoursesPage() {
           bg="linear-gradient(to right, #000E19, #192B36)"
           justifyContent="center"
           alignItems="center"
-          style={{ width: "100vw", height: "100vh" }}
+          style={{ width: "100%", height: "100vh" }}
         >
           <img
             src="/images/flowertable.jpg"
             alt="Background Image"
             style={{
-              width: "100vw",
+              width: "100%",
               height: "100vh",
               objectFit: "cover",
               marginTop: "100px",
@@ -35,12 +35,7 @@ function CoursesPage() {
         </Flex>
 
         {/* KURS 1 */}
-        <Flex
-          pl={100}
-          pt={100}
-          width="100vw"
-          bg="linear-gradient(to right, #000E19, #192B36)"
-        >
+        <Flex width="100%" bg="linear-gradient(to right, #000E19, #192B36)">
           <Box style={{ width: "300px", height: "400px" }}>
             <img
               src="/images/kurs1.jpg"
@@ -50,8 +45,8 @@ function CoursesPage() {
           </Box>
           <Flex flexDirection="column" position="relative">
             <Text
-              pr={150}
-              pl={20}
+              // pr={150}
+              // pl={20}
               fontSize="25px"
               fontFamily="SourceSansRegular"
               color="#B28767"
@@ -60,8 +55,8 @@ function CoursesPage() {
               <h3>BOUQUETS</h3>
             </Text>
             <Text
-              pr={150}
-              pl={20}
+              // pr={150}
+              // pl={20}
               fontSize="15px"
               fontFamily="SourceSansRegular"
               color="#B28767"
@@ -100,9 +95,9 @@ function CoursesPage() {
 
         {/* KURS 2 */}
         <Flex
-          pl={100}
-          pt={40}
-          width="100vw"
+          // pl={100}
+          // pt={40}
+          width="100%"
           bg="linear-gradient(to right, #000E19, #192B36)"
         >
           <Box style={{ width: "300px", height: "400px" }}>
@@ -118,8 +113,8 @@ function CoursesPage() {
           </Box>
           <Flex flexDirection="column" position="relative">
             <Text
-              pr={150}
-              pl={20}
+              // pr={150}
+              // pl={20}
               fontSize="25px"
               fontFamily="SourceSansRegular"
               color="#B28767"
@@ -128,8 +123,8 @@ function CoursesPage() {
               <h3>FLOWER DECORATIONS</h3>
             </Text>
             <Text
-              pr={150}
-              pl={20}
+              // pr={150}
+              // pl={20}
               fontSize="15px"
               fontFamily="SourceSansRegular"
               color="#B28767"
@@ -167,9 +162,9 @@ function CoursesPage() {
 
         {/* KURS 3 */}
         <Flex
-          width="100vw"
-          pl={100}
-          pt={40}
+          width="100%"
+          // pl={100}
+          // pt={40}
           bg="linear-gradient(to right, #000E19, #192B36)"
         >
           <Box style={{ width: "300px", height: "400px" }}>
@@ -181,8 +176,8 @@ function CoursesPage() {
           </Box>
           <Flex flexDirection="column" position="relative">
             <Text
-              pr={150}
-              pl={20}
+              // pr={150}
+              // pl={20}
               fontSize="25px"
               fontFamily="SourceSansRegular"
               color="#B28767"
@@ -191,8 +186,8 @@ function CoursesPage() {
               <h3>FLOWER ARRANGEMENT</h3>
             </Text>
             <Text
-              pr={150}
-              pl={20}
+              // pr={150}
+              // pl={20}
               fontSize="15px"
               fontFamily="SourceSansRegular"
               color="#B28767"

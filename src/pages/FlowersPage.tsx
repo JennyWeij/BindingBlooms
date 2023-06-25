@@ -9,13 +9,13 @@ function FlowersPage() {
           bg="linear-gradient(to right, #000E19, #192B36)"
           justifyContent="center"
           alignItems="center"
-          style={{ width: "100%", height: "100%" }}
+          style={{ width: "100vw", height: "100%" }}
         >
           <img
             src="/images/flowerfield.jpg"
             alt="Background Image"
             style={{
-              width: "100%",
+              width: "100vw",
               height: "100%",
               objectFit: "cover",
               marginTop: "100px",
@@ -34,8 +34,8 @@ function FlowersPage() {
         </Flex>
 
         <Flex
-          pl={90}
-          pt={100}
+          // pl={90}
+          // pt={100}
           width="100vw"
           bg="linear-gradient(to right, #000E19, #192B36)"
         >
@@ -48,8 +48,8 @@ function FlowersPage() {
           </Box>
           <Box p={2} flex="1">
             <Text
-              pr={150}
-              pl={20}
+              // pr={150}
+              // pl={20}
               fontSize="15px"
               fontFamily="SourceSansRegular"
               color="#B28767"
