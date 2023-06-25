@@ -20,7 +20,7 @@ function StartPage() {
       <Header />
       <Box style={{ width: "100vw", height: "100vh" }}>
         <img
-          src="/images/startpic.jpeg"
+          src="/images/startsida1.jpg"
           alt="Background Image"
           style={{ width: "100%", height: "100vh", objectFit: "cover" }}
         />
