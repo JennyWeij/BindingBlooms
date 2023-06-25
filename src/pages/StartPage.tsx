@@ -20,9 +20,9 @@ function StartPage() {
       <Header />
       <Box style={{ width: "100vw", height: "100vh" }}>
         <img
-          src="/images/ourcourses.jpg"
+          src="/images/startpic.jpeg"
           alt="Background Image"
-          style={{ width: "100%", height: "100vh", objectFit: "inherit" }}
+          style={{ width: "100%", height: "100vh", objectFit: "cover" }}
         />
       </Box>
       <Flex
