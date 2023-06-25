@@ -13,43 +13,49 @@ function Footer() {
       bg="linear-gradient(to right, #000E19, #192B36)"
       h="150px"
       bottom="0"
-      pt="50px"
-      width="100vw"
+      width="100%"
     >
       <Grid
-        templateColumns="1fr 1fr 1fr"
-        gap={200}
-        maxW="1000px"
-        mx="auto"
+        templateColumns={{ base: "1fr", md: "1fr 1fr 1fr" }}
+        gap={{ base: 4, md: 4 }} // Set the gap between rows here
+        maxW="100%"
         alignItems="center"
       >
-        <Box gridColumn="1">
-          <Text color="#B28767" fontSize="24px">
+        <Box
+          gridColumn={{ base: "1", md: "1" }}
+          display="flex"
+          justifyContent="center"
+        >
+          <Text color="#B28767" fontSize="18px">
             Binding Blooms <br />
             12 Willow Lane <br />
             London <br />
             SW1A 1AA
           </Text>
         </Box>
-        <Box gridColumn="2">
-          <Box display="flex" alignItems="center">
+        <Box gridColumn={{ base: "1", md: "2" }}>
+          <Box display="flex" alignItems="center" justifyContent="center">
             <GrFacebook size={23} color="#B28767" />
-            <Box marginLeft={20}>
+            <Box marginLeft={10}>
               <GrInstagram size={24} color="#B28767" />
             </Box>
-            <Box marginLeft={20}>
+            <Box marginLeft={10}>
               <GrTwitter size={24} color="#B28767" />
             </Box>
-            <Box marginLeft={20}>
+            <Box marginLeft={10}>
               <GrYoutube size={24} color="#B28767" />
             </Box>
-            <Box marginLeft={20}>
+            <Box marginLeft={10}>
               <GrPinterest size={24} color="#B28767" />
             </Box>
           </Box>
         </Box>
-        <Box gridColumn="3" alignItems="self-end">
-          <Text color="#B28767" fontSize="24px">
+        <Box
+          gridColumn={{ base: "1", md: "3" }}
+          display="flex"
+          justifyContent="center"
+        >
+          <Text color="#B28767" fontSize="18px">
             Call us
             <br />
             +44 20 1234 5678
