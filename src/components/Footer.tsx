@@ -17,7 +17,7 @@ function Footer() {
     >
       <Grid
         templateColumns={{ base: "1fr", md: "1fr 1fr 1fr" }}
-        gap={{ base: 4, md: 4 }} // Set the gap between rows here
+        gap={{ base: 10, md: 0 }}
         maxW="100%"
         alignItems="center"
       >
