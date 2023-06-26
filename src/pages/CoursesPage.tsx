@@ -9,15 +9,15 @@ function CoursesPage() {
           bg="linear-gradient(to right, #000E19, #192B36)"
           justifyContent="center"
           alignItems="center"
-          style={{ width: "100%", height: "100vh" }}
+          style={{ width: "100vw", height: "100%" }}
         >
           <img
             src="/images/flowertable.jpg"
             alt="Background Image"
             style={{
-              maxWidth: "100%",
-              height: "100vh",
-              objectFit: "contain",
+              maxWidth: "100vw",
+              height: "100%",
+              objectFit: "cover",
               marginTop: "100px",
             }}
           />

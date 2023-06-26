@@ -31,7 +31,6 @@ function StartPage() {
         {/* GRID med bild och bildtext */}
         <Grid
           templateColumns={{ base: "1fr", md: "1fr 2fr" }}
-          gap={{ base: 0, md: 0 }}
           maxW="100%"
           justifyContent="center"
         >
@@ -54,6 +53,8 @@ function StartPage() {
               />
             </Box>
           </Box>
+
+          {/* GRID kolumn 2 */}
           <Box gridColumn={{ base: "1", md: "2" }}>
             <Text
               fontSize="15px"
