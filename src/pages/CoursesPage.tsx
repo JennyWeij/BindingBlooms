@@ -184,7 +184,6 @@ function CoursesPage() {
           maxW="100%"
           justifyContent="center"
           bg="linear-gradient(to right, #000E19, #192B36)"
-          color="white"
         >
           <Box
             style={{
