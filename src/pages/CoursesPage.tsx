@@ -24,11 +24,11 @@ function CoursesPage() {
           <Box
             position="absolute"
             textAlign="center"
-            mt="400px"
-            fontSize="100px"
+            mt={{ base: "150px", md: "400px" }}
+            fontSize={{ base: "65px", md: "100px" }}
             fontWeight="bold"
+            color="#d7ac8a"
             fontFamily="Baskerville"
-            color="white"
           >
             Our courses
           </Box>
@@ -65,7 +65,7 @@ function CoursesPage() {
           </Box>
           <Flex flexDirection="column" position="relative" ml="20px">
             <Text
-              fontSize="25px"
+              fontSize={{ base: "18px", md: "25px" }}
               fontFamily="SourceSansRegular"
               color="#B28767"
               fontWeight="bold"
@@ -116,7 +116,16 @@ function CoursesPage() {
           bg="linear-gradient(to right, #000E19, #192B36)"
           color="white"
         >
-          <Box style={{ width: "300px", height: "400px" }}>
+          <Box
+            style={{
+              width: "300px",
+              height: "400px",
+              display: "flex",
+              justifyContent: "center",
+              marginLeft: "20px",
+              alignItems: "center",
+            }}
+          >
             <img
               src="/images/kurs2.jpg"
               alt="Course 2 Image"
@@ -129,7 +138,7 @@ function CoursesPage() {
           </Box>
           <Flex flexDirection="column" position="relative">
             <Text
-              fontSize="25px"
+              fontSize={{ base: "18px", md: "25px" }}
               fontFamily="SourceSansRegular"
               color="#B28767"
               fontWeight="bold"
@@ -179,7 +188,16 @@ function CoursesPage() {
           bg="linear-gradient(to right, #000E19, #192B36)"
           color="white"
         >
-          <Box style={{ width: "300px", height: "400px" }}>
+          <Box
+            style={{
+              width: "300px",
+              height: "400px",
+              display: "flex",
+              justifyContent: "center",
+              marginLeft: "20px",
+              alignItems: "center",
+            }}
+          >
             <img
               src="/images/kurs3.jpg"
               alt="Course 3 Image"
@@ -192,7 +210,7 @@ function CoursesPage() {
           </Box>
           <Flex flexDirection="column" position="relative">
             <Text
-              fontSize="25px"
+              fontSize={{ base: "18px", md: "25px" }}
               fontFamily="SourceSansRegular"
               color="#B28767"
               fontWeight="bold"

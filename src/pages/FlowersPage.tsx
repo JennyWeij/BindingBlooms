@@ -24,7 +24,7 @@ function FlowersPage() {
           <Box
             position="absolute"
             textAlign="center"
-            fontSize="100px"
+            fontSize={{ base: "65px", md: "100px" }}
             color="#B28767"
             fontWeight="bold"
             fontFamily="Baskerville"

@@ -25,10 +25,10 @@ function AboutPage() {
             <Box
               position="absolute"
               textAlign="center"
-              fontSize="100px"
+              fontSize={{ base: "65px", md: "100px" }}
               fontWeight="bold"
+              color="#B28767"
               fontFamily="Baskerville"
-              color="white"
             >
               About us
             </Box>
