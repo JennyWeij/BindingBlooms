@@ -1,4 +1,4 @@
-import { Box, Flex, Text } from "@chakra-ui/react";
+import { Box, Grid, Text } from "@chakra-ui/react";
 import { useEffect } from "react";
 import HeaderBurgerMenu from "../components/HeaderBurgerMenu";
 import AboutPage from "./AboutPage";
@@ -17,33 +17,47 @@ function StartPage() {
 
   return (
     <>
+      {/* Header och Herobild */}
       <HeaderBurgerMenu />
-      <Box style={{ width: "100vw", height: "100vh" }}>
-        <img
-          src="/images/startsida1.jpg"
-          alt="Background Image"
-          style={{ maxWidth: "100%", height: "100vh", objectFit: "contain" }}
-        />
-      </Box>
-      <Box style={{ width: "100vw", height: "100vh" }}>
-        <Flex
-          width="100vw"
-          // pl={90}
-          // pt={60}
-          bg="linear-gradient(to right, #000E19, #192B36)"
+      <Box bg="linear-gradient(to right, #000E19, #192B36)">
+        <Box style={{ width: "100vw", height: "100vh" }}>
+          <img
+            src="/images/startsida1.jpg"
+            alt="Background Image"
+            style={{ maxWidth: "100%", height: "100vh", objectFit: "contain" }}
+          />
+        </Box>
+
+        {/* GRID med bild och bildtext */}
+        <Grid
+          templateColumns={{ base: "1fr", md: "1fr 2fr" }}
+          gap={{ base: 0, md: 0 }}
+          maxW="100%"
+          justifyContent="center"
         >
-          <Box style={{ width: "300px", height: "500px" }}>
-            <img
-              src="/images/bukett5.jpg"
-              alt="Background Image"
-              style={{ width: "300px", height: "100%", objectFit: "cover" }}
-            />
+          <Box gridColumn={{ base: "1", md: "1" }}>
+            <Box
+              display="flex"
+              alignItems="center"
+              justifyItems="center"
+              ml="20px"
+              style={{ width: "300px", height: "500px" }}
+            >
+              <img
+                src="/images/bukett5.jpg"
+                alt="Background Image"
+                style={{
+                  width: "300px",
+                  height: "600px",
+                  objectFit: "contain",
+                }}
+              />
+            </Box>
           </Box>
-          <Box p={2} flex="1">
+          <Box gridColumn={{ base: "1", md: "2" }}>
             <Text
-              pr={150}
-              pl={20}
               fontSize="15px"
+              mt="18px"
               fontFamily="SourceSansRegular"
               color="#B28767"
             >
@@ -78,12 +92,12 @@ function StartPage() {
               </span>
             </Text>
           </Box>
-        </Flex>
-      </Box>
+        </Grid>
 
-      <FlowersPage />
-      <CoursesPage />
-      <AboutPage />
+        <FlowersPage />
+        <CoursesPage />
+        <AboutPage />
+      </Box>
     </>
   );
 }

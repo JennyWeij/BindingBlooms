@@ -1,4 +1,4 @@
-import { Box, Flex, Text } from "@chakra-ui/react";
+import { Box, Flex, Grid, Text } from "@chakra-ui/react";
 import { Element } from "react-scroll";
 
 function FlowersPage() {
@@ -33,27 +33,38 @@ function FlowersPage() {
           </Box>
         </Flex>
 
-        <Flex
-          // pl={90}
-          // pt={100}
-          width="100vw"
+        {/* GRID */}
+        <Grid
+          templateColumns={{ base: "1fr", md: "1fr 2fr" }}
+          gap={{ base: 0, md: 0 }}
+          maxW="100%"
           bg="linear-gradient(to right, #000E19, #192B36)"
+          justifyContent="center"
         >
-          <Box style={{ width: "400px", height: "500px" }}>
-            <img
-              src="/images/fieldsunset.jpg"
-              alt="Background Image"
-              style={{
-                maxWidth: "100%",
-                height: "100vh",
-                objectFit: "contain",
-              }}
-            />
+          <Box gridColumn={{ base: "1", md: "1" }}>
+            <Box
+              display="flex"
+              alignItems="center"
+              justifyItems="center"
+              ml="20px"
+              style={{ width: "400px", height: "500px" }}
+            >
+              <img
+                src="/images/fieldsunset.jpg"
+                alt="Background Image"
+                style={{
+                  maxWidth: "100%",
+                  height: "100vh",
+                  objectFit: "contain",
+                }}
+              />
+            </Box>
           </Box>
-          <Box p={2} flex="1">
+
+          <Box gridColumn={{ base: "1", md: "2" }}>
             <Text
-              // pr={150}
-              // pl={20}
+              mt="30px"
+              ml="10px"
               fontSize="15px"
               fontFamily="SourceSansRegular"
               color="#B28767"
@@ -95,15 +106,10 @@ function FlowersPage() {
                 destination in perfect condition. By nurturing our flowers from
                 seed to bouquet, we guarantee the utmost care and attention to
                 detail in every step of the process.
-                <br />
-                <br />
-                Our certified flowers embody the beauty of nature and serve as a
-                testament to our commitment to delivering exceptional floral
-                arrangements that exceed expectations.
               </span>
             </Text>
           </Box>
-        </Flex>
+        </Grid>
       </Element>
     </>
   );
