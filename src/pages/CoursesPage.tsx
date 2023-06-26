@@ -38,6 +38,7 @@ function CoursesPage() {
         <Grid
           templateColumns={{ base: "1fr", md: "1fr 2fr" }}
           maxW="100%"
+          mt="100px"
           justifyContent="center"
           bg="linear-gradient(to right, #000E19, #192B36)"
           color="white"
@@ -92,13 +93,11 @@ function CoursesPage() {
             </Text>
             <Button
               position="absolute"
-              bottom="0px"
-              right="10px"
+              bottom="20px"
               fontSize={15}
-              mr="150px"
               width="90px"
-              cursor="pointer"
               bg="#B28767"
+              cursor="pointer"
               color="#192B36"
               _hover={{ bg: "#192B36", color: "#B28767" }}
             >
@@ -156,10 +155,8 @@ function CoursesPage() {
             </Text>
             <Button
               position="absolute"
-              bottom="0px"
-              right="10px"
+              bottom="20px"
               fontSize={15}
-              mr="150px"
               width="90px"
               bg="#B28767"
               cursor="pointer"
@@ -220,13 +217,11 @@ function CoursesPage() {
             </Text>
             <Button
               position="absolute"
-              bottom="0px"
-              right="10px"
+              bottom="20px"
               fontSize={15}
-              mr="150px"
               width="90px"
-              cursor="pointer"
               bg="#B28767"
+              cursor="pointer"
               color="#192B36"
               _hover={{ bg: "#192B36", color: "#B28767" }}
             >
