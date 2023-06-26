@@ -20,11 +20,15 @@ function StartPage() {
       {/* Header och Herobild */}
       <HeaderBurgerMenu />
       <Box bg="linear-gradient(to right, #000E19, #192B36)">
-        <Box style={{ width: "100vw", height: "100vh" }}>
+        <Box style={{ width: "100vw", height: "100%" }}>
           <img
             src="/images/startsida1.jpg"
             alt="Background Image"
-            style={{ maxWidth: "100%", height: "100vh", objectFit: "contain" }}
+            style={{
+              width: "100vw",
+              height: "100%",
+              objectFit: "cover",
+            }}
           />
         </Box>
 
