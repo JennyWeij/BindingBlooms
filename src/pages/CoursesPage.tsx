@@ -1,4 +1,4 @@
-import { Box, Button, Flex, Text } from "@chakra-ui/react";
+import { Box, Button, Flex, Grid, Text } from "@chakra-ui/react";
 import { Element } from "react-scroll";
 
 function CoursesPage() {
@@ -35,7 +35,15 @@ function CoursesPage() {
         </Flex>
 
         {/* KURS 1 */}
-        <Flex width="100%" bg="linear-gradient(to right, #000E19, #192B36)">
+        <Grid
+          templateColumns={{ base: "1fr", md: "1fr 1fr" }}
+          gap={{ base: 0, md: 0 }}
+          maxW="100%"
+          alignItems="center"
+          justifyContent="center"
+          bg="linear-gradient(to right, #000E19, #192B36)"
+          color="white"
+        >
           <Box style={{ width: "300px", height: "400px" }}>
             <img
               src="/images/kurs1.jpg"
@@ -49,8 +57,6 @@ function CoursesPage() {
           </Box>
           <Flex flexDirection="column" position="relative">
             <Text
-              // pr={150}
-              // pl={20}
               fontSize="25px"
               fontFamily="SourceSansRegular"
               color="#B28767"
@@ -59,8 +65,6 @@ function CoursesPage() {
               <h3>BOUQUETS</h3>
             </Text>
             <Text
-              // pr={150}
-              // pl={20}
               fontSize="15px"
               fontFamily="SourceSansRegular"
               color="#B28767"
@@ -95,14 +99,17 @@ function CoursesPage() {
               Book
             </Button>
           </Flex>
-        </Flex>
+        </Grid>
 
         {/* KURS 2 */}
-        <Flex
-          // pl={100}
-          // pt={40}
-          width="100%"
+        <Grid
+          templateColumns={{ base: "1fr", md: "1fr 1fr" }}
+          gap={{ base: 0, md: 0 }}
+          maxW="100%"
+          alignItems="center"
+          justifyContent="center"
           bg="linear-gradient(to right, #000E19, #192B36)"
+          color="white"
         >
           <Box style={{ width: "300px", height: "400px" }}>
             <img
@@ -117,8 +124,6 @@ function CoursesPage() {
           </Box>
           <Flex flexDirection="column" position="relative">
             <Text
-              // pr={150}
-              // pl={20}
               fontSize="25px"
               fontFamily="SourceSansRegular"
               color="#B28767"
@@ -127,8 +132,6 @@ function CoursesPage() {
               <h3>FLOWER DECORATIONS</h3>
             </Text>
             <Text
-              // pr={150}
-              // pl={20}
               fontSize="15px"
               fontFamily="SourceSansRegular"
               color="#B28767"
@@ -162,14 +165,17 @@ function CoursesPage() {
               Book
             </Button>
           </Flex>
-        </Flex>
+        </Grid>
 
         {/* KURS 3 */}
-        <Flex
-          width="100%"
-          // pl={100}
-          // pt={40}
+        <Grid
+          templateColumns={{ base: "1fr", md: "1fr 1fr" }}
+          gap={{ base: 0, md: 0 }}
+          maxW="100%"
+          alignItems="center"
+          justifyContent="center"
           bg="linear-gradient(to right, #000E19, #192B36)"
+          color="white"
         >
           <Box style={{ width: "300px", height: "400px" }}>
             <img
@@ -184,8 +190,6 @@ function CoursesPage() {
           </Box>
           <Flex flexDirection="column" position="relative">
             <Text
-              // pr={150}
-              // pl={20}
               fontSize="25px"
               fontFamily="SourceSansRegular"
               color="#B28767"
@@ -194,8 +198,6 @@ function CoursesPage() {
               <h3>FLOWER ARRANGEMENT</h3>
             </Text>
             <Text
-              // pr={150}
-              // pl={20}
               fontSize="15px"
               fontFamily="SourceSansRegular"
               color="#B28767"
@@ -229,7 +231,7 @@ function CoursesPage() {
               Book
             </Button>
           </Flex>
-        </Flex>
+        </Grid>
       </Element>
     </>
   );
