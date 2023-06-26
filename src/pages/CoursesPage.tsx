@@ -49,6 +49,7 @@ function CoursesPage() {
               height: "400px",
               display: "flex",
               justifyContent: "center",
+              marginLeft: "20px",
               alignItems: "center",
             }}
           >
@@ -62,12 +63,13 @@ function CoursesPage() {
               }}
             />
           </Box>
-          <Flex flexDirection="column" position="relative">
+          <Flex flexDirection="column" position="relative" ml="20px">
             <Text
               fontSize="25px"
               fontFamily="SourceSansRegular"
               color="#B28767"
               fontWeight="bold"
+              mt="18px"
             >
               <h3>BOUQUETS</h3>
             </Text>
@@ -131,6 +133,7 @@ function CoursesPage() {
               fontFamily="SourceSansRegular"
               color="#B28767"
               fontWeight="bold"
+              mt="18px"
             >
               <h3>FLOWER DECORATIONS</h3>
             </Text>
@@ -193,6 +196,7 @@ function CoursesPage() {
               fontFamily="SourceSansRegular"
               color="#B28767"
               fontWeight="bold"
+              mt="18px"
             >
               <h3>FLOWER ARRANGEMENT</h3>
             </Text>
