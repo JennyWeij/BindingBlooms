@@ -18,7 +18,7 @@ function CoursesPage() {
               maxWidth: "100vw",
               height: "100%",
               objectFit: "cover",
-              marginTop: "100px",
+              marginTop: "50px",
             }}
           />
           <Box
@@ -38,7 +38,7 @@ function CoursesPage() {
         <Grid
           templateColumns={{ base: "1fr", md: "1fr 2fr" }}
           maxW="100%"
-          mt="100px"
+          mt="50px"
           justifyContent="center"
           bg="linear-gradient(to right, #000E19, #192B36)"
           color="white"

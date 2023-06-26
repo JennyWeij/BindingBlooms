@@ -36,7 +36,6 @@ function FlowersPage() {
         {/* GRID */}
         <Grid
           templateColumns={{ base: "1fr", md: "1fr 2fr" }}
-          gap={{ base: 0, md: 0 }}
           maxW="100%"
           bg="linear-gradient(to right, #000E19, #192B36)"
           justifyContent="center"
