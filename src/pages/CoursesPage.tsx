@@ -36,21 +36,27 @@ function CoursesPage() {
 
         {/* KURS 1 */}
         <Grid
-          templateColumns={{ base: "1fr", md: "1fr 1fr" }}
-          gap={{ base: 0, md: 0 }}
+          templateColumns={{ base: "1fr", md: "1fr 2fr" }}
           maxW="100%"
-          alignItems="center"
           justifyContent="center"
           bg="linear-gradient(to right, #000E19, #192B36)"
           color="white"
         >
-          <Box style={{ width: "300px", height: "400px" }}>
+          <Box
+            style={{
+              width: "300px",
+              height: "400px",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
             <img
               src="/images/kurs1.jpg"
               alt="Course 1 Image"
               style={{
                 maxWidth: "300px",
-                height: "100vh",
+                height: "100%",
                 objectFit: "contain",
               }}
             />
@@ -103,10 +109,8 @@ function CoursesPage() {
 
         {/* KURS 2 */}
         <Grid
-          templateColumns={{ base: "1fr", md: "1fr 1fr" }}
-          gap={{ base: 0, md: 0 }}
+          templateColumns={{ base: "1fr", md: "1fr 2fr" }}
           maxW="100%"
-          alignItems="center"
           justifyContent="center"
           bg="linear-gradient(to right, #000E19, #192B36)"
           color="white"
@@ -117,7 +121,7 @@ function CoursesPage() {
               alt="Course 2 Image"
               style={{
                 maxWidth: "300px",
-                height: "100vh",
+                height: "100%",
                 objectFit: "contain",
               }}
             />
@@ -169,10 +173,8 @@ function CoursesPage() {
 
         {/* KURS 3 */}
         <Grid
-          templateColumns={{ base: "1fr", md: "1fr 1fr" }}
-          gap={{ base: 0, md: 0 }}
+          templateColumns={{ base: "1fr", md: "1fr 2fr" }}
           maxW="100%"
-          alignItems="center"
           justifyContent="center"
           bg="linear-gradient(to right, #000E19, #192B36)"
           color="white"
@@ -183,7 +185,7 @@ function CoursesPage() {
               alt="Course 3 Image"
               style={{
                 maxWidth: "300px",
-                height: "100vh",
+                height: "100%",
                 objectFit: "contain",
               }}
             />
