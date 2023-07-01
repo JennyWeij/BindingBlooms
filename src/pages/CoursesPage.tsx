@@ -38,8 +38,8 @@ function CoursesPage() {
         <Grid
           templateColumns={{ base: "1fr", md: "1fr 2fr" }}
           maxW="100%"
-          mt="50px"
-          alignItems="start"
+          mt="20px"
+          justifyItems="center"
           bg="linear-gradient(to right, #000E19, #192B36)"
         >
           <Box
@@ -54,7 +54,6 @@ function CoursesPage() {
               src="/images/kurs1.jpg"
               alt="Course 1 Image"
               style={{
-                // justifyItems: "center",
                 maxWidth: "300px",
                 height: "100%",
                 objectFit: "contain",
@@ -67,7 +66,7 @@ function CoursesPage() {
               fontFamily="SourceSansRegular"
               color="#B28767"
               fontWeight="bold"
-              mt="18px"
+              mt="20px"
             >
               <h3>BOUQUETS</h3>
             </Text>
@@ -102,6 +101,7 @@ function CoursesPage() {
               fontFamily="SourceSansRegular"
               cursor="pointer"
               color="#192B36"
+              mt="10px"
               borderRadius="0"
               _hover={{ bg: "#192B36", color: "#B28767" }}
             >
@@ -114,7 +114,8 @@ function CoursesPage() {
         <Grid
           templateColumns={{ base: "1fr", md: "1fr 2fr" }}
           maxW="100%"
-          justifyContent="center"
+          mt="20px"
+          justifyItems="center"
           bg="linear-gradient(to right, #000E19, #192B36)"
         >
           <Box
@@ -122,7 +123,6 @@ function CoursesPage() {
               width: "300px",
               height: "400px",
               display: "flex",
-              justifyContent: "center",
               marginLeft: "20px",
               alignItems: "center",
             }}
@@ -177,6 +177,7 @@ function CoursesPage() {
               cursor="pointer"
               color="#192B36"
               borderRadius="0"
+              mt="10px"
               _hover={{ bg: "#192B36", color: "#B28767" }}
             >
               Book
@@ -188,7 +189,8 @@ function CoursesPage() {
         <Grid
           templateColumns={{ base: "1fr", md: "1fr 2fr" }}
           maxW="100%"
-          justifyContent="center"
+          mt="20px"
+          justifyItems="center"
           bg="linear-gradient(to right, #000E19, #192B36)"
         >
           <Box
@@ -196,7 +198,6 @@ function CoursesPage() {
               width: "300px",
               height: "400px",
               display: "flex",
-              justifyContent: "center",
               marginLeft: "20px",
               alignItems: "center",
             }}
@@ -217,7 +218,7 @@ function CoursesPage() {
               fontFamily="SourceSansRegular"
               color="#B28767"
               fontWeight="bold"
-              mt="18px"
+              // mt="20px"
             >
               <h3>FLOWER ARRANGEMENT</h3>
             </Text>
@@ -245,7 +246,7 @@ function CoursesPage() {
             <Button
               bottom="20px"
               ml="20px"
-              mt="22px"
+              mt="32px"
               fontSize={20}
               width="90px"
               bg="#B28767"
