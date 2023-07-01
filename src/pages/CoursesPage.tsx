@@ -55,8 +55,8 @@ function CoursesPage() {
               src="/images/kurs1.jpg"
               alt="Course 1 Image"
               style={{
-                maxWidth: "300px",
-                height: "100%",
+                maxWidth: "100%",
+                height: "auto",
                 objectFit: "contain",
               }}
             />

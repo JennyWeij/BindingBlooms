@@ -41,7 +41,6 @@ function AboutPage() {
             maxW="100%"
             bg="linear-gradient(to right, #000E19, #192B36)"
             justifyContent="center"
-            // mb="90px"
             mt="50px"
           >
             <Box gridColumn={{ base: "1", md: "1" }}>
@@ -49,15 +48,16 @@ function AboutPage() {
                 display="flex"
                 alignItems="center"
                 justifyItems="center"
-                ml="20px"
-                style={{ width: "600px", height: "100%" }}
+                // ml="10px"
+                mr="10px"
+                style={{ width: "100%", height: "100%" }}
               >
                 <img
                   src="/images/store.jpg"
                   alt="Background Image"
                   style={{
-                    width: "600px",
-                    height: "100%",
+                    maxWidth: "100%",
+                    height: "auto",
                     objectFit: "contain",
                   }}
                 />
@@ -67,13 +67,12 @@ function AboutPage() {
             {/* GRID kolumn 2 */}
             <Box gridColumn={{ base: "1", md: "2" }}>
               <Text
-                pt={45}
                 fontSize="15px"
                 fontFamily="SourceSans3 Light"
                 textAlign={{ base: "center", md: "start" }}
                 color="#B28767"
-                mr="5px"
-                ml="2px"
+                mr="10px"
+                ml="30px"
               >
                 <span>
                   We grow many flowers from seed each year, and have large

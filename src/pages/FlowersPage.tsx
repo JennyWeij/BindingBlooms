@@ -18,7 +18,7 @@ function FlowersPage() {
               width: "100vw",
               height: "100%",
               objectFit: "cover",
-              marginTop: "100px",
+              marginTop: "50px",
             }}
           />
           <Box
@@ -39,22 +39,23 @@ function FlowersPage() {
           templateColumns={{ base: "1fr", md: "1fr 2fr" }}
           maxW="100%"
           bg="linear-gradient(to right, #000E19, #192B36)"
-          justifyContent="center"
+          justifyItems="center"
         >
           <Box gridColumn={{ base: "1", md: "1" }}>
             <Box
               display="flex"
               alignItems="center"
               justifyItems="center"
-              ml="20px"
-              style={{ width: "400px", height: "400px" }}
+              mt="10px"
+              ml={{ base: "0", md: "20px" }}
+              style={{ width: "100%", height: "100%" }}
             >
               <img
                 src="/images/fieldsunset.jpg"
                 alt="Background Image"
                 style={{
                   maxWidth: "100%",
-                  height: "100vh",
+                  height: "auto",
                   objectFit: "contain",
                 }}
               />
@@ -63,7 +64,7 @@ function FlowersPage() {
 
           <Box gridColumn={{ base: "1", md: "2" }}>
             <Text
-              mt={{ base: "0px", md: "30px" }}
+              mt={{ base: "10px", md: "30px" }}
               fontSize="15px"
               fontFamily="SourceSansRegular"
               textAlign={{ base: "center", md: "start" }}

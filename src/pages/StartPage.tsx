@@ -36,22 +36,23 @@ function StartPage() {
         <Grid
           templateColumns={{ base: "1fr", md: "1fr 2fr" }}
           maxW="100%"
-          justifyContent="center"
+          mt="20px"
+          justifyItems="center"
         >
           <Box gridColumn={{ base: "1", md: "1" }}>
             <Box
               display="flex"
-              alignItems="center"
-              ml="20px"
-              style={{ width: "300px", height: "500px" }}
+              justifyItems="center"
+              // ml="5px"
+              style={{ width: "100%", height: "100%" }}
             >
               <img
-                src="/images/bukett5.jpg"
+                src="/images/aboutus.png"
                 alt="Background Image"
                 style={{
-                  width: "300px",
-                  height: "600px",
-                  objectFit: "contain",
+                  maxWidth: "100%",
+                  height: "auto",
+                  objectFit: "cover",
                 }}
               />
             </Box>
@@ -61,9 +62,9 @@ function StartPage() {
           <Box gridColumn={{ base: "1", md: "2" }}>
             <Text
               fontSize="15px"
-              mt="18px"
               fontFamily="SourceSansRegular"
               mr="5px"
+              ml="5px"
               textAlign={{ base: "center", md: "start" }}
               color="#B28767"
             >
