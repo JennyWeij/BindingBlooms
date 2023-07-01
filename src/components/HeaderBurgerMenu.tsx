@@ -19,108 +19,106 @@ function Header() {
       h="100px"
       w="100%"
       top="0"
+      position="fixed"
+      zIndex="999"
     >
       <Flex align="center" justify="space-between" px={2}>
-        <Image
-          src="/images/Logotype.png"
-          alt="Logo"
-          height="100px"
-          mt={0}
-          ml={50}
-        />
+        <Image src="/images/Logotype.png" alt="Logo" height="100px" mt={0} />
 
         {/* Hamburger menu */}
-        <IconButton
-          icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
-          variant="ghost"
-          color="#000E19"
-          mr="30px"
-          bgColor="#B28767"
-          aria-label="Toggle menu"
-          display={{ base: "block", md: "none" }}
-          onClick={onToggle}
-        />
+        <Flex display={{ base: "flex", md: "none" }} align="center" ml="auto">
+          <IconButton
+            icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
+            variant="ghost"
+            color="#000E19"
+            bgColor="#B28767"
+            _hover={{ bg: "#B28767", color: "#000E19" }}
+            mr="10px"
+            aria-label="Toggle menu"
+            onClick={onToggle}
+          />
 
-        {/* Collapsible menu */}
-        <Collapse in={isOpen} animateOpacity>
-          <Flex direction="column">
-            {/* Menu items */}
-            <Link
-              activeClass="active"
-              to="our-flowers-section"
-              spy={true}
-              smooth={true}
-              offset={-50}
-              duration={500}
-            >
-              <Text
-                as="button"
-                height="24px"
-                lineHeight="1.2"
-                transition="all 0.2s cubic-bezier(.08,.52,.52,1)"
-                fontSize="18px"
-                fontWeight="semibold"
-                fontFamily="Baskerville"
-                bg="none"
-                color="#B28767"
-                cursor="pointer"
-                _hover={{ bg: "none" }}
+          {/* Collapsible menu */}
+          <Collapse in={isOpen} animateOpacity>
+            <Flex direction="column" mt={2}>
+              {/* Menu items */}
+              <Link
+                activeClass="active"
+                to="our-flowers-section"
+                spy={true}
+                smooth={true}
+                offset={-50}
+                duration={500}
               >
-                Our flowers
-              </Text>
-            </Link>
+                <Text
+                  as="button"
+                  height="24px"
+                  lineHeight="1.2"
+                  transition="all 0.2s cubic-bezier(.08,.52,.52,1)"
+                  fontSize="18px"
+                  fontWeight="semibold"
+                  fontFamily="Baskerville"
+                  bg="none"
+                  color="#B28767"
+                  cursor="pointer"
+                  _hover={{ bg: "#B28767", color: "#192B36" }}
+                >
+                  Our flowers
+                </Text>
+              </Link>
 
-            <Link
-              activeClass="active"
-              to="our-flowers-section"
-              spy={true}
-              smooth={true}
-              offset={-50}
-              duration={500}
-            >
-              <Box
-                as="button"
-                height="24px"
-                lineHeight="1.2"
-                transition="all 0.2s cubic-bezier(.08,.52,.52,1)"
-                fontSize="18px"
-                fontWeight="semibold"
-                bg="none"
-                color="#B28767"
-                fontFamily="Baskerville"
-                cursor="pointer"
-                _hover={{ bg: "none" }}
+              <Link
+                activeClass="active"
+                to="our-flowers-section"
+                spy={true}
+                smooth={true}
+                offset={-50}
+                duration={500}
               >
-                Our courses
-              </Box>
-            </Link>
+                <Text
+                  as="button"
+                  height="24px"
+                  lineHeight="1.2"
+                  transition="all 0.2s cubic-bezier(.08,.52,.52,1)"
+                  fontSize="18px"
+                  fontWeight="semibold"
+                  bg="none"
+                  color="#B28767"
+                  fontFamily="Baskerville"
+                  cursor="pointer"
+                  _hover={{ bg: "#B28767", color: "#192B36" }}
+                >
+                  Our courses
+                </Text>
+              </Link>
 
-            <Link
-              activeClass="active"
-              to="about-us-section"
-              spy={true}
-              smooth={true}
-              offset={-50}
-              duration={500}
-            >
-              <Box
-                as="button"
-                height="24px"
-                lineHeight="1.2"
-                transition="all 0.2s cubic-bezier(.08,.52,.52,1)"
-                fontSize="18px"
-                fontWeight="semibold"
-                bg="none"
-                color="#B28767"
-                fontFamily="Baskerville"
-                cursor="pointer"
-                _hover={{ bg: "none" }}
+              <Link
+                activeClass="active"
+                to="about-us-section"
+                spy={true}
+                smooth={true}
+                offset={-50}
+                duration={500}
               >
-                About us
-              </Box>
-            </Link>
-          </Flex>
-        </Collapse>
+                <Text
+                  as="button"
+                  height="24px"
+                  lineHeight="1.2"
+                  transition="all 0.2s cubic-bezier(.08,.52,.52,1)"
+                  fontSize="18px"
+                  fontWeight="semibold"
+                  bg="none"
+                  color="#B28767"
+                  fontFamily="Baskerville"
+                  cursor="pointer"
+                  _hover={{ bg: "#B28767", color: "#192B36" }}
+                >
+                  About us
+                </Text>
+              </Link>
+            </Flex>
+          </Collapse>
+        </Flex>
 
         {/* Menu items */}
         <Flex
@@ -210,4 +208,5 @@ function Header() {
     </Box>
   );
 }
+
 export default Header;

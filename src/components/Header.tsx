@@ -1,24 +1,25 @@
-import { Box, Flex, Image } from "@chakra-ui/react";
+import { Box, Flex } from "@chakra-ui/react";
 import { Link } from "react-scroll";
 
 function Header() {
   return (
     <Box
-      h={["47px", "50px", "80px"]}
+      height={["47px", "50px", "180px"]}
       position="fixed"
-      overflowY="hidden"
+      // overflowY="hidden"
       zIndex={10}
       top="0"
       width="100%"
       bg="linear-gradient(to right, #000E19, #192B36)"
-      py={12}
+      // py={12}
     >
       <Flex align="center" justify="space-between">
-        <Image
+        <img
           src="/images/Logotype.png"
           alt="Logo"
           height="100px"
-          mt={0}
+          // mt={0}
+          // mr="0"
           // ml={30}
         />
         <Flex>
@@ -68,7 +69,6 @@ function Header() {
               px="8px"
               borderRadius="2px"
               fontSize="25px"
-              // mr={20}
               fontWeight="semibold"
               bg="none"
               color="#B28767"
