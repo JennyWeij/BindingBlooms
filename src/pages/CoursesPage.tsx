@@ -25,7 +25,7 @@ function CoursesPage() {
             position="absolute"
             textAlign="center"
             mt={{ base: "150px", md: "400px" }}
-            fontSize={{ base: "65px", md: "100px" }}
+            fontSize={{ base: "65px", md: "200px" }}
             fontWeight="bold"
             color="#d7ac8a"
             fontFamily="Baskerville"
@@ -39,7 +39,7 @@ function CoursesPage() {
           templateColumns={{ base: "1fr", md: "1fr 2fr" }}
           maxW="100%"
           mt="20px"
-          mr="20px"
+          mr="10px"
           justifyItems="center"
           bg="linear-gradient(to right, #000E19, #192B36)"
         >
@@ -62,20 +62,22 @@ function CoursesPage() {
             />
           </Box>
           <Flex flexDirection="column" position="relative" ml="5px">
-            <Text
+            <Box
               fontSize={{ base: "18px", md: "25px" }}
               fontFamily="SourceSansRegular"
               color="#B28767"
               fontWeight="bold"
-              // textAlign="center"
-              mt="20px"
+              textAlign={{ base: "center", md: "start" }}
+              mt={{ base: "0px", md: "20px" }}
             >
               <h3>BOUQUETS</h3>
-            </Text>
+            </Box>
             <Text
+              textAlign={{ base: "center", md: "start" }}
               fontSize="15px"
               fontFamily="SourceSansRegular"
               color="#B28767"
+              mb={{ base: "30px", md: "0" }}
             >
               <span>
                 Discover the art of floral design and learn how to create
@@ -117,6 +119,7 @@ function CoursesPage() {
           templateColumns={{ base: "1fr", md: "1fr 2fr" }}
           maxW="100%"
           mt="20px"
+          mr="10px"
           justifyItems="center"
           bg="linear-gradient(to right, #000E19, #192B36)"
         >
@@ -139,19 +142,22 @@ function CoursesPage() {
             />
           </Box>
           <Flex flexDirection="column" position="relative" ml="5px">
-            <Text
+            <Box
               fontSize={{ base: "18px", md: "25px" }}
               fontFamily="SourceSansRegular"
               color="#B28767"
               fontWeight="bold"
-              mt="18px"
+              textAlign={{ base: "center", md: "start" }}
+              mt={{ base: "0px", md: "20px" }}
             >
               <h3>FLOWER DECORATIONS</h3>
-            </Text>
+            </Box>
             <Text
               fontSize="15px"
               fontFamily="SourceSansRegular"
+              textAlign={{ base: "center", md: "start" }}
               color="#B28767"
+              mb={{ base: "30px", md: "0" }}
             >
               <span>
                 Our flower decoration course lets you embark on a transformative
@@ -191,6 +197,7 @@ function CoursesPage() {
           templateColumns={{ base: "1fr", md: "1fr 2fr" }}
           maxW="100%"
           mt="20px"
+          mr="10px"
           justifyItems="center"
           bg="linear-gradient(to right, #000E19, #192B36)"
         >
@@ -201,6 +208,7 @@ function CoursesPage() {
               display: "flex",
               alignItems: "center",
             }}
+            mt={{ base: "20px", md: "0" }}
           >
             <img
               src="/images/kurs3.jpg"
@@ -213,19 +221,22 @@ function CoursesPage() {
             />
           </Box>
           <Flex flexDirection="column" position="relative" ml="5px">
-            <Text
+            <Box
               fontSize={{ base: "18px", md: "25px" }}
               fontFamily="SourceSansRegular"
               color="#B28767"
               fontWeight="bold"
+              textAlign={{ base: "center", md: "start" }}
+              mt="18px"
             >
               <h3>FLOWER ARRANGEMENT</h3>
-            </Text>
+            </Box>
             <Text
+              textAlign={{ base: "center", md: "start" }}
               fontSize="15px"
               fontFamily="SourceSansRegular"
               color="#B28767"
-              mr="50px"
+              mb={{ base: "10px", md: "0" }}
             >
               <span>
                 Designed for budding floral enthusiasts and aspiring designers

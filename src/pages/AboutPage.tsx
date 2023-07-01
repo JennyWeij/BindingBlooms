@@ -24,9 +24,10 @@ function AboutPage() {
             />
             <Box
               position="absolute"
-              textAlign="center"
-              fontSize={{ base: "65px", md: "100px" }}
+              textAlign="end"
+              fontSize={{ base: "65px", md: "200px" }}
               fontWeight="bold"
+              mt={{ base: "150px", md: "400px" }}
               color="#B28767"
               fontFamily="Baskerville"
             >
