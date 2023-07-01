@@ -95,11 +95,13 @@ function CoursesPage() {
             <Button
               position="absolute"
               bottom="20px"
-              fontSize={15}
+              fontSize={20}
               width="90px"
               bg="#B28767"
+              fontFamily="SourceSansRegular"
               cursor="pointer"
               color="#192B36"
+              borderRadius="0"
               _hover={{ bg: "#192B36", color: "#B28767" }}
             >
               Book
@@ -165,11 +167,13 @@ function CoursesPage() {
             <Button
               position="absolute"
               bottom="20px"
-              fontSize={15}
+              fontSize={20}
               width="90px"
               bg="#B28767"
               cursor="pointer"
+              fontFamily="SourceSansRegular"
               color="#192B36"
+              borderRadius="0"
               _hover={{ bg: "#192B36", color: "#B28767" }}
             >
               Book
@@ -236,11 +240,13 @@ function CoursesPage() {
             <Button
               position="absolute"
               bottom="20px"
-              fontSize={15}
+              fontSize={20}
               width="90px"
               bg="#B28767"
               cursor="pointer"
+              fontFamily="SourceSansRegular"
               color="#192B36"
+              borderRadius="0"
               _hover={{ bg: "#192B36", color: "#B28767" }}
             >
               Book
