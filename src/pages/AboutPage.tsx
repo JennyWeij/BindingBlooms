@@ -70,8 +70,10 @@ function AboutPage() {
                 pt={45}
                 fontSize="15px"
                 fontFamily="SourceSans3 Light"
+                textAlign={{ base: "center", md: "start" }}
                 color="#B28767"
-                ml="20px"
+                mr="5px"
+                ml="2px"
               >
                 <span>
                   We grow many flowers from seed each year, and have large

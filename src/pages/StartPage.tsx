@@ -42,7 +42,6 @@ function StartPage() {
             <Box
               display="flex"
               alignItems="center"
-              justifyItems="center"
               ml="20px"
               style={{ width: "300px", height: "500px" }}
             >
@@ -64,6 +63,8 @@ function StartPage() {
               fontSize="15px"
               mt="18px"
               fontFamily="SourceSansRegular"
+              mr="5px"
+              textAlign={{ base: "center", md: "start" }}
               color="#B28767"
             >
               <span>

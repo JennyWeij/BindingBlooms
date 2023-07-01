@@ -47,7 +47,7 @@ function FlowersPage() {
               alignItems="center"
               justifyItems="center"
               ml="20px"
-              style={{ width: "400px", height: "500px" }}
+              style={{ width: "400px", height: "400px" }}
             >
               <img
                 src="/images/fieldsunset.jpg"
@@ -63,10 +63,12 @@ function FlowersPage() {
 
           <Box gridColumn={{ base: "1", md: "2" }}>
             <Text
-              mt="30px"
-              ml="10px"
+              mt={{ base: "0px", md: "30px" }}
               fontSize="15px"
               fontFamily="SourceSansRegular"
+              textAlign={{ base: "center", md: "start" }}
+              mr="5px"
+              ml="5px"
               color="#B28767"
             >
               <span>
