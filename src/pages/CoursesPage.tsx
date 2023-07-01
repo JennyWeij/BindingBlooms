@@ -150,11 +150,10 @@ function CoursesPage() {
               color="#B28767"
             >
               <span>
-                Embark on a transformative journey into the world of flower
-                decorations with our immersive course, "Flower Decorations
-                Mastery." Led by renowned floral artists and industry experts,
-                this comprehensive program is designed to unleash your
-                creativity and equip you with the skills to craft stunning
+                Our flower decoration course lets you embark on a transformative
+                journey into the world of flowers. Led by renowned floral
+                artists and industry experts, this course is designed to unleash
+                your creativity and equip you with the skills to craft stunning
                 floral arrangements that captivate and inspire. Throughout the
                 course, you'll explore various techniques and design principles,
                 learning how to harmoniously blend colors, textures, and shapes
