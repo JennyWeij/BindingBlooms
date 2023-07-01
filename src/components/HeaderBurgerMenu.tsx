@@ -16,14 +16,19 @@ function Header() {
   return (
     <Box
       bg="linear-gradient(to right, #000E19, #192B36)"
-      h="100px"
       w="100%"
       top="0"
       position="fixed"
+      h={["45px", "70px", "100px"]}
       zIndex="999"
     >
       <Flex align="center" justify="space-between" px={2}>
-        <Image src="/images/Logotype.png" alt="Logo" height="100px" mt={0} />
+        <Image
+          src="/images/Logotype.png"
+          alt="Logo"
+          height={["43px", "70px", "100px"]}
+          mt={0}
+        />
 
         {/* Hamburger menu */}
         <Flex display={{ base: "flex", md: "none" }} align="center" ml="auto">
