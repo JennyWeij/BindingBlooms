@@ -19,7 +19,7 @@ function Header() {
           alt="Logo"
           height="100px"
           mt={0}
-          ml={50}
+          // ml={30}
         />
         <Flex>
           <Link

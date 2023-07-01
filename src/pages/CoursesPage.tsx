@@ -39,7 +39,7 @@ function CoursesPage() {
           templateColumns={{ base: "1fr", md: "1fr 2fr" }}
           maxW="100%"
           mt="50px"
-          justifyContent="center"
+          alignItems="start"
           bg="linear-gradient(to right, #000E19, #192B36)"
         >
           <Box
@@ -47,15 +47,14 @@ function CoursesPage() {
               width: "300px",
               height: "400px",
               display: "flex",
-              justifyContent: "center",
               marginLeft: "20px",
-              alignItems: "center",
             }}
           >
             <img
               src="/images/kurs1.jpg"
               alt="Course 1 Image"
               style={{
+                // justifyItems: "center",
                 maxWidth: "300px",
                 height: "100%",
                 objectFit: "contain",
@@ -92,9 +91,11 @@ function CoursesPage() {
                 the language of flowers.
               </span>
             </Text>
+          </Flex>
+          <Box>
             <Button
-              position="absolute"
               bottom="20px"
+              ml="20px"
               fontSize={20}
               width="90px"
               bg="#B28767"
@@ -106,7 +107,7 @@ function CoursesPage() {
             >
               Book
             </Button>
-          </Flex>
+          </Box>
         </Grid>
 
         {/* KURS 2 */}
@@ -164,21 +165,23 @@ function CoursesPage() {
                 behind transforming any space into a visual masterpiece.
               </span>
             </Text>
+          </Flex>
+          <Box>
             <Button
-              position="absolute"
               bottom="20px"
+              ml="20px"
               fontSize={20}
               width="90px"
               bg="#B28767"
-              cursor="pointer"
               fontFamily="SourceSansRegular"
+              cursor="pointer"
               color="#192B36"
               borderRadius="0"
               _hover={{ bg: "#192B36", color: "#B28767" }}
             >
               Book
             </Button>
-          </Flex>
+          </Box>
         </Grid>
 
         {/* KURS 3 */}
@@ -237,21 +240,24 @@ function CoursesPage() {
                 to incorporate them to enhance your arrangements.
               </span>
             </Text>
+          </Flex>
+          <Box>
             <Button
-              position="absolute"
               bottom="20px"
+              ml="20px"
+              mt="22px"
               fontSize={20}
               width="90px"
               bg="#B28767"
-              cursor="pointer"
               fontFamily="SourceSansRegular"
+              cursor="pointer"
               color="#192B36"
               borderRadius="0"
               _hover={{ bg: "#192B36", color: "#B28767" }}
             >
               Book
             </Button>
-          </Flex>
+          </Box>
         </Grid>
       </Element>
     </>
