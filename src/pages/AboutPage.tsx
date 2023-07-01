@@ -25,9 +25,9 @@ function AboutPage() {
             <Box
               position="absolute"
               textAlign="end"
-              fontSize={{ base: "65px", md: "200px" }}
+              fontSize={{ base: "65px", md: "100px", lg: "200px" }}
               fontWeight="bold"
-              mt={{ base: "150px", md: "400px" }}
+              mt={{ base: "180px", md: "300px", lg: "400px" }}
               color="#B28767"
               fontFamily="Baskerville"
             >
@@ -37,13 +37,13 @@ function AboutPage() {
 
           {/* GRID */}
           <Grid
-            templateColumns={{ base: "1fr", md: "1fr 2fr" }}
+            templateColumns={{ base: "1fr", md: "1fr 2fr", l: "1fr 2fr" }}
             maxW="100%"
             bg="linear-gradient(to right, #000E19, #192B36)"
             justifyContent="center"
             mt="50px"
           >
-            <Box gridColumn={{ base: "1", md: "1" }}>
+            <Box gridColumn={{ base: "1", md: "1", l: "1" }}>
               <Box
                 display="flex"
                 alignItems="center"

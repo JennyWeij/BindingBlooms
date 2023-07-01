@@ -38,6 +38,7 @@ function StartPage() {
           maxW="100%"
           mt="20px"
           justifyItems="center"
+          alignItems="start"
         >
           <Box gridColumn={{ base: "1", md: "1" }}>
             <Box

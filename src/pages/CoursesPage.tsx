@@ -24,9 +24,9 @@ function CoursesPage() {
           <Box
             position="absolute"
             textAlign="center"
-            mt={{ base: "150px", md: "400px" }}
-            fontSize={{ base: "65px", md: "200px" }}
+            fontSize={{ base: "65px", md: "100px", lg: "180px" }}
             fontWeight="bold"
+            mt={{ base: "180px", md: "300px", lg: "400px" }}
             color="#d7ac8a"
             fontFamily="Baskerville"
           >
