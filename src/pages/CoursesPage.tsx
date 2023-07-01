@@ -39,6 +39,7 @@ function CoursesPage() {
           templateColumns={{ base: "1fr", md: "1fr 2fr" }}
           maxW="100%"
           mt="20px"
+          mr="20px"
           justifyItems="center"
           bg="linear-gradient(to right, #000E19, #192B36)"
         >
@@ -47,7 +48,7 @@ function CoursesPage() {
               width: "300px",
               height: "400px",
               display: "flex",
-              marginLeft: "20px",
+              alignItems: "center",
             }}
           >
             <img
@@ -60,12 +61,13 @@ function CoursesPage() {
               }}
             />
           </Box>
-          <Flex flexDirection="column" position="relative" ml="20px">
+          <Flex flexDirection="column" position="relative" ml="5px">
             <Text
               fontSize={{ base: "18px", md: "25px" }}
               fontFamily="SourceSansRegular"
               color="#B28767"
               fontWeight="bold"
+              // textAlign="center"
               mt="20px"
             >
               <h3>BOUQUETS</h3>
@@ -123,7 +125,6 @@ function CoursesPage() {
               width: "300px",
               height: "400px",
               display: "flex",
-              marginLeft: "20px",
               alignItems: "center",
             }}
           >
@@ -137,7 +138,7 @@ function CoursesPage() {
               }}
             />
           </Box>
-          <Flex flexDirection="column" position="relative">
+          <Flex flexDirection="column" position="relative" ml="5px">
             <Text
               fontSize={{ base: "18px", md: "25px" }}
               fontFamily="SourceSansRegular"
@@ -198,7 +199,6 @@ function CoursesPage() {
               width: "300px",
               height: "400px",
               display: "flex",
-              marginLeft: "20px",
               alignItems: "center",
             }}
           >
@@ -212,13 +212,12 @@ function CoursesPage() {
               }}
             />
           </Box>
-          <Flex flexDirection="column" position="relative">
+          <Flex flexDirection="column" position="relative" ml="5px">
             <Text
               fontSize={{ base: "18px", md: "25px" }}
               fontFamily="SourceSansRegular"
               color="#B28767"
               fontWeight="bold"
-              // mt="20px"
             >
               <h3>FLOWER ARRANGEMENT</h3>
             </Text>
@@ -226,6 +225,7 @@ function CoursesPage() {
               fontSize="15px"
               fontFamily="SourceSansRegular"
               color="#B28767"
+              mr="50px"
             >
               <span>
                 Designed for budding floral enthusiasts and aspiring designers
