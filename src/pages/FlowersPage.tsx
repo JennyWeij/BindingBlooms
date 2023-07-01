@@ -46,7 +46,7 @@ function FlowersPage() {
               display="flex"
               alignItems="center"
               justifyItems="center"
-              mt="10px"
+              mt={{ base: "10px", md: "40px" }}
               ml={{ base: "0", md: "20px" }}
               style={{ width: "100%", height: "100%" }}
             >
@@ -64,12 +64,12 @@ function FlowersPage() {
 
           <Box gridColumn={{ base: "1", md: "2" }}>
             <Text
-              mt={{ base: "10px", md: "30px" }}
+              mt={{ base: "30px", md: "54px" }}
               fontSize="15px"
               fontFamily="SourceSansRegular"
               textAlign={{ base: "center", md: "start" }}
-              mr="5px"
-              ml="5px"
+              mr="25px"
+              ml="30px"
               color="#B28767"
             >
               <span>
