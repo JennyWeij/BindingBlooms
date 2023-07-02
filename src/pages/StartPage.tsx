@@ -20,7 +20,10 @@ function StartPage() {
       {/* Header och Herobild */}
       <HeaderBurgerMenu />
       <Box bg="linear-gradient(to right, #000E19, #192B36)">
-        <Box style={{ width: "100vw", height: "100%" }}>
+        <Box
+          mt={["43px", "70px", "100px"]}
+          style={{ width: "100vw", height: "100%" }}
+        >
           <img
             src="/images/startsida1.jpg"
             alt="Background Image"
@@ -30,6 +33,29 @@ function StartPage() {
               objectFit: "cover",
             }}
           />
+        </Box>
+        <Box
+          position="absolute"
+          top="80%"
+          left="50%"
+          transform="translate(40%, 10%)"
+          display="flex"
+          alignItems="center"
+          justifyContent="end"
+          width="280px"
+          height="280px"
+          backgroundColor="#B28767"
+          borderRadius="50%"
+          zIndex={20}
+        >
+          <Text
+            fontFamily="SourceSansRegular"
+            color="#000E19"
+            ml="22px"
+            fontSize={{ base: "15px", md: "27px" }}
+          >
+            Our courses are now fully booked!
+          </Text>
         </Box>
 
         {/* GRID med bild och bildtext */}
