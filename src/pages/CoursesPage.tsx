@@ -227,7 +227,7 @@ function CoursesPage() {
               color="#B28767"
               fontWeight="bold"
               textAlign={{ base: "center", md: "start" }}
-              mt="-9px"
+              mt={{ base: "18px", md: "-9px" }}
             >
               <h3>FLOWER ARRANGEMENT</h3>
             </Box>
