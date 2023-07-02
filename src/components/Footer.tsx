@@ -35,18 +35,18 @@ function Footer() {
         </Box>
         <Box gridColumn={{ base: "1", md: "2" }}>
           <Box display="flex" alignItems="center" justifyContent="center">
-            <GrFacebook size={23} color="#B28767" />
+            <GrFacebook cursor="pointer" size={23} color="#B28767" />
             <Box marginLeft={10}>
-              <GrInstagram size={24} color="#B28767" />
+              <GrInstagram cursor="pointer" size={24} color="#B28767" />
             </Box>
             <Box marginLeft={10}>
-              <GrTwitter size={24} color="#B28767" />
+              <GrTwitter cursor="pointer" size={24} color="#B28767" />
             </Box>
             <Box marginLeft={10}>
-              <GrYoutube size={24} color="#B28767" />
+              <GrYoutube cursor="pointer" size={24} color="#B28767" />
             </Box>
             <Box marginLeft={10}>
-              <GrPinterest size={24} color="#B28767" />
+              <GrPinterest cursor="pointer" size={24} color="#B28767" />
             </Box>
           </Box>
         </Box>
