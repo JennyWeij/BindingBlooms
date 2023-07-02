@@ -63,7 +63,7 @@ function CoursesPage() {
           </Box>
           <Flex flexDirection="column" position="relative" ml="5px">
             <Box
-              fontSize={{ base: "15px", md: "25px" }}
+              fontSize={{ base: "16px", md: "25px" }}
               fontFamily="SourceSansRegular"
               color="#B28767"
               fontWeight="bold"
@@ -98,16 +98,16 @@ function CoursesPage() {
           <Box>
             <Button
               bottom="20px"
-              ml="20px"
+              ml={{ base: "10px", md: "20px" }}
               fontSize={20}
-              width="90px"
+              width={{ base: "90px", md: "90px" }}
               bg="#B28767"
               fontFamily="SourceSansRegular"
               cursor="pointer"
               color="#192B36"
               mt="10px"
               borderRadius="0"
-              _hover={{ bg: "#192B36", color: "#B28767" }}
+              _hover={{ bg: "#000E19", color: "#B28767" }}
             >
               Book
             </Button>
@@ -143,7 +143,7 @@ function CoursesPage() {
           </Box>
           <Flex flexDirection="column" position="relative" ml="5px">
             <Box
-              fontSize={{ base: "15px", md: "25px" }}
+              fontSize={{ base: "16px", md: "25px" }}
               fontFamily="SourceSansRegular"
               color="#B28767"
               fontWeight="bold"
@@ -185,7 +185,7 @@ function CoursesPage() {
               color="#192B36"
               borderRadius="0"
               mt="10px"
-              _hover={{ bg: "#192B36", color: "#B28767" }}
+              _hover={{ bg: "#000E19", color: "#B28767" }}
             >
               Book
             </Button>
@@ -222,7 +222,7 @@ function CoursesPage() {
           </Box>
           <Flex flexDirection="column" position="relative" ml="5px">
             <Box
-              fontSize={{ base: "15px", md: "25px" }}
+              fontSize={{ base: "16px", md: "25px" }}
               fontFamily="SourceSansRegular"
               color="#B28767"
               fontWeight="bold"
@@ -265,7 +265,7 @@ function CoursesPage() {
               cursor="pointer"
               color="#192B36"
               borderRadius="0"
-              _hover={{ bg: "#192B36", color: "#B28767" }}
+              _hover={{ bg: "#000E19", color: "#B28767" }}
             >
               Book
             </Button>
