@@ -1,64 +1,63 @@
 import { Box, Grid, Text } from "@chakra-ui/react";
-import {
-  GrFacebook,
-  GrInstagram,
-  GrPinterest,
-  GrTwitter,
-  GrYoutube,
-} from "react-icons/gr";
 
 function Footer() {
   return (
-    <Box
-      bg="linear-gradient(to right, #000E19, #192B36)"
-      h="150px"
-      bottom="0"
-      width="100%"
-    >
+    <Box bg="#B28767" h="100px" width="100%" mt="50px">
       <Grid
-        templateColumns={{ base: "1fr", md: "1fr 1fr 1fr" }}
-        gap={{ base: 10, md: 0 }}
+        templateColumns={{ base: "1fr 1fr 1fr", md: "1fr 1fr 1fr" }}
+        gap={{ base: 4, md: 10 }}
         maxW="100%"
-        alignItems="center"
+        alignItems="baseline"
       >
         <Box
           gridColumn={{ base: "1", md: "1" }}
           display="flex"
           justifyContent="center"
         >
-          <Text color="#B28767" fontSize={{ base: "12px", md: "18px" }}>
+          <Text
+            color="#000E19"
+            mt="10px"
+            mb="10px"
+            ml="5px"
+            fontSize={{ base: "12px", md: "17px" }}
+          >
             Binding Blooms <br />
             12 Willow Lane <br />
-            London <br />
-            SW1A 1AA
+            London, SW1A 1AA
           </Text>
         </Box>
-        <Box gridColumn={{ base: "1", md: "2" }}>
+        {/* <Box gridColumn={{ base: "2", md: "2" }}>
           <Box display="flex" alignItems="center" justifyContent="center">
-            <GrFacebook cursor="pointer" size={23} color="#B28767" />
-            <Box marginLeft={10}>
-              <GrInstagram cursor="pointer" size={24} color="#B28767" />
+            <GrFacebook cursor="pointer" size={23} color="#000E19" />
+            <Box marginLeft={{ base: 5, md: 10 }}>
+              <GrInstagram cursor="pointer" size={24} color="#000E19" />
             </Box>
-            <Box marginLeft={10}>
-              <GrTwitter cursor="pointer" size={24} color="#B28767" />
+            <Box marginLeft={{ base: 5, md: 10 }}>
+              <GrTwitter cursor="pointer" size={24} color="#000E19" />
             </Box>
-            <Box marginLeft={10}>
-              <GrYoutube cursor="pointer" size={24} color="#B28767" />
+            <Box marginLeft={{ base: 5, md: 10 }}>
+              <GrYoutube cursor="pointer" size={24} color="#000E19" />
             </Box>
-            <Box marginLeft={10}>
-              <GrPinterest cursor="pointer" size={24} color="#B28767" />
+            <Box marginLeft={{ base: 5, md: 10 }}>
+              <GrPinterest cursor="pointer" size={24} color="#000E19" />
             </Box>
           </Box>
-        </Box>
+        </Box> */}
         <Box
-          gridColumn={{ base: "1", md: "3" }}
+          gridColumn={{ base: "3", md: "3" }}
           display="flex"
           justifyContent="center"
         >
-          <Text color="#B28767" fontSize={{ base: "12px", md: "18px" }}>
-            Call us
+          <Text
+            color="#000E19"
+            mr="5px"
+            fontSize={{ base: "12px", md: "17px" }}
+          >
+            Contact
             <br />
             +44 20 1234 5678
+            <br />
+            contact@bblooms.com
           </Text>
         </Box>
       </Grid>
