@@ -26,7 +26,7 @@ function Footer() {
           display="flex"
           justifyContent="center"
         >
-          <Text color="#B28767" fontSize="18px">
+          <Text color="#B28767" fontSize={{ base: "12px", md: "18px" }}>
             Binding Blooms <br />
             12 Willow Lane <br />
             London <br />
@@ -55,7 +55,7 @@ function Footer() {
           display="flex"
           justifyContent="center"
         >
-          <Text color="#B28767" fontSize="18px">
+          <Text color="#B28767" fontSize={{ base: "12px", md: "18px" }}>
             Call us
             <br />
             +44 20 1234 5678
