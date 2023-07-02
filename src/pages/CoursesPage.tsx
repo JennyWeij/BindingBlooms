@@ -63,7 +63,7 @@ function CoursesPage() {
           </Box>
           <Flex flexDirection="column" position="relative" ml="5px">
             <Box
-              fontSize={{ base: "18px", md: "25px" }}
+              fontSize={{ base: "15px", md: "25px" }}
               fontFamily="SourceSansRegular"
               color="#B28767"
               fontWeight="bold"
@@ -74,7 +74,7 @@ function CoursesPage() {
             </Box>
             <Text
               textAlign={{ base: "center", md: "start" }}
-              fontSize="15px"
+              fontSize={{ base: "12px", md: "15px" }}
               fontFamily="SourceSansRegular"
               color="#B28767"
               mb={{ base: "30px", md: "0" }}
@@ -143,7 +143,7 @@ function CoursesPage() {
           </Box>
           <Flex flexDirection="column" position="relative" ml="5px">
             <Box
-              fontSize={{ base: "18px", md: "25px" }}
+              fontSize={{ base: "15px", md: "25px" }}
               fontFamily="SourceSansRegular"
               color="#B28767"
               fontWeight="bold"
@@ -153,7 +153,7 @@ function CoursesPage() {
               <h3>FLOWER DECORATIONS</h3>
             </Box>
             <Text
-              fontSize="15px"
+              fontSize={{ base: "12px", md: "15px" }}
               fontFamily="SourceSansRegular"
               textAlign={{ base: "center", md: "start" }}
               color="#B28767"
@@ -222,7 +222,7 @@ function CoursesPage() {
           </Box>
           <Flex flexDirection="column" position="relative" ml="5px">
             <Box
-              fontSize={{ base: "18px", md: "25px" }}
+              fontSize={{ base: "15px", md: "25px" }}
               fontFamily="SourceSansRegular"
               color="#B28767"
               fontWeight="bold"
@@ -233,7 +233,7 @@ function CoursesPage() {
             </Box>
             <Text
               textAlign={{ base: "center", md: "start" }}
-              fontSize="15px"
+              fontSize={{ base: "12px", md: "15px" }}
               fontFamily="SourceSansRegular"
               color="#B28767"
               mb={{ base: "10px", md: "0" }}

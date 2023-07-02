@@ -65,11 +65,11 @@ function FlowersPage() {
           <Box gridColumn={{ base: "1", md: "2" }}>
             <Text
               mt={{ base: "30px", md: "54px" }}
-              fontSize="15px"
+              fontSize={{ base: "12px", md: "15px" }}
               fontFamily="SourceSansRegular"
               textAlign={{ base: "center", md: "start" }}
-              mr="25px"
-              ml="30px"
+              mr={{ base: "10px", md: "25px" }}
+              ml={{ base: "10px", md: "30px" }}
               color="#B28767"
             >
               <span>

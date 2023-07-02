@@ -35,9 +35,9 @@ function Header() {
           <IconButton
             icon={isOpen ? <CloseIcon /> : <HamburgerIcon />}
             variant="ghost"
-            color="#000E19"
-            bgColor="#B28767"
-            _hover={{ bg: "#B28767", color: "#000E19" }}
+            color="#B28767"
+            bgColor="none"
+            _hover={{ bg: "none", color: "#000E19" }}
             mr="10px"
             aria-label="Toggle menu"
             onClick={onToggle}
@@ -45,7 +45,7 @@ function Header() {
 
           {/* Collapsible menu */}
           <Collapse in={isOpen} animateOpacity>
-            <Flex direction="column" mt={2}>
+            <Flex direction="row">
               {/* Menu items */}
               <Link
                 activeClass="active"
@@ -57,10 +57,10 @@ function Header() {
               >
                 <Text
                   as="button"
-                  height="24px"
-                  lineHeight="1.2"
-                  transition="all 0.2s cubic-bezier(.08,.52,.52,1)"
-                  fontSize="18px"
+                  height={["12px", "24px"]}
+                  mr="7px"
+                  transition="all 0.5s cubic-bezier(.08,.52,.52,1)"
+                  fontSize={["10px", "16px"]}
                   fontWeight="semibold"
                   fontFamily="Baskerville"
                   bg="none"
@@ -82,10 +82,10 @@ function Header() {
               >
                 <Text
                   as="button"
-                  height="24px"
-                  lineHeight="1.2"
-                  transition="all 0.2s cubic-bezier(.08,.52,.52,1)"
-                  fontSize="18px"
+                  height={["12px", "24px"]}
+                  mr="7px"
+                  transition="all 0.5s cubic-bezier(.08,.52,.52,1)"
+                  fontSize={["10px", "16px"]}
                   fontWeight="semibold"
                   bg="none"
                   color="#B28767"
@@ -107,10 +107,10 @@ function Header() {
               >
                 <Text
                   as="button"
-                  height="24px"
-                  lineHeight="1.2"
-                  transition="all 0.2s cubic-bezier(.08,.52,.52,1)"
-                  fontSize="18px"
+                  height={["12px", "24px"]}
+                  mr="7px"
+                  transition="all 0.5s cubic-bezier(.08,.52,.52,1)"
+                  fontSize={["10px", "16px"]}
                   fontWeight="semibold"
                   bg="none"
                   color="#B28767"
@@ -143,7 +143,7 @@ function Header() {
               as="button"
               height="24px"
               lineHeight="1.2"
-              transition="all 0.2s cubic-bezier(.08,.52,.52,1)"
+              transition="all 0.5s cubic-bezier(.08,.52,.52,1)"
               fontSize="25px"
               fontWeight="semibold"
               fontFamily="Baskerville"
@@ -151,7 +151,7 @@ function Header() {
               bg="none"
               color="#B28767"
               cursor="pointer"
-              _hover={{ bg: "none" }}
+              _hover={{ bg: "#B28767", color: "#192B36" }}
             >
               Our flowers
             </Box>
@@ -169,7 +169,7 @@ function Header() {
               as="button"
               height="24px"
               lineHeight="1.2"
-              transition="all 0.2s cubic-bezier(.08,.52,.52,1)"
+              transition="all 0.5s cubic-bezier(.08,.52,.52,1)"
               fontSize="25px"
               fontWeight="semibold"
               mr="40px"
@@ -177,7 +177,7 @@ function Header() {
               color="#B28767"
               fontFamily="Baskerville"
               cursor="pointer"
-              _hover={{ bg: "none" }}
+              _hover={{ bg: "#B28767", color: "#192B36" }}
             >
               Our courses
             </Box>
@@ -195,7 +195,7 @@ function Header() {
               as="button"
               height="24px"
               lineHeight="1.2"
-              transition="all 0.2s cubic-bezier(.08,.52,.52,1)"
+              transition="all 0.5s cubic-bezier(.08,.52,.52,1)"
               fontSize="25px"
               fontWeight="semibold"
               mr="40px"
@@ -203,7 +203,7 @@ function Header() {
               color="#B28767"
               fontFamily="Baskerville"
               cursor="pointer"
-              _hover={{ bg: "none" }}
+              _hover={{ bg: "#B28767", color: "#192B36" }}
             >
               About us
             </Box>

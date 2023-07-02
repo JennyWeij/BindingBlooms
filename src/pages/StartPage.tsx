@@ -62,7 +62,7 @@ function StartPage() {
           {/* GRID kolumn 2 */}
           <Box gridColumn={{ base: "1", md: "2" }}>
             <Text
-              fontSize="15px"
+              fontSize={{ base: "12px", md: "15px" }}
               fontFamily="SourceSansRegular"
               mr="5px"
               ml="5px"

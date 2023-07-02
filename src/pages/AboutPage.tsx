@@ -67,10 +67,10 @@ function AboutPage() {
             {/* GRID kolumn 2 */}
             <Box gridColumn={{ base: "1", md: "2" }}>
               <Text
-                fontSize="15px"
+                fontSize={{ base: "12px", md: "15px" }}
                 fontFamily="SourceSans3 Light"
                 mr="10px"
-                ml="30px"
+                ml={{ base: "10px", md: "30px" }}
                 textAlign={{ base: "center", md: "start" }}
                 color="#B28767"
               >
