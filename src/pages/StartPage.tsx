@@ -25,7 +25,7 @@ function StartPage() {
           style={{ width: "100vw", height: "100%" }}
         >
           <img
-            src="/images/startsida1.jpg"
+            src="/images/startsida2.jpg"
             alt="Background Image"
             style={{
               width: "100vw",
@@ -34,16 +34,18 @@ function StartPage() {
             }}
           />
         </Box>
-        <Box
+        {/* <Box
           position="absolute"
-          top="80%"
-          left="50%"
-          transform="translate(40%, 10%)"
+          top={["30%", "50%", "80%"]}
+          left={["10%", "20%", "50%"]}
+          transform="translate(110%, 25%)"
           display="flex"
           alignItems="center"
           justifyContent="end"
-          width="280px"
-          height="280px"
+          width={["100px", "200px", "300px"]}
+          height={["100px", "200px", "300px"]}
+          // width="280px"
+          // height="280px"
           backgroundColor="#B28767"
           borderRadius="50%"
           zIndex={20}
@@ -51,12 +53,13 @@ function StartPage() {
           <Text
             fontFamily="SourceSansRegular"
             color="#000E19"
-            ml="22px"
-            fontSize={{ base: "15px", md: "27px" }}
+            ml={{ base: "10px", md: "38px" }}
+            fontSize={["10px", "18px", "27px"]}
           >
-            Our courses are now fully booked!
+            Our courses are now fully booked, <br />
+            new dates coming!
           </Text>
-        </Box>
+        </Box> */}
 
         {/* GRID med bild och bildtext */}
         <Grid
