@@ -68,7 +68,7 @@ function CoursesPage() {
               color="#B28767"
               fontWeight="bold"
               textAlign={{ base: "center", md: "start" }}
-              mt={{ base: "0px", md: "20px" }}
+              mt={{ base: "0px", md: "15px" }}
             >
               <h3>BOUQUETS</h3>
             </Box>
@@ -148,7 +148,7 @@ function CoursesPage() {
               color="#B28767"
               fontWeight="bold"
               textAlign={{ base: "center", md: "start" }}
-              mt={{ base: "0px", md: "20px" }}
+              mt={{ base: "0px", md: "15px" }}
             >
               <h3>FLOWER DECORATIONS</h3>
             </Box>
@@ -227,7 +227,7 @@ function CoursesPage() {
               color="#B28767"
               fontWeight="bold"
               textAlign={{ base: "center", md: "start" }}
-              mt="18px"
+              mt="-9px"
             >
               <h3>FLOWER ARRANGEMENT</h3>
             </Box>
