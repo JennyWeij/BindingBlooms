@@ -127,13 +127,21 @@ function CoursesPage() {
                   Book
                 </Button>
               </PopoverTrigger>
-              <PopoverContent>
+              <PopoverContent bg="#000E19" color="#B28767">
                 <PopoverArrow />
                 <PopoverCloseButton />
-                <PopoverHeader>Fully booked</PopoverHeader>
-                <PopoverBody>
-                  All available spots have been filled for this course. New
-                  dates will be added shortly.
+                <PopoverHeader
+                  fontSize={{ base: "15px", md: "20px" }}
+                  fontFamily="SourceSansRegular"
+                  fontWeight="bold"
+                >
+                  <span>Fully booked</span>
+                </PopoverHeader>
+                <PopoverBody fontSize={{ base: "15px", md: "18px" }}>
+                  <span>
+                    All available spots have been filled for this course. New
+                    dates will be added shortly.
+                  </span>
                 </PopoverBody>
               </PopoverContent>
             </Popover>
@@ -218,13 +226,21 @@ function CoursesPage() {
                   Book
                 </Button>
               </PopoverTrigger>
-              <PopoverContent>
+              <PopoverContent bg="#000E19" color="#B28767">
                 <PopoverArrow />
                 <PopoverCloseButton />
-                <PopoverHeader>Fully booked</PopoverHeader>
-                <PopoverBody>
-                  All available spots have been filled for this course. New
-                  dates will be added shortly.
+                <PopoverHeader
+                  fontSize={{ base: "15px", md: "20px" }}
+                  fontFamily="SourceSansRegular"
+                  fontWeight="bold"
+                >
+                  <span>Fully booked</span>
+                </PopoverHeader>
+                <PopoverBody fontSize={{ base: "15px", md: "18px" }}>
+                  <span>
+                    All available spots have been filled for this course. New
+                    dates will be added shortly.
+                  </span>
                 </PopoverBody>
               </PopoverContent>
             </Popover>
@@ -311,13 +327,21 @@ function CoursesPage() {
                   Book
                 </Button>
               </PopoverTrigger>
-              <PopoverContent>
+              <PopoverContent bg="#000E19" color="#B28767">
                 <PopoverArrow />
                 <PopoverCloseButton />
-                <PopoverHeader>Fully booked</PopoverHeader>
-                <PopoverBody>
-                  All available spots have been filled for this course. New
-                  dates will be added shortly.
+                <PopoverHeader
+                  fontSize={{ base: "15px", md: "20px" }}
+                  fontFamily="SourceSansRegular"
+                  fontWeight="bold"
+                >
+                  <span>Fully booked</span>
+                </PopoverHeader>
+                <PopoverBody fontSize={{ base: "15px", md: "18px" }}>
+                  <span>
+                    All available spots have been filled for this course. New
+                    dates will be added shortly.
+                  </span>
                 </PopoverBody>
               </PopoverContent>
             </Popover>
