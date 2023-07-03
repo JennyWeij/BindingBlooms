@@ -1,4 +1,17 @@
-import { Box, Button, Flex, Grid, Text } from "@chakra-ui/react";
+import {
+  Box,
+  Button,
+  Flex,
+  Grid,
+  Popover,
+  PopoverArrow,
+  PopoverBody,
+  PopoverCloseButton,
+  PopoverContent,
+  PopoverHeader,
+  PopoverTrigger,
+  Text,
+} from "@chakra-ui/react";
 import { Element } from "react-scroll";
 
 function CoursesPage() {
@@ -96,21 +109,34 @@ function CoursesPage() {
             </Text>
           </Flex>
           <Box>
-            <Button
-              bottom="20px"
-              ml={{ base: "10px", md: "20px" }}
-              fontSize={20}
-              width={{ base: "90px", md: "90px" }}
-              bg="#B28767"
-              fontFamily="SourceSansRegular"
-              cursor="pointer"
-              color="#192B36"
-              mt="10px"
-              borderRadius="0"
-              _hover={{ bg: "#000E19", color: "#B28767" }}
-            >
-              Book
-            </Button>
+            <Popover>
+              <PopoverTrigger>
+                <Button
+                  bottom="20px"
+                  ml={{ base: "10px", md: "20px" }}
+                  fontSize={20}
+                  width={{ base: "90px", md: "90px" }}
+                  bg="#B28767"
+                  fontFamily="SourceSansRegular"
+                  cursor="pointer"
+                  color="#192B36"
+                  mt="10px"
+                  borderRadius="0"
+                  _hover={{ bg: "#000E19", color: "#B28767" }}
+                >
+                  Book
+                </Button>
+              </PopoverTrigger>
+              <PopoverContent>
+                <PopoverArrow />
+                <PopoverCloseButton />
+                <PopoverHeader>Fully booked</PopoverHeader>
+                <PopoverBody>
+                  All available spots have been filled for this course. New
+                  dates will be added shortly.
+                </PopoverBody>
+              </PopoverContent>
+            </Popover>
           </Box>
         </Grid>
 
@@ -174,21 +200,34 @@ function CoursesPage() {
             </Text>
           </Flex>
           <Box>
-            <Button
-              bottom="20px"
-              ml="20px"
-              fontSize={20}
-              width="90px"
-              bg="#B28767"
-              fontFamily="SourceSansRegular"
-              cursor="pointer"
-              color="#192B36"
-              borderRadius="0"
-              mt="10px"
-              _hover={{ bg: "#000E19", color: "#B28767" }}
-            >
-              Book
-            </Button>
+            <Popover>
+              <PopoverTrigger>
+                <Button
+                  bottom="20px"
+                  ml={{ base: "10px", md: "20px" }}
+                  fontSize={20}
+                  width={{ base: "90px", md: "90px" }}
+                  bg="#B28767"
+                  fontFamily="SourceSansRegular"
+                  cursor="pointer"
+                  color="#192B36"
+                  mt="10px"
+                  borderRadius="0"
+                  _hover={{ bg: "#000E19", color: "#B28767" }}
+                >
+                  Book
+                </Button>
+              </PopoverTrigger>
+              <PopoverContent>
+                <PopoverArrow />
+                <PopoverCloseButton />
+                <PopoverHeader>Fully booked</PopoverHeader>
+                <PopoverBody>
+                  All available spots have been filled for this course. New
+                  dates will be added shortly.
+                </PopoverBody>
+              </PopoverContent>
+            </Popover>
           </Box>
         </Grid>
 
@@ -254,21 +293,34 @@ function CoursesPage() {
             </Text>
           </Flex>
           <Box>
-            <Button
-              bottom="20px"
-              ml="20px"
-              mt="32px"
-              fontSize={20}
-              width="90px"
-              bg="#B28767"
-              fontFamily="SourceSansRegular"
-              cursor="pointer"
-              color="#192B36"
-              borderRadius="0"
-              _hover={{ bg: "#000E19", color: "#B28767" }}
-            >
-              Book
-            </Button>
+            <Popover>
+              <PopoverTrigger>
+                <Button
+                  bottom="20px"
+                  ml={{ base: "10px", md: "20px" }}
+                  fontSize={20}
+                  width={{ base: "90px", md: "90px" }}
+                  bg="#B28767"
+                  fontFamily="SourceSansRegular"
+                  cursor="pointer"
+                  color="#192B36"
+                  mt="30px"
+                  borderRadius="0"
+                  _hover={{ bg: "#000E19", color: "#B28767" }}
+                >
+                  Book
+                </Button>
+              </PopoverTrigger>
+              <PopoverContent>
+                <PopoverArrow />
+                <PopoverCloseButton />
+                <PopoverHeader>Fully booked</PopoverHeader>
+                <PopoverBody>
+                  All available spots have been filled for this course. New
+                  dates will be added shortly.
+                </PopoverBody>
+              </PopoverContent>
+            </Popover>
           </Box>
         </Grid>
       </Element>

@@ -65,7 +65,7 @@ function StartPage() {
         <Grid
           templateColumns={{ base: "1fr", md: "1fr 2fr" }}
           maxW="100%"
-          mt="20px"
+          mt="40px"
           justifyItems="center"
           alignItems="start"
         >
@@ -95,6 +95,7 @@ function StartPage() {
               fontFamily="SourceSansRegular"
               mr="5px"
               ml="5px"
+              mt={{ base: "15px", md: "0px" }}
               textAlign={{ base: "center", md: "start" }}
               color="#B28767"
             >
