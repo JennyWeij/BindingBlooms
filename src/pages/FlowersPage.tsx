@@ -34,6 +34,28 @@ function FlowersPage() {
           </Box>
         </Flex>
 
+        <Box>
+          <Text
+            mt={{ base: "20px", md: "54px" }}
+            fontSize={{ base: "12px", md: "15px" }}
+            fontFamily="SourceSansRegular"
+            textAlign={{ base: "center", md: "start" }}
+            mr={{ base: "10px", md: "25px" }}
+            ml={{ base: "10px", md: "30px" }}
+            color="#B28767"
+          >
+            <span>
+              At our binding bouquets company, we take pride in the exceptional
+              quality of our flowers. We meticulously grow and nurture them in
+              our very own flower fields, located in picturesque countryside
+              regions. Our flower fields are carefully chosen to provide the
+              optimal conditions for each flower variety to thrive. We cultivate
+              a diverse range of certified flowers, ensuring that each bloom
+              meets our stringent standards of excellence. <br />
+            </span>
+          </Text>
+        </Box>
+
         {/* GRID */}
         <Grid
           templateColumns={{ base: "1fr", md: "1fr 2fr" }}

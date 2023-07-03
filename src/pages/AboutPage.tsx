@@ -35,6 +35,28 @@ function AboutPage() {
             </Box>
           </Flex>
 
+          <Box>
+            <Text
+              mt={{ base: "20px", md: "54px" }}
+              fontSize={{ base: "12px", md: "15px" }}
+              fontFamily="SourceSansRegular"
+              textAlign={{ base: "center", md: "start" }}
+              mr={{ base: "10px", md: "25px" }}
+              ml={{ base: "10px", md: "30px" }}
+              color="#B28767"
+            >
+              <span>
+                Binding Blooms specializes in offering exquisite floral
+                experiences. Our expert florists carefully select the finest
+                blooms, artfully arranging them to create captivating displays
+                that are perfect for any occasion. Whether you're looking for a
+                small centerpiece or an elaborate floral installation, our
+                skilled team excels in transforming spaces with impeccable
+                flower decorations that leave a lasting impression. <br />
+              </span>
+            </Text>
+          </Box>
+
           {/* GRID */}
           <Grid
             templateColumns={{ base: "1fr", md: "1fr 2fr", l: "1fr 2fr" }}

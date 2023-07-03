@@ -53,7 +53,7 @@ function Footer() {
             mr="5px"
             fontSize={{ base: "12px", md: "17px" }}
           >
-            Contact
+            Contact:
             <br />
             +44 20 1234 5678
             <br />

@@ -49,23 +49,22 @@ function CoursesPage() {
 
         <Box>
           <Text
-            fontSize={{ base: "15px", md: "20px" }}
+            fontSize={{ base: "15px", md: "15px" }}
             fontFamily="SourceSansRegular"
-            mr={{ base: "5px", md: "250px" }}
-            ml={{ base: "5px", md: "250px" }}
+            mr={{ base: "15px", md: "5px" }}
+            ml={{ base: "15px", md: "58px" }}
             mt={{ base: "35px", md: "40px" }}
-            textAlign={{ base: "center", md: "center" }}
+            textAlign={{ base: "start", md: "start" }}
             color="#B28767"
           >
             <span>
               In our exclusive floral courses you will learn the art of creating
-              beautiful bouquets, <br />
-              flower arrangements and stunning flower decorations. <br />
-              Join us to discover the secrets behind crafting breathtaking
-              bouquets that exude elegance and charm. <br />
-              Our experienced instructors will guide you through the process of
-              selecting the finest blooms
-              <br /> and arranging them in unique and captivating designs.
+              beautiful bouquets, flower arrangements and stunning flower
+              decorations. Join us to discover the secrets behind crafting
+              breathtaking bouquets that exude elegance and charm. Our
+              experienced instructors will guide you through the process of
+              selecting the finest blooms and arranging them in unique and
+              captivating designs.
             </span>
           </Text>
         </Box>
