@@ -61,6 +61,34 @@ function StartPage() {
           </Text>
         </Box> */}
 
+        <Box>
+          <Text
+            fontSize={{ base: "12px", md: "15px" }}
+            fontFamily="SourceSansRegular"
+            mr={{ base: "5px", md: "355px" }}
+            ml="5px"
+            mt={{ base: "15px", md: "40px" }}
+            textAlign={{ base: "center", md: "start" }}
+            color="#B28767"
+          >
+            <span>
+              Flowers have long been a symbol of beauty and joy, captivating
+              hearts with their vibrant colors and delicate petals. For
+              centuries, people have sought ways to cultivate and preserve the
+              natural beauty of flowers, cherishing their presence in various
+              celebrations and occasions. In today's fast-paced world, finding a
+              reliable source of fresh and high-quality flowers has become
+              increasingly important. At the forefront of the floral industry,
+              our company stands committed to delivering unparalleled beauty and
+              uncompromising quality. Our passion for flowers runs deep,
+              inspiring us to create a truly immersive experience that showcases
+              the wonders of nature. When you choose our services, you embark on
+              a journey where every bouquet tells a tale of passion, dedication,
+              and the remarkable beauty of nature.
+            </span>
+          </Text>
+        </Box>
+
         {/* GRID med bild och bildtext */}
         <Grid
           templateColumns={{ base: "1fr", md: "1fr 2fr" }}
