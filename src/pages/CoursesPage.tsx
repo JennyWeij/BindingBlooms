@@ -25,7 +25,7 @@ function CoursesPage() {
           style={{ width: "100vw", height: "100%" }}
         >
           <img
-            src="/images/flowertable.jpg"
+            src="/images/flowerstartsida.jpg"
             alt="Background Image"
             style={{
               width: "100vw",

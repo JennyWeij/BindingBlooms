@@ -80,6 +80,7 @@ function AboutPage() {
                   style={{
                     maxWidth: "100%",
                     height: "auto",
+                    marginBottom: "40px",
                     objectFit: "contain",
                   }}
                 />
@@ -92,6 +93,7 @@ function AboutPage() {
                 fontSize={{ base: "12px", md: "15px" }}
                 fontFamily="SourceSans3 Light"
                 mr="10px"
+                mb="40px"
                 ml={{ base: "10px", md: "30px" }}
                 textAlign={{ base: "center", md: "start" }}
                 color="#B28767"

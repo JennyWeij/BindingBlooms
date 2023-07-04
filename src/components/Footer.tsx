@@ -2,7 +2,7 @@ import { Box, Grid, Text } from "@chakra-ui/react";
 
 function Footer() {
   return (
-    <Box bg="#B28767" h="100px" width="100%" mt="50px">
+    <Box bg="#B28767" h="100px" width="100%">
       <Grid
         templateColumns={{ base: "1fr 1fr 1fr", md: "1fr 1fr 1fr" }}
         gap={{ base: 4, md: 10 }}
