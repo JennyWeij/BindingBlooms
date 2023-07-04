@@ -66,7 +66,7 @@ function FlowersPage() {
           <Box gridColumn={{ base: "1", md: "1" }}>
             <Box
               display="flex"
-              alignItems="center"
+              alignItems="start"
               justifyItems="center"
               mt={{ base: "10px", md: "15px" }}
               ml={{ base: "15px", md: "65px" }}
@@ -78,7 +78,7 @@ function FlowersPage() {
                 style={{
                   maxWidth: "100%",
                   height: "auto",
-                  objectFit: "contain",
+                  objectFit: "cover",
                 }}
               />
             </Box>

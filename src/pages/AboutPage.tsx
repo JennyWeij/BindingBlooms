@@ -68,7 +68,7 @@ function AboutPage() {
             <Box gridColumn={{ base: "1", md: "1", l: "1" }}>
               <Box
                 display="flex"
-                alignItems="center"
+                alignItems="start"
                 justifyItems="center"
                 ml={{ base: "15px", md: "65px" }}
                 mr="10px"
