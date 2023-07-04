@@ -19,7 +19,7 @@ function AboutPage() {
                 width: "100vw",
                 height: "100%",
                 objectFit: "cover",
-                marginTop: "50px",
+                marginTop: "70px",
               }}
             />
             <Box

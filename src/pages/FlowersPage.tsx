@@ -9,16 +9,15 @@ function FlowersPage() {
           bg="linear-gradient(to right, #000E19, #192B36)"
           justifyContent="center"
           alignItems="center"
-          style={{ width: "100vw", height: "100%" }}
+          style={{ width: "100vw", height: "100%", marginTop: "70px" }}
         >
           <img
-            src="/images/flowerfield.jpg"
+            src="/images/flowerfield3.jpg"
             alt="Background Image"
             style={{
               width: "100vw",
               height: "100%",
               objectFit: "cover",
-              marginTop: "50px",
             }}
           />
           <Box
@@ -27,7 +26,7 @@ function FlowersPage() {
             color="#B28767"
             fontWeight="bold"
             fontSize={{ base: "60px", md: "100px", lg: "180px" }}
-            mt={{ base: "180px", md: "300px", lg: "400px" }}
+            mt={{ base: "180px", md: "300px", lg: "450px" }}
             fontFamily="Baskerville"
           >
             Our flowers

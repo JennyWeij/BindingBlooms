@@ -22,7 +22,7 @@ function CoursesPage() {
           bg="linear-gradient(to right, #000E19, #192B36)"
           justifyContent="center"
           alignItems="center"
-          style={{ width: "100vw", height: "100%" }}
+          style={{ width: "100vw", height: "100%", marginTop: "70px" }}
         >
           <img
             src="/images/flowerstartsida.jpg"
@@ -31,7 +31,6 @@ function CoursesPage() {
               width: "100vw",
               height: "100%",
               objectFit: "cover",
-              marginTop: "50px",
             }}
           />
           <Box
@@ -39,7 +38,7 @@ function CoursesPage() {
             textAlign="center"
             fontSize={{ base: "65px", md: "100px", lg: "180px" }}
             fontWeight="bold"
-            mt={{ base: "180px", md: "300px", lg: "400px" }}
+            mt={{ base: "100px", md: "250px", lg: "300px" }}
             color="#B28767"
             fontFamily="Baskerville"
           >
