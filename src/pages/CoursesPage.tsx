@@ -86,7 +86,7 @@ function CoursesPage() {
             }}
           >
             <img
-              src="/images/kurs1.jpg"
+              src="/images/bukett7.jpg"
               alt="Course 1 Image"
               style={{
                 maxWidth: "100%",
@@ -188,7 +188,7 @@ function CoursesPage() {
             }}
           >
             <img
-              src="/images/kurs2.jpg"
+              src="/images/decoration.jpg"
               alt="Course 2 Image"
               style={{
                 maxWidth: "300px",
@@ -288,7 +288,7 @@ function CoursesPage() {
             }}
           >
             <img
-              src="/images/kurs3.jpg"
+              src="/images/kurs2.jpg"
               alt="Course 3 Image"
               style={{
                 maxWidth: "300px",
