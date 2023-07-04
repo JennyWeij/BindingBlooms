@@ -86,7 +86,7 @@ function CoursesPage() {
             }}
           >
             <img
-              src="/images/bukett7.jpg"
+              src="/images/kurs1.jpg"
               alt="Course 1 Image"
               style={{
                 maxWidth: "100%",
@@ -102,7 +102,7 @@ function CoursesPage() {
               color="#B28767"
               fontWeight="bold"
               textAlign={{ base: "center", md: "start" }}
-              mt={{ base: "-30px", md: "-8px" }}
+              mt={{ base: "-20px", md: "-8px" }}
             >
               <h3>BOUQUETS</h3>
             </Box>
@@ -142,7 +142,7 @@ function CoursesPage() {
                   fontFamily="SourceSansRegular"
                   cursor="pointer"
                   color="#192B36"
-                  mt={{ base: "10px", md: "-18px" }}
+                  mt={{ base: "10px", md: "-5px" }}
                   borderRadius="0"
                   _hover={{ bg: "#000E19", color: "#B28767" }}
                 >
@@ -188,7 +188,7 @@ function CoursesPage() {
             }}
           >
             <img
-              src="/images/decoration.jpg"
+              src="/images/kurs2.jpg"
               alt="Course 2 Image"
               style={{
                 maxWidth: "300px",
@@ -274,7 +274,7 @@ function CoursesPage() {
         <Grid
           templateColumns={{ base: "1fr", md: "1fr 2fr" }}
           maxW="100%"
-          mt="40px"
+          mt="25px"
           mr="10px"
           justifyItems="center"
           bg="linear-gradient(to right, #000E19, #192B36)"
@@ -288,7 +288,7 @@ function CoursesPage() {
             }}
           >
             <img
-              src="/images/kurs2.jpg"
+              src="/images/kurs3.jpg"
               alt="Course 3 Image"
               style={{
                 maxWidth: "300px",
@@ -304,7 +304,7 @@ function CoursesPage() {
               color="#B28767"
               fontWeight="bold"
               textAlign={{ base: "center", md: "start" }}
-              mt={{ base: "18px", md: "-9px" }}
+              mt={{ base: "0px", md: "14px" }}
             >
               <h3>FLOWER ARRANGEMENT</h3>
             </Box>
@@ -343,7 +343,7 @@ function CoursesPage() {
                   fontFamily="SourceSansRegular"
                   cursor="pointer"
                   color="#192B36"
-                  mt="30px"
+                  mt={{ base: "30px", md: "10px" }}
                   borderRadius="0"
                   _hover={{ bg: "#000E19", color: "#B28767" }}
                 >
