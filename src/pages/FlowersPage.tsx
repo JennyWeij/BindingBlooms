@@ -12,7 +12,7 @@ function FlowersPage() {
           style={{ width: "100vw", height: "100%", marginTop: "70px" }}
         >
           <img
-            src="/images/flowerfield3.jpg"
+            src="/images/flowerfield.jpg"
             alt="Background Image"
             style={{
               width: "100vw",
