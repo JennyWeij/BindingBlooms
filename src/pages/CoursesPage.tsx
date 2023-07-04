@@ -49,11 +49,11 @@ function CoursesPage() {
 
         <Box>
           <Text
-            fontSize={{ base: "15px", md: "15px" }}
+            fontSize={{ base: "13px", md: "15px" }}
             fontFamily="SourceSansRegular"
             mr={{ base: "15px", md: "5px" }}
             ml={{ base: "15px", md: "58px" }}
-            mt={{ base: "35px", md: "40px" }}
+            mt={{ base: "35px", md: "30px" }}
             textAlign={{ base: "start", md: "start" }}
             color="#B28767"
           >
@@ -109,7 +109,7 @@ function CoursesPage() {
             </Box>
             <Text
               textAlign={{ base: "center", md: "start" }}
-              fontSize={{ base: "12px", md: "15px" }}
+              fontSize={{ base: "13px", md: "15px" }}
               fontFamily="SourceSansRegular"
               color="#B28767"
               mb={{ base: "30px", md: "0" }}
@@ -209,7 +209,7 @@ function CoursesPage() {
               <h3>FLOWER DECORATIONS</h3>
             </Box>
             <Text
-              fontSize={{ base: "12px", md: "15px" }}
+              fontSize={{ base: "13px", md: "15px" }}
               fontFamily="SourceSansRegular"
               textAlign={{ base: "center", md: "start" }}
               color="#B28767"
@@ -310,7 +310,7 @@ function CoursesPage() {
             </Box>
             <Text
               textAlign={{ base: "center", md: "start" }}
-              fontSize={{ base: "12px", md: "15px" }}
+              fontSize={{ base: "13px", md: "15px" }}
               fontFamily="SourceSansRegular"
               color="#B28767"
               mb={{ base: "10px", md: "0" }}

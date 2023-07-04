@@ -36,12 +36,12 @@ function FlowersPage() {
 
         <Box>
           <Text
-            mt={{ base: "20px", md: "54px" }}
-            fontSize={{ base: "12px", md: "15px" }}
+            mt={{ base: "20px", md: "30px" }}
+            fontSize={{ base: "13px", md: "15px" }}
             fontFamily="SourceSansRegular"
             textAlign={{ base: "center", md: "start" }}
             mr={{ base: "10px", md: "25px" }}
-            ml={{ base: "10px", md: "30px" }}
+            ml={{ base: "15px", md: "65px" }}
             color="#B28767"
           >
             <span>
@@ -68,8 +68,8 @@ function FlowersPage() {
               display="flex"
               alignItems="center"
               justifyItems="center"
-              mt={{ base: "10px", md: "-10px" }}
-              ml={{ base: "0", md: "20px" }}
+              mt={{ base: "10px", md: "15px" }}
+              ml={{ base: "15px", md: "65px" }}
               style={{ width: "100%", height: "100%" }}
             >
               <img
@@ -86,16 +86,16 @@ function FlowersPage() {
 
           <Box gridColumn={{ base: "1", md: "2" }}>
             <Text
-              mt={{ base: "30px", md: "54px" }}
-              fontSize={{ base: "12px", md: "15px" }}
+              mt={{ base: "30px", md: "19px" }}
+              fontSize={{ base: "13px", md: "15px" }}
               fontFamily="SourceSansRegular"
               textAlign={{ base: "center", md: "start" }}
               mr={{ base: "10px", md: "25px" }}
-              ml={{ base: "10px", md: "30px" }}
+              ml={{ base: "15px", md: "75px" }}
               color="#B28767"
             >
               <span>
-                At our binding bouquets company, we take pride in the
+                {/* At our binding bouquets company, we take pride in the
                 exceptional quality of our flowers. We meticulously grow and
                 nurture them in our very own flower fields, located in
                 picturesque countryside regions. Our flower fields are carefully
@@ -103,7 +103,7 @@ function FlowersPage() {
                 to thrive. We cultivate a diverse range of certified flowers,
                 ensuring that each bloom meets our stringent standards of
                 excellence. <br />
-                <br />
+                <br /> */}
                 From the moment our seeds are sown, our dedicated team of
                 horticulturists and gardeners attentively tend to the flowers,
                 providing them with the ideal environment to grow and flourish.

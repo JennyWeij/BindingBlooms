@@ -63,11 +63,11 @@ function StartPage() {
 
         <Box>
           <Text
-            fontSize={{ base: "12px", md: "15px" }}
+            fontSize={{ base: "13px", md: "15px" }}
             fontFamily="SourceSansRegular"
             mr={{ base: "5px", md: "15px" }}
-            ml="5px"
-            mt={{ base: "15px", md: "40px" }}
+            ml={{ base: "15px", md: "58px" }}
+            mt={{ base: "15px", md: "30px" }}
             textAlign={{ base: "start", md: "start" }}
             color="#B28767"
           >
@@ -97,7 +97,7 @@ function StartPage() {
             <Box
               display="flex"
               justifyItems="center"
-              // ml="5px"
+              ml={{ base: "15px", md: "58px" }}
               style={{ width: "100%", height: "100%" }}
             >
               <img
@@ -115,11 +115,11 @@ function StartPage() {
           {/* GRID kolumn 2 */}
           <Box gridColumn={{ base: "1", md: "2" }}>
             <Text
-              fontSize={{ base: "12px", md: "15px" }}
+              fontSize={{ base: "13px", md: "15px" }}
               fontFamily="SourceSansRegular"
               mr="5px"
-              ml="5px"
-              mt={{ base: "15px", md: "0px" }}
+              ml={{ base: "15px", md: "65px" }}
+              mt={{ base: "15px", md: "-5px" }}
               textAlign={{ base: "center", md: "start" }}
               color="#B28767"
             >
@@ -142,12 +142,12 @@ function StartPage() {
                 the blooms weaves together and foliage to create harmonious
                 arrangements that evoke emotions and tell stories.
                 <br />
-                <br />
+                {/* <br />
                 Binding Blooms specializes in catering to various occasions, be
                 it weddings, corporate events, or intimate gatherings. Whether
                 it's a lavish centerpiece, a delicate bridal bouquet, or a
                 whimsical floral installation, Binding Blooms' creations leave a
-                lasting impression.
+                lasting impression. */}
               </span>
             </Text>
           </Box>

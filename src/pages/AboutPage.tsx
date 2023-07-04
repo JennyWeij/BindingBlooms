@@ -37,12 +37,12 @@ function AboutPage() {
 
           <Box>
             <Text
-              mt={{ base: "20px", md: "54px" }}
-              fontSize={{ base: "12px", md: "15px" }}
+              mt={{ base: "20px", md: "30px" }}
+              fontSize={{ base: "13px", md: "15px" }}
               fontFamily="SourceSansRegular"
               textAlign={{ base: "center", md: "start" }}
               mr={{ base: "10px", md: "25px" }}
-              ml={{ base: "10px", md: "30px" }}
+              ml={{ base: "15px", md: "65px" }}
               color="#B28767"
             >
               <span>
@@ -70,7 +70,7 @@ function AboutPage() {
                 display="flex"
                 alignItems="center"
                 justifyItems="center"
-                // ml="10px"
+                ml={{ base: "15px", md: "65px" }}
                 mr="10px"
                 style={{ width: "100%", height: "100%" }}
               >
@@ -90,11 +90,11 @@ function AboutPage() {
             {/* GRID kolumn 2 */}
             <Box gridColumn={{ base: "1", md: "2" }}>
               <Text
-                fontSize={{ base: "12px", md: "15px" }}
+                fontSize={{ base: "13px", md: "15px" }}
                 fontFamily="SourceSans3 Light"
                 mr="10px"
                 mb="40px"
-                ml={{ base: "10px", md: "30px" }}
+                ml={{ base: "15px", md: "75px" }}
                 textAlign={{ base: "center", md: "start" }}
                 color="#B28767"
               >
