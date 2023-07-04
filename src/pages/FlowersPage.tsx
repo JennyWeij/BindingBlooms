@@ -68,7 +68,7 @@ function FlowersPage() {
               display="flex"
               alignItems="center"
               justifyItems="center"
-              mt={{ base: "10px", md: "40px" }}
+              mt={{ base: "10px", md: "-10px" }}
               ml={{ base: "0", md: "20px" }}
               style={{ width: "100%", height: "100%" }}
             >
