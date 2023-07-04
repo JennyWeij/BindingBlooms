@@ -69,7 +69,6 @@ function FlowersPage() {
               display="flex"
               alignItems="start"
               justifyItems="center"
-              // mt={{ base: "10px", md: "15px" }}
               ml={{ base: "0px", md: "65px" }}
               style={{ width: "100%", height: "100%" }}
             >
@@ -96,15 +95,6 @@ function FlowersPage() {
               color="#B28767"
             >
               <span>
-                {/* At our binding bouquets company, we take pride in the
-                exceptional quality of our flowers. We meticulously grow and
-                nurture them in our very own flower fields, located in
-                picturesque countryside regions. Our flower fields are carefully
-                chosen to provide the optimal conditions for each flower variety
-                to thrive. We cultivate a diverse range of certified flowers,
-                ensuring that each bloom meets our stringent standards of
-                excellence. <br />
-                <br /> */}
                 From the moment our seeds are sown, our dedicated team of
                 horticulturists and gardeners attentively tend to the flowers,
                 providing them with the ideal environment to grow and flourish.

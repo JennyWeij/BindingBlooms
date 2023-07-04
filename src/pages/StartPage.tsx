@@ -20,10 +20,7 @@ function StartPage() {
       {/* Header och Herobild */}
       <HeaderBurgerMenu />
       <Box bg="linear-gradient(to right, #000E19, #192B36)">
-        <Box
-          // mt={["43px", "70px", "100px"]}
-          style={{ width: "100vw", height: "100%" }}
-        >
+        <Box style={{ width: "100vw", height: "100%" }}>
           <img
             src="/images/startsida6.jpg"
             alt="Background Image"
@@ -144,12 +141,6 @@ function StartPage() {
                 the blooms weaves together and foliage to create harmonious
                 arrangements that evoke emotions and tell stories.
                 <br />
-                {/* <br />
-                Binding Blooms specializes in catering to various occasions, be
-                it weddings, corporate events, or intimate gatherings. Whether
-                it's a lavish centerpiece, a delicate bridal bouquet, or a
-                whimsical floral installation, Binding Blooms' creations leave a
-                lasting impression. */}
               </span>
             </Text>
           </Box>

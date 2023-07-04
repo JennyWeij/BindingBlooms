@@ -73,6 +73,7 @@ function AboutPage() {
                 justifyItems="center"
                 ml={{ base: "0px", md: "65px" }}
                 mr="10px"
+                marginBottom={{ base: "20px", md: "40px" }}
                 style={{ width: "100%", height: "100%" }}
               >
                 <img
@@ -81,7 +82,6 @@ function AboutPage() {
                   style={{
                     maxWidth: "100%",
                     height: "auto",
-                    marginBottom: "40px",
                     objectFit: "contain",
                   }}
                 />
