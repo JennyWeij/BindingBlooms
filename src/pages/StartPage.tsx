@@ -21,11 +21,11 @@ function StartPage() {
       <HeaderBurgerMenu />
       <Box bg="linear-gradient(to right, #000E19, #192B36)">
         <Box
-          mt={["43px", "70px", "100px"]}
+          // mt={["43px", "70px", "100px"]}
           style={{ width: "100vw", height: "100%" }}
         >
           <img
-            src="/images/startsida2.jpg"
+            src="/images/startsida6.jpg"
             alt="Background Image"
             style={{
               width: "100vw",
