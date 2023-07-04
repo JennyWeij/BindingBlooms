@@ -74,7 +74,7 @@ function Header() {
 
               <Link
                 activeClass="active"
-                to="our-flowers-section"
+                to="our-courses-section"
                 spy={true}
                 smooth={true}
                 offset={-50}
@@ -136,7 +136,7 @@ function Header() {
             to="our-flowers-section"
             spy={true}
             smooth={true}
-            offset={-50}
+            offset={50}
             duration={500}
           >
             <Box
@@ -159,7 +159,7 @@ function Header() {
 
           <Link
             activeClass="active"
-            to="our-flowers-section"
+            to="our-courses-section"
             spy={true}
             smooth={true}
             offset={-50}
@@ -188,7 +188,7 @@ function Header() {
             to="about-us-section"
             spy={true}
             smooth={true}
-            offset={-50}
+            offset={90}
             duration={500}
           >
             <Box
