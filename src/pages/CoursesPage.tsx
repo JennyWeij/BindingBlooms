@@ -51,20 +51,20 @@ function CoursesPage() {
           <Text
             fontSize={{ base: "13px", md: "15px" }}
             fontFamily="SourceSansRegular"
-            mr={{ base: "15px", md: "5px" }}
+            mr={{ base: "15px", md: "20px" }}
             ml={{ base: "15px", md: "58px" }}
-            mt={{ base: "35px", md: "30px" }}
-            textAlign={{ base: "start", md: "start" }}
+            mt={{ base: "15px", md: "30px" }}
+            mb={{ base: "15px", md: "30px" }}
+            textAlign={{ base: "center", md: "start" }}
             color="#B28767"
           >
             <span>
               In our exclusive floral courses you will learn the art of creating
               beautiful bouquets, flower arrangements and stunning flower
-              decorations. Join us to discover the secrets behind crafting
-              breathtaking bouquets that exude elegance and charm. Our
-              experienced instructors will guide you through the process of
-              selecting the finest blooms and arranging them in unique and
-              captivating designs.
+              decorations. <br />
+              Join us to discover the secrets behind crafting breathtaking
+              bouquets with our experienced instructors who will guide you
+              through the process of creating unique and captivating designs.
             </span>
           </Text>
         </Box>
@@ -73,7 +73,7 @@ function CoursesPage() {
         <Grid
           templateColumns={{ base: "1fr", md: "1fr 2fr" }}
           maxW="100%"
-          mt="20px"
+          // mt="10px"
           mr="10px"
           justifyItems="center"
           bg="linear-gradient(to right, #000E19, #192B36)"
@@ -83,7 +83,7 @@ function CoursesPage() {
               width: "300px",
               height: "400px",
               display: "flex",
-              alignItems: "center",
+              alignItems: "start",
             }}
           >
             <img
@@ -103,7 +103,7 @@ function CoursesPage() {
               color="#B28767"
               fontWeight="bold"
               textAlign={{ base: "center", md: "start" }}
-              mt={{ base: "0px", md: "15px" }}
+              mt={{ base: "-30px", md: "-8px" }}
             >
               <h3>BOUQUETS</h3>
             </Box>
@@ -112,6 +112,7 @@ function CoursesPage() {
               fontSize={{ base: "13px", md: "15px" }}
               fontFamily="SourceSansRegular"
               color="#B28767"
+              mr={{ base: "5px", md: "20px" }}
               mb={{ base: "30px", md: "0" }}
             >
               <span>
@@ -142,7 +143,7 @@ function CoursesPage() {
                   fontFamily="SourceSansRegular"
                   cursor="pointer"
                   color="#192B36"
-                  mt="10px"
+                  mt={{ base: "10px", md: "-18px" }}
                   borderRadius="0"
                   _hover={{ bg: "#000E19", color: "#B28767" }}
                 >
@@ -213,6 +214,7 @@ function CoursesPage() {
               fontFamily="SourceSansRegular"
               textAlign={{ base: "center", md: "start" }}
               color="#B28767"
+              mr={{ base: "5px", md: "20px" }}
               mb={{ base: "30px", md: "0" }}
             >
               <span>
@@ -273,7 +275,7 @@ function CoursesPage() {
         <Grid
           templateColumns={{ base: "1fr", md: "1fr 2fr" }}
           maxW="100%"
-          mt="20px"
+          mt="40px"
           mr="10px"
           justifyItems="center"
           bg="linear-gradient(to right, #000E19, #192B36)"
@@ -285,7 +287,6 @@ function CoursesPage() {
               display: "flex",
               alignItems: "center",
             }}
-            mt={{ base: "20px", md: "0" }}
           >
             <img
               src="/images/kurs3.jpg"
@@ -313,6 +314,7 @@ function CoursesPage() {
               fontSize={{ base: "13px", md: "15px" }}
               fontFamily="SourceSansRegular"
               color="#B28767"
+              mr={{ base: "5px", md: "20px" }}
               mb={{ base: "10px", md: "0" }}
             >
               <span>

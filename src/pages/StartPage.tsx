@@ -36,14 +36,14 @@ function StartPage() {
         </Box>
         {/* <Box
           position="absolute"
-          top={["30%", "50%", "80%"]}
-          left={["10%", "20%", "50%"]}
-          transform="translate(110%, 25%)"
+          top={["30%", "50%", "60px"]}
+          left={["10%", "20%", "-5%"]}
+          transform="translate(50%, 25%)"
           display="flex"
           alignItems="center"
           justifyContent="end"
-          width={["100px", "200px", "300px"]}
-          height={["100px", "200px", "300px"]}
+          width={["100px", "200px", "250px"]}
+          height={["100px", "200px", "250px"]}
           // width="280px"
           // height="280px"
           backgroundColor="#B28767"
@@ -54,7 +54,7 @@ function StartPage() {
             fontFamily="SourceSansRegular"
             color="#000E19"
             ml={{ base: "10px", md: "38px" }}
-            fontSize={["10px", "18px", "27px"]}
+            fontSize={["10px", "18px", "22px"]}
           >
             Our courses are now fully booked, <br />
             new dates coming!
@@ -65,10 +65,11 @@ function StartPage() {
           <Text
             fontSize={{ base: "13px", md: "15px" }}
             fontFamily="SourceSansRegular"
-            mr={{ base: "5px", md: "15px" }}
+            mr={{ base: "15px", md: "20px" }}
             ml={{ base: "15px", md: "58px" }}
             mt={{ base: "15px", md: "30px" }}
-            textAlign={{ base: "start", md: "start" }}
+            mb={{ base: "15px", md: "30px" }}
+            textAlign={{ base: "center", md: "start" }}
             color="#B28767"
           >
             <span>
@@ -89,7 +90,6 @@ function StartPage() {
         <Grid
           templateColumns={{ base: "1fr", md: "1fr 2fr" }}
           maxW="100%"
-          mt="40px"
           justifyItems="center"
           alignItems="start"
         >
@@ -97,7 +97,7 @@ function StartPage() {
             <Box
               display="flex"
               justifyItems="center"
-              ml={{ base: "15px", md: "58px" }}
+              ml={{ base: "0px", md: "58px" }}
               style={{ width: "100%", height: "100%" }}
             >
               <img
@@ -117,7 +117,7 @@ function StartPage() {
             <Text
               fontSize={{ base: "13px", md: "15px" }}
               fontFamily="SourceSansRegular"
-              mr="5px"
+              mr={{ base: "15px", md: "20px" }}
               ml={{ base: "15px", md: "65px" }}
               mt={{ base: "15px", md: "-5px" }}
               textAlign={{ base: "center", md: "start" }}
@@ -127,9 +127,10 @@ function StartPage() {
                 Binding Blooms, a flourishing company that came to life in 2020,
                 is your ultimate destination for enchanting bouquets,
                 captivating flower decorations, and exquisite flower
-                arrangements. Founded by the visionary Elin Weijland, the
-                company has quickly gained a reputation for its exceptional
-                craftsmanship and unwavering passion for flowers. <br />
+                arrangements. <br />
+                Founded by the visionary Elin Weijland, the company has quickly
+                gained a reputation for its exceptional craftsmanship and
+                unwavering passion for flowers. <br />
                 <br />
                 Elin is deeply devoted to the art of floral design. Her
                 boundless passion for flowers serves as the driving force behind
@@ -139,6 +140,7 @@ function StartPage() {
                 scents, and textures. Every creation by Binding Blooms is a
                 masterpiece that reflects a profound connection to nature. With
                 meticulous attention to detail and an innate sense of balance,
+                <br />
                 the blooms weaves together and foliage to create harmonious
                 arrangements that evoke emotions and tell stories.
                 <br />

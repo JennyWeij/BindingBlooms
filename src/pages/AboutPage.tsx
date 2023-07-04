@@ -37,22 +37,24 @@ function AboutPage() {
 
           <Box>
             <Text
-              mt={{ base: "20px", md: "30px" }}
+              mt={{ base: "15px", md: "30px" }}
               fontSize={{ base: "13px", md: "15px" }}
               fontFamily="SourceSansRegular"
               textAlign={{ base: "center", md: "start" }}
-              mr={{ base: "10px", md: "25px" }}
+              mr={{ base: "15px", md: "20px" }}
               ml={{ base: "15px", md: "65px" }}
+              mb={{ base: "15px", md: "30px" }}
               color="#B28767"
             >
               <span>
                 Binding Blooms specializes in offering exquisite floral
                 experiences. Our expert florists carefully select the finest
                 blooms, artfully arranging them to create captivating displays
-                that are perfect for any occasion. Whether you're looking for a
-                small centerpiece or an elaborate floral installation, our
-                skilled team excels in transforming spaces with impeccable
-                flower decorations that leave a lasting impression. <br />
+                that are perfect for any occasion. <br />
+                Whether you're looking for a small centerpiece or an elaborate
+                floral installation, our skilled team excels in transforming
+                spaces with impeccable flower decorations that leave a lasting
+                impression. <br />
               </span>
             </Text>
           </Box>
@@ -63,14 +65,13 @@ function AboutPage() {
             maxW="100%"
             bg="linear-gradient(to right, #000E19, #192B36)"
             justifyContent="center"
-            mt="50px"
           >
             <Box gridColumn={{ base: "1", md: "1", l: "1" }}>
               <Box
                 display="flex"
                 alignItems="start"
                 justifyItems="center"
-                ml={{ base: "15px", md: "65px" }}
+                ml={{ base: "0px", md: "65px" }}
                 mr="10px"
                 style={{ width: "100%", height: "100%" }}
               >
@@ -92,7 +93,7 @@ function AboutPage() {
               <Text
                 fontSize={{ base: "13px", md: "15px" }}
                 fontFamily="SourceSans3 Light"
-                mr="10px"
+                mr={{ base: "15px", md: "20px" }}
                 mb="40px"
                 ml={{ base: "15px", md: "75px" }}
                 textAlign={{ base: "center", md: "start" }}
