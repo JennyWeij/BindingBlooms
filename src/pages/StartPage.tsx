@@ -94,15 +94,14 @@ function StartPage() {
             <Box
               display="flex"
               justifyItems="center"
-              ml={{ base: "10%", md: "12%" }}
-              maxWidth={{ base: "80%", md: "100%" }}
+              ml={{ base: "0px", md: "58px" }}
               style={{ width: "100%", height: "100%" }}
             >
               <img
                 src="/images/aboutus.png"
                 alt="Background Image"
                 style={{
-                  // maxWidth: "100%",
+                  maxWidth: "100%",
                   height: "auto",
                   objectFit: "cover",
                 }}

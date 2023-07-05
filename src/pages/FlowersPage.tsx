@@ -26,7 +26,7 @@ function FlowersPage() {
             color="#B28767"
             fontWeight="bold"
             fontSize={{ base: "60px", md: "100px", lg: "180px" }}
-            mt={{ base: "180px", md: "300px", lg: "450px" }}
+            mt={{ base: "140px", md: "300px", lg: "450px" }}
             fontFamily="Baskerville"
           >
             <Text textShadow="dark-lg">Our flowers</Text>
@@ -68,15 +68,14 @@ function FlowersPage() {
               display="flex"
               alignItems="start"
               justifyItems="center"
-              ml={{ base: "10%", md: "13%" }}
-              maxWidth={{ base: "80%", md: "100%" }}
+              ml={{ base: "0px", md: "65px" }}
               style={{ width: "100%", height: "100%" }}
             >
               <img
                 src="/images/fieldsunset.jpg"
                 alt="Background Image"
                 style={{
-                  // maxWidth: "100%",
+                  maxWidth: "100%",
                   height: "auto",
                   objectFit: "cover",
                 }}

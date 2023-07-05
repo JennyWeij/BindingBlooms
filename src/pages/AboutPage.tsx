@@ -72,9 +72,8 @@ function AboutPage() {
                 display="flex"
                 alignItems="start"
                 justifyItems="center"
-                ml={{ base: "10%", md: "10%" }}
-                // mr="10px"
-                maxWidth={{ base: "80%", md: "100%" }}
+                ml={{ base: "0px", md: "65px" }}
+                mr="10px"
                 marginBottom={{ base: "20px", md: "40px" }}
                 style={{ width: "100%", height: "100%" }}
               >
@@ -82,7 +81,7 @@ function AboutPage() {
                   src="/images/store.jpg"
                   alt="Background Image"
                   style={{
-                    // maxWidth: "100%",
+                    maxWidth: "100%",
                     height: "auto",
                     objectFit: "contain",
                   }}
