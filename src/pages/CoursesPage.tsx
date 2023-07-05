@@ -42,7 +42,13 @@ function CoursesPage() {
             color="#B28767"
             fontFamily="Baskerville"
           >
-            Our courses
+            <Text
+              textShadow="12px 12px 14px rgba(0, 0, 0, 1.5)"
+              color="#B28767"
+              size="10px"
+            >
+              Our courses
+            </Text>
           </Box>
         </Flex>
 

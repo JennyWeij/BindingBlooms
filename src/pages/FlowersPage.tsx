@@ -29,7 +29,13 @@ function FlowersPage() {
             mt={{ base: "140px", md: "300px", lg: "450px" }}
             fontFamily="Baskerville"
           >
-            <Text textShadow="dark-lg">Our flowers</Text>
+            <Text
+              textShadow="12px 12px 14px rgba(0, 0, 0, 1.5)"
+              color="#B28767"
+              size="10px"
+            >
+              Our flowers
+            </Text>
           </Box>
         </Flex>
 
