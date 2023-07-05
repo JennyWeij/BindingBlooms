@@ -151,7 +151,7 @@ function Header() {
               bg="none"
               color="#B28767"
               cursor="pointer"
-              _hover={{ bg: "#B28767", color: "#192B36" }}
+              _hover={{ textShadow: "12px 12px 14px rgba(0, 0, 0, 1.5)" }}
             >
               Our flowers
             </Box>
@@ -177,7 +177,7 @@ function Header() {
               color="#B28767"
               fontFamily="Baskerville"
               cursor="pointer"
-              _hover={{ bg: "#B28767", color: "#192B36" }}
+              _hover={{ textShadow: "12px 12px 14px rgba(0, 0, 0, 1.5)" }}
             >
               Our courses
             </Box>
@@ -203,7 +203,7 @@ function Header() {
               color="#B28767"
               fontFamily="Baskerville"
               cursor="pointer"
-              _hover={{ bg: "#B28767", color: "#192B36" }}
+              _hover={{ textShadow: "12px 12px 14px rgba(0, 0, 0, 1.5)" }}
             >
               About us
             </Box>
