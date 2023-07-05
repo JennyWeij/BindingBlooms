@@ -94,14 +94,15 @@ function StartPage() {
             <Box
               display="flex"
               justifyItems="center"
-              ml={{ base: "0px", md: "58px" }}
+              ml={{ base: "10%", md: "12%" }}
+              maxWidth={{ base: "80%", md: "100%" }}
               style={{ width: "100%", height: "100%" }}
             >
               <img
                 src="/images/aboutus.png"
                 alt="Background Image"
                 style={{
-                  maxWidth: "100%",
+                  // maxWidth: "100%",
                   height: "auto",
                   objectFit: "cover",
                 }}
@@ -115,7 +116,7 @@ function StartPage() {
               fontSize={{ base: "13px", md: "15px" }}
               fontFamily="SourceSansRegular"
               mr={{ base: "15px", md: "20px" }}
-              ml={{ base: "15px", md: "65px" }}
+              ml={{ base: "15px", md: "90px" }}
               mt={{ base: "15px", md: "-5px" }}
               textAlign={{ base: "center", md: "start" }}
               color="#B28767"

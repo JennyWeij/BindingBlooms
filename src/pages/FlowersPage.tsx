@@ -29,7 +29,7 @@ function FlowersPage() {
             mt={{ base: "180px", md: "300px", lg: "450px" }}
             fontFamily="Baskerville"
           >
-            Our flowers
+            <Text textShadow="dark-lg">Our flowers</Text>
           </Box>
         </Flex>
 
@@ -68,14 +68,15 @@ function FlowersPage() {
               display="flex"
               alignItems="start"
               justifyItems="center"
-              ml={{ base: "0px", md: "65px" }}
+              ml={{ base: "10%", md: "13%" }}
+              maxWidth={{ base: "80%", md: "100%" }}
               style={{ width: "100%", height: "100%" }}
             >
               <img
                 src="/images/fieldsunset.jpg"
                 alt="Background Image"
                 style={{
-                  maxWidth: "100%",
+                  // maxWidth: "100%",
                   height: "auto",
                   objectFit: "cover",
                 }}
@@ -90,7 +91,7 @@ function FlowersPage() {
               fontFamily="SourceSansRegular"
               textAlign={{ base: "center", md: "start" }}
               mr={{ base: "15px", md: "20px" }}
-              ml={{ base: "15px", md: "75px" }}
+              ml={{ base: "15px", md: "90px" }}
               color="#B28767"
             >
               <span>
