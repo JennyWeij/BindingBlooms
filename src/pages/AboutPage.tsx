@@ -48,8 +48,7 @@ function AboutPage() {
               fontFamily="SourceSansRegular"
               textAlign={{ base: "center", md: "start" }}
               mr={{ base: "15px", md: "20px" }}
-              ml={{ base: "15px", md: "65px" }}
-              // ml="5%"
+              ml={{ base: "15px", md: "58px" }}
               mb={{ base: "15px", md: "30px" }}
               color="#B28767"
             >
@@ -78,7 +77,7 @@ function AboutPage() {
                 display="flex"
                 alignItems="start"
                 justifyItems="center"
-                ml={{ base: "0px", md: "65px" }}
+                ml={{ base: "0px", md: "58px" }}
                 mr="10px"
                 marginBottom={{ base: "20px", md: "40px" }}
                 style={{ width: "100%", height: "100%" }}
@@ -104,7 +103,6 @@ function AboutPage() {
                 mt={{ base: "10px", md: "-5px" }}
                 mb="40px"
                 ml={{ base: "15px", md: "90px" }}
-                // ml="15%"
                 textAlign={{ base: "center", md: "start" }}
                 color="#B28767"
               >

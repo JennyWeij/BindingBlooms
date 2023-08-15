@@ -28,7 +28,7 @@ function Header() {
           alt="Logo"
           height={["43px", "70px", "100px"]}
           mt={0}
-          ml={["10px", "45px"]}
+          ml={["10px", "10px", "45px"]}
         />
 
         {/* Hamburger menu */}
@@ -145,7 +145,7 @@ function Header() {
               height="24px"
               lineHeight="1.2"
               transition="all 0.5s cubic-bezier(.08,.52,.52,1)"
-              fontSize="25px"
+              fontSize="26px"
               fontWeight="semibold"
               fontFamily="Baskerville"
               mr="40px"
@@ -171,7 +171,7 @@ function Header() {
               height="24px"
               lineHeight="1.2"
               transition="all 0.5s cubic-bezier(.08,.52,.52,1)"
-              fontSize="25px"
+              fontSize="26px"
               fontWeight="semibold"
               mr="40px"
               bg="none"
@@ -197,7 +197,7 @@ function Header() {
               height="24px"
               lineHeight="1.2"
               transition="all 0.5s cubic-bezier(.08,.52,.52,1)"
-              fontSize="25px"
+              fontSize="26px"
               fontWeight="semibold"
               mr="40px"
               bg="none"
