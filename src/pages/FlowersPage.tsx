@@ -46,7 +46,7 @@ function FlowersPage() {
             fontFamily="SourceSansRegular"
             textAlign={{ base: "center", md: "start" }}
             mr={{ base: "15px", md: "20px" }}
-            ml={{ base: "15px", md: "65px" }}
+            ml={{ base: "15px", md: "58px" }}
             mb={{ base: "15px", md: "30px" }}
             color="#B28767"
           >
@@ -74,7 +74,7 @@ function FlowersPage() {
               display="flex"
               alignItems="start"
               justifyItems="center"
-              ml={{ base: "0px", md: "65px" }}
+              ml={{ base: "0px", md: "58px" }}
               style={{ width: "100%", height: "100%" }}
             >
               <img

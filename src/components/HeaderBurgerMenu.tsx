@@ -28,6 +28,7 @@ function Header() {
           alt="Logo"
           height={["43px", "70px", "100px"]}
           mt={0}
+          ml="45px"
         />
 
         {/* Hamburger menu */}
