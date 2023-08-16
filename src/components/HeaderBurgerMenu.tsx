@@ -38,7 +38,7 @@ function Header() {
             variant="ghost"
             color="#B28767"
             bgColor="none"
-            fontSize="10px"
+            fontSize="15px"
             _hover={{ bg: "none", color: "#000E19" }}
             aria-label="Toggle menu"
             onClick={onToggle}

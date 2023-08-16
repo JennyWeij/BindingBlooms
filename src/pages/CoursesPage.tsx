@@ -60,16 +60,13 @@ function CoursesPage() {
             ml={{ base: "15px", md: "58px" }}
             mt={{ base: "15px", md: "30px" }}
             mb={{ base: "15px", md: "30px" }}
-            textAlign={{ base: "center", md: "start" }}
+            textAlign={{ base: "center", md: "center" }}
             color="#B28767"
           >
             <span>
-              In our exclusive floral courses you will learn the art of creating
-              beautiful bouquets, flower arrangements and stunning flower
-              decorations. <br />
-              Join us to discover the secrets behind crafting breathtaking
-              bouquets with our experienced instructors who will guide you
-              through the process of creating unique and captivating designs.
+              In our exclusive floral courses our experienced instructors will
+              guide you through the process of creating beautiful bouquets,
+              flower arrangements and stunning flower decorations.
             </span>
           </Text>
         </Box>
@@ -78,7 +75,6 @@ function CoursesPage() {
         <Grid
           templateColumns={{ base: "1fr", md: "1fr 2fr" }}
           maxW="100%"
-          // mt="10px"
           mr="10px"
           justifyItems="center"
           bg="linear-gradient(to right, #000E19, #192B36)"
@@ -141,7 +137,7 @@ function CoursesPage() {
               <PopoverTrigger>
                 <Button
                   bottom="20px"
-                  ml={{ base: "10px", md: "20px" }}
+                  ml={{ base: "10px", md: "5px" }}
                   fontSize={20}
                   width={{ base: "90px", md: "90px" }}
                   bg="#B28767"
@@ -210,7 +206,7 @@ function CoursesPage() {
               color="#B28767"
               fontWeight="bold"
               textAlign={{ base: "center", md: "start" }}
-              mt={{ base: "0px", md: "15px" }}
+              mt={{ base: "0px", md: "17px" }}
             >
               <h3>FLOWER DECORATIONS</h3>
             </Box>
@@ -241,7 +237,7 @@ function CoursesPage() {
               <PopoverTrigger>
                 <Button
                   bottom="20px"
-                  ml={{ base: "10px", md: "20px" }}
+                  ml={{ base: "10px", md: "5px" }}
                   fontSize={20}
                   width={{ base: "90px", md: "90px" }}
                   bg="#B28767"
@@ -319,7 +315,7 @@ function CoursesPage() {
               fontSize={{ base: "13px", md: "15px" }}
               fontFamily="SourceSansRegular"
               color="#B28767"
-              mr={{ base: "5px", md: "20px" }}
+              mr={{ base: "5px", md: "10px" }}
               mb={{ base: "10px", md: "0" }}
             >
               <span>
@@ -342,7 +338,7 @@ function CoursesPage() {
               <PopoverTrigger>
                 <Button
                   bottom="20px"
-                  ml={{ base: "10px", md: "20px" }}
+                  ml={{ base: "10px", md: "5px" }}
                   fontSize={20}
                   width={{ base: "90px", md: "90px" }}
                   bg="#B28767"
