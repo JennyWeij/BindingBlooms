@@ -24,10 +24,10 @@ function AboutPage() {
             />
             <Box
               position="absolute"
-              textAlign="end"
-              fontSize={{ base: "65px", md: "100px", lg: "200px" }}
+              textAlign="center"
+              fontSize={{ base: "55px", sm: "75px", md: "100px", lg: "180px" }}
               fontWeight="bold"
-              mt={{ base: "180px", md: "300px", lg: "400px" }}
+              mt={{ base: "150px", sm: "200px", md: "250px", lg: "300px" }}
               color="#B28767"
               fontFamily="Baskerville"
             >
@@ -43,24 +43,23 @@ function AboutPage() {
 
           <Box>
             <Text
-              mt={{ base: "15px", md: "30px" }}
+              mt={{ base: "25px", md: "30px" }}
               fontSize={{ base: "13px", md: "15px" }}
               fontFamily="SourceSansRegular"
               textAlign={{ base: "center", md: "start" }}
               mr={{ base: "15px", md: "20px" }}
               ml={{ base: "15px", md: "58px" }}
-              mb={{ base: "15px", md: "30px" }}
+              mb={{ base: "25px", md: "30px" }}
               color="#B28767"
             >
               <span>
                 Binding Blooms specializes in offering exquisite floral
                 experiences. Our expert florists carefully select the finest
                 blooms, artfully arranging them to create captivating displays
-                that are perfect for any occasion. <br />
-                Whether you're looking for a small centerpiece or an elaborate
-                floral installation, our skilled team excels in transforming
-                spaces with impeccable flower decorations that leave a lasting
-                impression. <br />
+                that are perfect for any occasion. Whether you're looking for a
+                small centerpiece or an elaborate floral installation, our
+                skilled team excels in transforming spaces with impeccable
+                flower decorations that leave a lasting impression. <br />
               </span>
             </Text>
           </Box>

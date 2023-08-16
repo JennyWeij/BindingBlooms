@@ -23,10 +23,10 @@ function FlowersPage() {
           <Box
             position="absolute"
             textAlign="center"
-            color="#B28767"
+            fontSize={{ base: "55px", sm: "75px", md: "100px", lg: "180px" }}
             fontWeight="bold"
-            fontSize={{ base: "60px", md: "100px", lg: "180px" }}
-            mt={{ base: "140px", md: "300px", lg: "450px" }}
+            mt={{ base: "100px", sm: "120px", md: "250px", lg: "300px" }}
+            color="#B28767"
             fontFamily="Baskerville"
           >
             <Text

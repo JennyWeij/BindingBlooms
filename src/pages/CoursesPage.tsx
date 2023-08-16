@@ -36,14 +36,14 @@ function CoursesPage() {
           <Box
             position="absolute"
             textAlign="center"
-            fontSize={{ base: "65px", md: "100px", lg: "180px" }}
+            fontSize={{ base: "55px", sm: "75px", md: "100px", lg: "180px" }}
             fontWeight="bold"
-            mt={{ base: "100px", md: "250px", lg: "300px" }}
+            mt={{ base: "100px", sm: "120px", md: "250px", lg: "300px" }}
             color="#B28767"
             fontFamily="Baskerville"
           >
             <Text
-              textShadow="12px 12px 14px rgba(0, 0, 0, 1.5)"
+              textShadow="12px 12px 14px rgba(0, 0, 0, 1.8)"
               color="#B28767"
               size="10px"
             >
@@ -84,15 +84,15 @@ function CoursesPage() {
               width: "300px",
               height: "400px",
               display: "flex",
-              alignItems: "start",
+              alignItems: "center",
             }}
           >
             <img
               src="/images/kurs1.jpg"
               alt="Course 1 Image"
               style={{
-                maxWidth: "100%",
-                height: "auto",
+                maxWidth: "300px",
+                height: "100%",
                 objectFit: "contain",
               }}
             />
@@ -104,13 +104,13 @@ function CoursesPage() {
               color="#B28767"
               fontWeight="bold"
               textAlign={{ base: "center", md: "start" }}
-              mt={{ base: "-20px", md: "-8px" }}
+              mt={{ base: "0px", md: "14px" }}
             >
               <h3>BOUQUETS</h3>
             </Box>
             <Text
-              textAlign={{ base: "center", md: "start" }}
               fontSize={{ base: "13px", md: "15px" }}
+              textAlign={{ base: "center", md: "start" }}
               fontFamily="SourceSansRegular"
               color="#B28767"
               mr={{ base: "5px", md: "20px" }}
@@ -206,7 +206,7 @@ function CoursesPage() {
               color="#B28767"
               fontWeight="bold"
               textAlign={{ base: "center", md: "start" }}
-              mt={{ base: "0px", md: "17px" }}
+              mt={{ base: "-7px", md: "14px" }}
             >
               <h3>FLOWER DECORATIONS</h3>
             </Box>
