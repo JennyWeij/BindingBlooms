@@ -22,7 +22,7 @@ function StartPage() {
       <Box bg="linear-gradient(to right, #000E19, #192B36)">
         <Box style={{ width: "100vw", height: "100%" }}>
           <img
-            src="/images/startsida6.jpg"
+            src="/images/startsida.jpg"
             alt="Background Image"
             style={{
               width: "100vw",
