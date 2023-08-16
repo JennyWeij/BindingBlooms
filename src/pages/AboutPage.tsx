@@ -45,7 +45,7 @@ function AboutPage() {
             <Text
               mt={{ base: "25px", md: "30px" }}
               fontSize={{ base: "13px", md: "15px" }}
-              fontFamily="SourceSansRegular"
+              fontFamily="Baskerville"
               textAlign={{ base: "center", md: "start" }}
               mr={{ base: "15px", md: "20px" }}
               ml={{ base: "15px", md: "58px" }}
@@ -97,7 +97,7 @@ function AboutPage() {
             <Box gridColumn={{ base: "1", md: "2" }}>
               <Text
                 fontSize={{ base: "13px", md: "15px" }}
-                fontFamily="SourceSans3 Light"
+                fontFamily="SourceSansRegular"
                 mr={{ base: "15px", md: "20px" }}
                 mt={{ base: "10px", md: "-5px" }}
                 mb="40px"

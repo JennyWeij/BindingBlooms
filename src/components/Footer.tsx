@@ -26,23 +26,7 @@ function Footer() {
             London, SW1A 1AA
           </Text>
         </Box>
-        {/* <Box gridColumn={{ base: "2", md: "2" }}>
-          <Box display="flex" alignItems="center" justifyContent="center">
-            <GrFacebook cursor="pointer" size={23} color="#000E19" />
-            <Box marginLeft={{ base: 5, md: 10 }}>
-              <GrInstagram cursor="pointer" size={24} color="#000E19" />
-            </Box>
-            <Box marginLeft={{ base: 5, md: 10 }}>
-              <GrTwitter cursor="pointer" size={24} color="#000E19" />
-            </Box>
-            <Box marginLeft={{ base: 5, md: 10 }}>
-              <GrYoutube cursor="pointer" size={24} color="#000E19" />
-            </Box>
-            <Box marginLeft={{ base: 5, md: 10 }}>
-              <GrPinterest cursor="pointer" size={24} color="#000E19" />
-            </Box>
-          </Box>
-        </Box> */}
+
         <Box
           gridColumn={{ base: "3", md: "3" }}
           display="flex"
