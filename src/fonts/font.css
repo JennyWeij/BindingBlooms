@@ -1,0 +1,22 @@
+
+@import url('./font.css');
+
+@font-face {
+  font-family: "Baskerville"; 
+  src: url('./fonts/BaskervilleOldFace.ttf') format("truetype")
+}
+
+@font-face {
+  font-family: "SourceSansLight"; 
+  src: url('./fonts/SourceSansLight.tff') format("truetype")
+}
+
+@font-face {
+  font-family: "SourceSansRegular"; 
+  src: url('./fonts/SourceSansRegular.tff') format("truetype")
+}
+
+@font-face {
+  font-family: "NotoSans"; 
+  src: url("./NotoSans-Regular.ttf") format("truetype")
+}

@@ -1,0 +1,19 @@
+* {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  /* background-color: linear-gradient(to right, #000E19, #192B36); */
+}
+
+body {
+  font-family: 'Baskerville Old Face', serif;
+  background-color: linear-gradient(to right, #000E19, #192B36);
+}
+
+span, button {
+  font-family: 'NotoSans', sans-serif;
+}
+
+h3 {
+  font-family: 'SourceSansRegular', sans-serif;
+}
