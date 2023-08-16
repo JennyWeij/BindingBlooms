@@ -20,9 +20,11 @@ function Footer() {
             ml="5px"
             fontSize={{ base: "13px", md: "15px" }}
           >
-            Binding Blooms <br />
-            12 Willow Lane <br />
-            London, SW1A 1AA
+            <span>
+              Binding Blooms <br />
+              12 Willow Lane <br />
+              London, SW1A 1AA
+            </span>
           </Text>
         </Box>
 
@@ -36,11 +38,13 @@ function Footer() {
             mr="5px"
             fontSize={{ base: "13px", md: "15px" }}
           >
-            Contact:
-            <br />
-            +44 20 1234 5678
-            <br />
-            contact@bblooms.com
+            <span>
+              Contact:
+              <br />
+              +44 20 1234 5678
+              <br />
+              contact@bblooms.com
+            </span>
           </Text>
         </Box>
       </Grid>

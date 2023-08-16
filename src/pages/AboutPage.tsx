@@ -77,7 +77,6 @@ function AboutPage() {
                 alignItems="start"
                 justifyItems="center"
                 ml={{ base: "0px", md: "42px" }}
-                mr="10px"
                 marginBottom={{ base: "20px", md: "40px" }}
                 style={{ width: "100%", height: "100%" }}
               >
@@ -87,7 +86,7 @@ function AboutPage() {
                   style={{
                     maxWidth: "100%",
                     height: "auto",
-                    objectFit: "contain",
+                    objectFit: "cover",
                   }}
                 />
               </Box>
