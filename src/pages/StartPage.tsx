@@ -37,31 +37,6 @@ function StartPage() {
               objectFit: "cover",
             }}
           />
-          {/* <Box
-            position="absolute"
-            top="10%" // Use relative units for position
-            left="75%" // Use relative units for position
-            transform="translate(50%, 25%)"
-            display="flex"
-            alignItems="center"
-            justifyContent="start"
-            width={["15%", "15%", "15%"]} // Use relative units for width
-            height={["20%", "20%", "20%"]} // Use relative units for height
-            backgroundColor="#B28767"
-            borderRadius="50%"
-            zIndex={20}
-          >
-            <Text
-              fontFamily="SourceSansRegular"
-              color="#000E19"
-              ml={{ base: "4px", md: "10px" }}
-              fontSize={["8px", "11px", "18px"]}
-              width="fit-content" // Set the width to fit the content
-              max-width="80%" // Set a maximum width to prevent overflowing text
-            >
-              New course dates coming!
-            </Text>
-          </Box> */}
         </Box>
 
         <Box>
