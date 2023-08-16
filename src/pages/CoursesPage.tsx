@@ -144,7 +144,7 @@ function CoursesPage() {
                   fontFamily="SourceSansRegular"
                   cursor="pointer"
                   color="#192B36"
-                  mt={{ base: "30px", md: "20px" }}
+                  mt={{ base: "10px", md: "20px" }}
                   borderRadius="0"
                   _hover={{ bg: "#000E19", color: "#B28767" }}
                 >
@@ -244,7 +244,7 @@ function CoursesPage() {
                   fontFamily="SourceSansRegular"
                   cursor="pointer"
                   color="#192B36"
-                  mt={{ base: "30px", md: "10px" }}
+                  mt={{ base: "10px", md: "10px" }}
                   borderRadius="0"
                   _hover={{ bg: "#000E19", color: "#B28767" }}
                 >

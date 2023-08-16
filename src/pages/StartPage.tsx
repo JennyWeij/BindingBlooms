@@ -118,7 +118,6 @@ function StartPage() {
                 scents, and textures. Every creation by Binding Blooms is a
                 masterpiece that reflects a profound connection to nature. With
                 meticulous attention to detail and an innate sense of balance,
-                <br />
                 the blooms weaves together and foliage to create harmonious
                 arrangements that evoke emotions and tell stories.
                 <br />
