@@ -17,7 +17,7 @@ function StartPage() {
 
   return (
     <>
-      {/* Header och Herobild */}
+      {/* Header och Hero image */}
       <HeaderBurgerMenu />
       <Box bg="linear-gradient(to right, #000E19, #192B36)">
         <Box
@@ -25,7 +25,7 @@ function StartPage() {
             width: "100vw",
             height: "100%",
             marginTop: "50px",
-            position: "relative", // Set the position to relative
+            position: "relative",
           }}
         >
           <img
@@ -64,7 +64,7 @@ function StartPage() {
           </Text>
         </Box>
 
-        {/* GRID med bild och bildtext */}
+        {/* GRID with picture and text */}
         <Grid
           templateColumns={{ base: "1fr", md: "1fr 2fr" }}
           maxW="100%"
@@ -90,7 +90,7 @@ function StartPage() {
             </Box>
           </Box>
 
-          {/* GRID kolumn 2 */}
+          {/* GRID column 2 */}
           <Box gridColumn={{ base: "1", md: "2" }}>
             <Text
               fontSize={{ base: "13px", md: "15px" }}

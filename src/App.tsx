@@ -5,7 +5,6 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <Box height="0">
-      {/* <HeaderBurgerMenu /> */}
       <Outlet />
       <Footer />
     </Box>

@@ -71,7 +71,7 @@ function CoursesPage() {
           </Text>
         </Box>
 
-        {/* KURS 1 */}
+        {/* COURSE 1 */}
         <Grid
           templateColumns={{ base: "1fr", md: "1fr 2fr" }}
           maxW="100%"
@@ -172,7 +172,7 @@ function CoursesPage() {
           </Box>
         </Grid>
 
-        {/* KURS 2 */}
+        {/* COURSE 2 */}
         <Grid
           templateColumns={{ base: "1fr", md: "1fr 2fr" }}
           maxW="100%"
@@ -272,7 +272,7 @@ function CoursesPage() {
           </Box>
         </Grid>
 
-        {/* KURS 3 */}
+        {/* COURSE 3 */}
         <Grid
           templateColumns={{ base: "1fr", md: "1fr 2fr" }}
           maxW="100%"

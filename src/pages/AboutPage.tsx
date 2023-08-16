@@ -93,7 +93,7 @@ function AboutPage() {
               </Box>
             </Box>
 
-            {/* GRID kolumn 2 */}
+            {/* GRID column 2 */}
             <Box gridColumn={{ base: "1", md: "2" }}>
               <Text
                 fontSize={{ base: "13px", md: "15px" }}
