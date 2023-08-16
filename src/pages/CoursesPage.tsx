@@ -60,7 +60,7 @@ function CoursesPage() {
             ml={{ base: "15px", md: "58px" }}
             mt={{ base: "15px", md: "30px" }}
             mb={{ base: "15px", md: "30px" }}
-            textAlign={{ base: "center", md: "center" }}
+            textAlign={{ base: "center", md: "start" }}
             color="#B28767"
           >
             <span>
@@ -73,7 +73,7 @@ function CoursesPage() {
 
         {/* KURS 1 */}
         <Grid
-          templateColumns={{ base: "1fr", md: "1fr 2fr" }}
+          templateColumns={{ base: "100%", md: "25% 75%" }}
           maxW="100%"
           mr="10px"
           justifyItems="center"
@@ -104,7 +104,7 @@ function CoursesPage() {
               color="#B28767"
               fontWeight="bold"
               textAlign={{ base: "center", md: "start" }}
-              mt={{ base: "0px", md: "14px" }}
+              mt={{ base: "0px", md: "10px" }}
             >
               <h3>BOUQUETS</h3>
             </Box>
@@ -137,14 +137,14 @@ function CoursesPage() {
               <PopoverTrigger>
                 <Button
                   bottom="20px"
-                  ml={{ base: "10px", md: "5px" }}
+                  ml={{ base: "10px", md: "0px" }}
                   fontSize={20}
                   width={{ base: "90px", md: "90px" }}
                   bg="#B28767"
                   fontFamily="SourceSansRegular"
                   cursor="pointer"
                   color="#192B36"
-                  mt={{ base: "10px", md: "-5px" }}
+                  mt={{ base: "30px", md: "20px" }}
                   borderRadius="0"
                   _hover={{ bg: "#000E19", color: "#B28767" }}
                 >
@@ -174,7 +174,7 @@ function CoursesPage() {
 
         {/* KURS 2 */}
         <Grid
-          templateColumns={{ base: "1fr", md: "1fr 2fr" }}
+          templateColumns={{ base: "100%", md: "25% 75%" }}
           maxW="100%"
           mt="20px"
           mr="10px"
@@ -237,14 +237,14 @@ function CoursesPage() {
               <PopoverTrigger>
                 <Button
                   bottom="20px"
-                  ml={{ base: "10px", md: "5px" }}
+                  ml={{ base: "10px", md: "0px" }}
                   fontSize={20}
                   width={{ base: "90px", md: "90px" }}
                   bg="#B28767"
                   fontFamily="SourceSansRegular"
                   cursor="pointer"
                   color="#192B36"
-                  mt="10px"
+                  mt={{ base: "30px", md: "10px" }}
                   borderRadius="0"
                   _hover={{ bg: "#000E19", color: "#B28767" }}
                 >
@@ -274,7 +274,7 @@ function CoursesPage() {
 
         {/* KURS 3 */}
         <Grid
-          templateColumns={{ base: "1fr", md: "1fr 2fr" }}
+          templateColumns={{ base: "100%", md: "25% 75%" }}
           maxW="100%"
           mt="25px"
           mr="10px"
@@ -338,14 +338,14 @@ function CoursesPage() {
               <PopoverTrigger>
                 <Button
                   bottom="20px"
-                  ml={{ base: "10px", md: "5px" }}
+                  ml={{ base: "10px", md: "0px" }}
                   fontSize={20}
                   width={{ base: "90px", md: "90px" }}
                   bg="#B28767"
                   fontFamily="SourceSansRegular"
                   cursor="pointer"
                   color="#192B36"
-                  mt={{ base: "30px", md: "10px" }}
+                  mt={{ base: "30px", md: "15px" }}
                   borderRadius="0"
                   _hover={{ bg: "#000E19", color: "#B28767" }}
                 >
