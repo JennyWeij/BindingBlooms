@@ -161,7 +161,7 @@ function CoursesPage() {
                 >
                   <span>Fully booked</span>
                 </PopoverHeader>
-                <PopoverBody fontSize={{ base: "15px", md: "18px" }}>
+                <PopoverBody fontSize={{ base: "13px", md: "15px" }}>
                   <span>
                     All available spots have been filled for this course. New
                     dates will be added shortly.
@@ -261,7 +261,7 @@ function CoursesPage() {
                 >
                   <span>Fully booked</span>
                 </PopoverHeader>
-                <PopoverBody fontSize={{ base: "15px", md: "18px" }}>
+                <PopoverBody fontSize={{ base: "13px", md: "15px" }}>
                   <span>
                     All available spots have been filled for this course. New
                     dates will be added shortly.
@@ -362,7 +362,7 @@ function CoursesPage() {
                 >
                   <span>Fully booked</span>
                 </PopoverHeader>
-                <PopoverBody fontSize={{ base: "15px", md: "18px" }}>
+                <PopoverBody fontSize={{ base: "13px", md: "15px" }}>
                   <span>
                     All available spots have been filled for this course. New
                     dates will be added shortly.
